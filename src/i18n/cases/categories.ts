@@ -12,7 +12,8 @@ export const CASE_CATEGORY_ORDER = [
 export type CaseCategory = (typeof CASE_CATEGORY_ORDER)[number];
 
 export const CASE_CATEGORY_SLUGS: Record<string, CaseCategory[]> = {
-  "home-hub": ["branding"],
+  aximod: ["branding", "graphic"],
+  "home-hub": ["branding", "smm", "web", "graphic"],
   carbit: ["branding", "web"],
   "nove-misto": ["branding"],
   "kyiv-tourism-department": ["branding", "graphic"],

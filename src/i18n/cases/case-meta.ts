@@ -14,6 +14,13 @@ type CaseMetaEntry = {
 };
 
 const CASE_META: Record<string, CaseMetaEntry> = {
+  aximod: {
+    categories: ["branding", "graphic"],
+  },
+  "home-hub": {
+    clientUrl: "https://home-hub.se/sv",
+    categories: ["branding", "smm", "web", "graphic"],
+  },
   carbit: {
     clientUrl: "https://carbit.info/",
     categories: ["branding", "web"],

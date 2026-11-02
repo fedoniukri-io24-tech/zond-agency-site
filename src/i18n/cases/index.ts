@@ -17,6 +17,8 @@ const casesByLocale: Record<Locale, CaseItem[]> = {
  * locale catalogs but are not rendered until added here.
  */
 const PUBLISHED_CASE_SLUGS: readonly string[] = [
+  "aximod",
+  "home-hub",
   "carbit",
   "nove-misto",
   "packaging",

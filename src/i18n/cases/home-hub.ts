@@ -1,32 +1,28 @@
 import type { CaseVisualBlock } from "./types";
 import type { Locale } from "@/i18n/config";
+import { applyGalleryCaptionMap } from "./localize-gallery-captions";
 
 const media = (name: string) => `/assets/cases/home-hub/${name}`;
 
 const homeHubMedia = [
-  "media/home-hub/cover.webp",
-  "media/home-hub/01.webp",
-  "media/home-hub/02.webp",
-  "media/home-hub/03.webp",
-  "media/home-hub/04.webp",
-  "media/home-hub/05.webp",
-  "media/home-hub/06.webp",
-  "media/home-hub/07.webp",
-  "media/home-hub/08.webp",
-  "media/home-hub/09.webp",
-  "media/home-hub/10.webp",
-  "media/home-hub/11.webp",
-  "media/home-hub/12.webp",
-  "media/home-hub/13.webp",
-  "media/home-hub/14.webp",
-  "media/home-hub/15.webp",
-  "media/home-hub/16.webp",
-  "media/home-hub/17.webp",
-  "media/home-hub/18.webp",
-  "media/home-hub/19.webp",
-  "media/home-hub/20.webp",
-  "media/home-hub/21.webp",
-  "media/home-hub/22.webp",
+  "media/home-hub/cover.mp4",
+  "media/home-hub/01.jpg",
+  "media/home-hub/02.jpg",
+  "media/home-hub/03.jpg",
+  "media/home-hub/04.jpg",
+  "media/home-hub/05.jpg",
+  "media/home-hub/06.jpg",
+  "media/home-hub/07.jpg",
+  "media/home-hub/08.jpg",
+  "media/home-hub/09.jpg",
+  "media/home-hub/10.jpg",
+  "media/home-hub/11.jpg",
+  "media/home-hub/12.jpg",
+  "media/home-hub/13.jpg",
+  "media/home-hub/14.jpg",
+  "media/home-hub/15.jpg",
+  "media/home-hub/16.jpg",
+  "media/home-hub/17.jpg",
 ];
 
 const blocksUk: CaseVisualBlock[] = [
@@ -34,183 +30,156 @@ const blocksUk: CaseVisualBlock[] = [
     type: "section",
     index: "01",
     kicker: "ПРО КЛІЄНТА",
-    title: "Три категорії.\nОдин дім.",
+    title: "Деталі, з яких\nпочинається дім.",
     paragraphs: [
-      "Home Hub — компанія з продажу дверей, вікон та фурнітури. Її асортимент об’єднує продукти, від яких залежать світло, тиша, безпека й відчуття комфорту вдома.",
-      "У концепті ми позиціонуємо Home Hub як місце продуманого вибору: двері, вікна та деталі мають доповнювати одне одного. Бренд допомагає побачити за окремими товарами цілісне рішення для простору.",
+      "HOME HUB — шведський бренд дверей, вікон і фурнітури. Це деталі, які щодня формують відчуття дому: від першого дотику до ручки до того, як світло проходить крізь простір.",
+      "Айдентика мала передати цю увагу до матеріалів і пропорцій. Ми створили стриманий візуальний образ із теплими природними відтінками, чітким знаком і впізнаваною мовою комунікації.",
     ],
   },
   {
     type: "facts",
     items: [
       { label: "Країна", value: "Швеція", accent: true, countryCode: "SE" },
-      { label: "Ніша", value: "двері, вікна та фурнітура" },
-      { label: "Продукт", value: "брендинг і система носіїв" },
+      { label: "Ніша", value: "двері, вікна, фурнітура" },
+      { label: "Сайт", value: "home-hub.se" },
     ],
   },
   {
     type: "gallery",
-    layout: "triple",
+    layout: "wide",
+    images: [{ src: media("01.jpg"), caption: "Шоурум HOME HUB" }],
+  },
+  {
+    type: "gallery",
+    layout: "pair",
     images: [
-      { src: media("01.webp"), caption: "Двері. Тепло натуральних матеріалів" },
-      { src: media("02.webp"), caption: "Вікна. Простір для світла" },
-      { src: media("03.webp"), caption: "Фурнітура. Значення кожної деталі" },
+      { src: media("02.jpg"), caption: "Логотип і знак" },
+      { src: media("03.jpg"), caption: "Типографіка" },
     ],
   },
   {
     type: "section",
     index: "02",
     kicker: "ЗАДАЧА",
-    title: "Різні продукти.\nСпільний характер.",
+    title: "Передати тепло.\nЗберегти точність.",
     paragraphs: [
-      "Завдання — розробити брендинг, який об’єднає три товарні категорії та зробить Home Hub упізнаваним у кожній точці контакту: від першого знайомства онлайн до візиту в шоурум.",
-      "Важливо було передати надійність і сучасний підхід без візуального перевантаження. Система мала однаково добре працювати на великій вивісці, у каталозі й на невеликій упаковці фурнітури.",
-    ],
-    deliverables: [
-      { title: "Об’єднати\nкатегорії", description: "Спільна візуальна мова для дверей, вікон та фурнітури." },
-      { title: "Спростити\nвибір", description: "Чітка ієрархія інформації та увага до самого продукту." },
-      { title: "Побудувати\nсистему", description: "Принципи, які легко переносити на нові носії." },
+      "Завдання ZOND — обʼєднати архітектурний характер продукту та відчуття домашнього затишку. Стиль мав бути сучасним, спокійним і доречним у просторі салону та в цифрових каналах.",
+      "Потрібна була цілісна система: від логотипа й типографіки до вивіски, поліграфії, одягу та сайту. Важливо, щоб кожен носій впізнавався як HOME HUB і підтримував увагу до продукту.",
     ],
   },
   {
     type: "gallery",
     layout: "pair",
     images: [
-      { src: media("04.webp"), caption: "Простір продуманого вибору" },
-      { src: media("05.webp"), caption: "Бренд, орієнтований на людину" },
+      { src: media("04.jpg"), caption: "Instagram / профіль" },
+      { src: media("05.jpg"), caption: "Футболка / логотип" },
     ],
   },
   {
     type: "section",
     index: "03",
     kicker: "РІШЕННЯ",
-    title: "Проста форма.\nБільше можливостей.",
+    title: "Архітектура форми.\nПриродність кольору.",
     paragraphs: [
-      "Центральна ідея — «Дім починається з деталей». Її візуальним втіленням став відкритий портал: проста геометрична форма, що нагадує дверний отвір і віконну раму. Вона працює як знак бренду та основа композиції.",
-      "Теплий білий залишає простір для продукту, графіт додає виразності, а помаранчевий виділяє важливе. Стримана типографіка й фотографії дерева, скла та металу пов’язують айдентику з реальними матеріалами Home Hub.",
+      "В основі логотипа — чотири вертикальні елементи, що зростають за висотою та шириною й нагадують двері в перспективі. Знак поєднаний із дворядковим написом HOME HUB. Арка розвиває цю тему як окремий графічний елемент для композицій і носіїв.",
+      "Палітра спирається на відтінки льону, оливи та горіхового дерева: #E9D3BB, #31351E, #3C2515 і #C7C5A7. Arial Nova Regular забезпечує ясність основних текстів, а Georgia Pro Cond Italic додає виразності коротким акцентам.",
     ],
-    ideaStrip: "Портал — знак входу\nу власний простір.",
   },
   {
     type: "manifesto",
-    label: "ЦЕНТРАЛЬНА ІДЕЯ",
-    text: "Дім починається\nз деталей.",
-    footer: "HOME HUB — DOORS / WINDOWS / HARDWARE",
-  },
-  {
-    type: "gallery",
-    layout: "wide",
-    images: [{ src: media("11.webp"), caption: "Логотип Home Hub" }],
-  },
-  {
-    type: "gallery",
-    layout: "pair",
-    images: [
-      { src: media("12.webp"), caption: "Ділові матеріали" },
-      { src: media("16.webp"), caption: "Палітра та матеріали" },
-    ],
+    label: "ІДЕЯ КОМУНІКАЦІЇ",
+    text: "Деталі формують дім.",
+    footer: "HOME HUB / DETAILS SHAPE THE HOME",
   },
   {
     type: "palette",
     colors: [
-      { name: "Warm ivory", hex: "#F4F1EA", bg: "#f4f1ea", fg: "#242622" },
-      { name: "Graphite", hex: "#242622", bg: "#242622", fg: "#f4f1ea" },
-      { name: "Hub orange", hex: "#F47A38", bg: "#f47a38", fg: "#242622" },
-    ],
-  },
-  {
-    type: "section",
-    index: "06",
-    variant: "book",
-    kicker: "БРЕНДБУК",
-    title: "Правила, що тримають\nбренд разом.",
-    paragraphs: [
-      "Для брендбуку запропонували шість напрямів правил: логотип, палітра, типографіка, фотостиль, композиція та носії. Разом вони задають послідовний характер комунікації.",
-      "У макетах показали, як система переходить у візитки, каталог, упаковку, digital та оформлення простору. Ці приклади формують основу для подальшої розробки робочого брендбуку.",
-    ],
-    rules: ["Логотип", "Палітра", "Типографіка", "Фотостиль", "Композиція", "Носії"],
-    conceptNote: "Візуальна модель брендбуку: 6 напрямів правил.",
-  },
-  {
-    type: "gallery",
-    layout: "wide",
-    images: [{ src: media("13.webp"), caption: "Брендбук. Концепція обкладинки" }],
-  },
-  {
-    type: "gallery",
-    layout: "pair",
-    images: [
-      { src: media("14.webp"), caption: "Брендбук. Побудова та використання знака" },
-      { src: media("15.webp"), caption: "Брендбук. Типографічний напрям" },
-    ],
-  },
-  {
-    type: "gallery",
-    layout: "triple",
-    images: [
-      { src: media("17.webp"), caption: "Упаковка фурнітури" },
-      { src: media("18.webp"), caption: "Комплект матеріалів для вікон" },
-      { src: media("19.webp"), caption: "Фірмовий пакет" },
-    ],
-  },
-  {
-    type: "gallery",
-    layout: "pair",
-    images: [
-      { src: media("20.webp"), caption: "Продуктовий каталог" },
-      { src: media("22.webp"), caption: "Візуальний напрям інтернет-магазину" },
-    ],
-  },
-  {
-    type: "banner",
-    kicker: "АЙДЕНТИКА В ДІЇ",
-    title: "Від коробки.\nДо цілого простору.",
-    tags: ["Упаковка", "Digital", "Шоурум", "Транспорт"],
-  },
-  {
-    type: "gallery",
-    layout: "wide",
-    images: [{ src: media("06.webp"), caption: "Фасад і вивіска Home Hub" }],
-  },
-  {
-    type: "gallery",
-    layout: "pair",
-    images: [
-      { src: media("07.webp"), caption: "Навігація у шоурумі" },
-      { src: media("21.webp"), caption: "Зовнішня комунікація" },
-    ],
-  },
-  {
-    type: "gallery",
-    layout: "pair",
-    images: [
-      { src: media("08.webp"), caption: "Брендування транспорту" },
-      { src: media("09.webp"), caption: "Одяг команди" },
+      { name: "Linen Dawn", hex: "#E9D3BB", bg: "#E9D3BB", fg: "#3C2515" },
+      { name: "Olive Twilight", hex: "#31351E", bg: "#31351E", fg: "#FFFFFF" },
+      { name: "Walnut Shadow", hex: "#3C2515", bg: "#3C2515", fg: "#FFFFFF" },
+      { name: "Sage Mist", hex: "#C7C5A7", bg: "#C7C5A7", fg: "#31351E" },
     ],
   },
   {
     type: "gallery",
     layout: "wide",
-    images: [{ src: media("10.webp"), caption: "Продукт у житті: світло, тепло, комфорт" }],
+    images: [{ src: media("06.jpg"), caption: "Кольорова палітра" }],
+  },
+  {
+    type: "gallery",
+    layout: "wide",
+    images: [{ src: media("07.jpg"), caption: "Кепка / вишивка" }],
   },
   {
     type: "section",
     index: "04",
-    kicker: "РЕЗУЛЬТАТ",
-    title: "Одна система.\nНа всіх носіях.",
+    kicker: "СКЛАД РОБОТИ",
+    title: "Одна мова.\nУ кожному дотику.",
     paragraphs: [
-      "У межах концепту сформували цілісний образ Home Hub: логотип, колірну систему, графічний принцип і візуальний напрям брендбуку. Три продуктові категорії об’єднані однією ідеєю, яка читається на різних носіях.",
-      "23 візуалізації демонструють, як бренд може працювати в упаковці, рекламі, інтернет-магазині та шоурумі. Це основа для погодження й подальшого впровадження; дані про продажі та впізнаваність потребуватимуть оцінки після запуску.",
+      "Вивіска знайомить із брендом, поліграфія підтримує діалог, а одяг і предмети переносять його у повсякденність. На всіх носіях зберігаються впізнавані кольори, знак і стримана композиція.",
+      "У цифрових матеріалах головну роль відіграють продукт, фактура та світло. Фірмові елементи допомагають обʼєднати фотографії, короткі повідомлення й навігацію.",
+    ],
+    deliverables: [
+      { title: "Логотип і фірмовий знак" },
+      { title: "Кольори та типографіка" },
+      { title: "Графічні елементи" },
+      { title: "Вивіска та поліграфія" },
+      { title: "Одяг і предмети" },
+      { title: "Digital та соціальні мережі" },
+    ],
+    variant: "book",
+  },
+  {
+    type: "gallery",
+    layout: "pair",
+    images: [
+      { src: media("08.jpg"), caption: "Вивіска" },
+      { src: media("09.jpg"), caption: "Аксесуари / чохол" },
     ],
   },
   {
-    type: "quote",
-    paragraphs: [
-      "«Ми хотіли, щоб Home Hub сприймався як єдиний бренд, а не окремі напрямки з продажу дверей, вікон і фурнітури. Для нас було важливо зберегти простоту, але додати характер і впізнаваність.",
-      "У цьому концепті нам близькі логіка порталу, спокійна палітра та увага до матеріалів. На прикладах упаковки, каталогу й шоуруму добре видно, як система працюватиме в різних форматах.»",
+    type: "gallery",
+    layout: "pair",
+    images: [
+      { src: media("10.jpg"), caption: "Ділова поліграфія / бланк" },
+      { src: media("11.jpg"), caption: "Одяг / комунікація" },
     ],
-    author: "Представник Home Hub",
-    role: "",
+  },
+  {
+    type: "gallery",
+    layout: "pair",
+    images: [
+      { src: media("12.jpg"), caption: "Предмети / чашка" },
+      { src: media("13.jpg"), caption: "Digital / мобільний формат" },
+    ],
+  },
+  {
+    type: "gallery",
+    layout: "pair",
+    images: [
+      { src: media("14.jpg"), caption: "Поліграфія / блокнот" },
+      { src: media("15.jpg"), caption: "Текстиль / шопер" },
+    ],
+  },
+  {
+    type: "gallery",
+    layout: "wide",
+    images: [{ src: media("16.jpg"), caption: "Digital / сайт" }],
+  },
+  {
+    type: "gallery",
+    layout: "wide",
+    images: [{ src: media("17.jpg"), caption: "Візитки" }],
+  },
+  {
+    type: "section",
+    index: "05",
+    kicker: "РЕЗУЛЬТАТ",
+    title: "Цілісний образ.\nВід простору до деталі.",
+    paragraphs: [
+      "Для HOME HUB виконали брендинг, SMM, веброзробку та графічний дизайн. В основі візуальної системи — логотип, палітра, типографіка й арочний графічний елемент. Її застосування показано на вивісці, бланку, візитках, блокноті, одязі, аксесуарах і цифрових матеріалах.",
+      "Спільні кольори, пропорції та принципи композиції повʼязують усі носії. Бренд отримав послідовну візуальну мову, яку можна розвивати разом з асортиментом і новими точками контакту.",
+    ],
   },
 ];
 
@@ -219,10 +188,20 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
     return {
       ...block,
       kicker: "О КЛИЕНТЕ",
-      title: "Три категории.\nОдин дом.",
+      title: "Детали, с которых\nначинается дом.",
       paragraphs: [
-        "Home Hub — компания по продаже дверей, окон и фурнитуры. Её ассортимент объединяет продукты, от которых зависят свет, тишина, безопасность и комфорт дома.",
-        "В концепции мы позиционируем Home Hub как место продуманного выбора: двери, окна и детали должны дополнять друг друга.",
+        "HOME HUB — шведский бренд дверей, окон и фурнитуры. Это детали, которые каждый день формируют ощущение дома: от первого прикосновения к ручке до того, как свет проходит сквозь пространство.",
+        "Айдентика должна была передать это внимание к материалам и пропорциям. Мы создали сдержанный визуальный образ с тёплыми природными оттенками, чётким знаком и узнаваемым языком коммуникации.",
+      ],
+    };
+  }
+  if (block.type === "facts") {
+    return {
+      ...block,
+      items: [
+        { label: "Страна", value: "Швеция", accent: true, countryCode: "SE" },
+        { label: "Ниша", value: "двери, окна, фурнитура" },
+        { label: "Сайт", value: "home-hub.se" },
       ],
     };
   }
@@ -230,48 +209,59 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
     return {
       ...block,
       kicker: "ЗАДАЧА",
-      title: "Разные продукты.\nОбщий характер.",
+      title: "Передать тепло.\nСохранить точность.",
+      paragraphs: [
+        "Задача ZOND — объединить архитектурный характер продукта и ощущение домашнего уюта. Стиль должен был быть современным, спокойным и уместным в пространстве салона и в цифровых каналах.",
+        "Нужна была целостная система: от логотипа и типографики до вывески, полиграфии, одежды и сайта. Важно, чтобы каждый носитель узнавался как HOME HUB и поддерживал внимание к продукту.",
+      ],
     };
   }
   if (block.type === "section" && block.index === "03") {
     return {
       ...block,
       kicker: "РЕШЕНИЕ",
-      title: "Простая форма.\nБольше возможностей.",
+      title: "Архитектура формы.\nЕстественность цвета.",
+      paragraphs: [
+        "В основе логотипа — четыре вертикальных элемента, которые растут по высоте и ширине и напоминают двери в перспективе. Знак соединён с двухстрочным написанием HOME HUB. Арка развивает эту тему как отдельный графический элемент для композиций и носителей.",
+        "Палитра опирается на оттенки льна, оливы и орехового дерева: #E9D3BB, #31351E, #3C2515 и #C7C5A7. Arial Nova Regular обеспечивает ясность основных текстов, а Georgia Pro Cond Italic добавляет выразительности коротким акцентам.",
+      ],
+    };
+  }
+  if (block.type === "manifesto") {
+    return {
+      ...block,
+      label: "ИДЕЯ КОММУНИКАЦИИ",
+      text: "Детали формируют дом.",
     };
   }
   if (block.type === "section" && block.index === "04") {
     return {
       ...block,
+      kicker: "СОСТАВ РАБОТЫ",
+      title: "Один язык.\nВ каждом прикосновении.",
+      paragraphs: [
+        "Вывеска знакомит с брендом, полиграфия поддерживает диалог, а одежда и предметы переносят его в повседневность. На всех носителях сохраняются узнаваемые цвета, знак и сдержанная композиция.",
+        "В цифровых материалах главную роль играют продукт, фактура и свет. Фирменные элементы помогают объединить фотографии, короткие сообщения и навигацию.",
+      ],
+      deliverables: [
+        { title: "Логотип и фирменный знак" },
+        { title: "Цвета и типографика" },
+        { title: "Графические элементы" },
+        { title: "Вывеска и полиграфия" },
+        { title: "Одежда и предметы" },
+        { title: "Digital и социальные сети" },
+      ],
+    };
+  }
+  if (block.type === "section" && block.index === "05") {
+    return {
+      ...block,
       kicker: "РЕЗУЛЬТАТ",
-      title: "Одна система.\nНа всех носителях.",
-    };
-  }
-  if (block.type === "banner") {
-    return {
-      ...block,
-      kicker: "АЙДЕНТИКА В ДЕЙСТВИИ",
-      title: "От коробки.\nДо целого пространства.",
-      tags: ["Упаковка", "Digital", "Шоурум", "Транспорт"],
-    };
-  }
-  if (block.type === "quote") {
-    return {
-      ...block,
-      author: "Представитель Home Hub",
-      role: "",
-    };
-  }
-  if (block.type === "facts") {
-    return {
-      ...block,
-      items: block.items.map((item) =>
-        item.label === "Країна"
-          ? { ...item, label: "Страна", value: "Швеция", countryCode: "SE" }
-          : item.label === "Ніша"
-            ? { ...item, label: "Ниша", value: "двери, окна и фурнитура" }
-            : { ...item, label: "Продукт", value: "брендинг и система носителей" },
-      ),
+      title: "Целостный образ.\nОт пространства к детали.",
+      paragraphs: [
+        "Для HOME HUB выполнили брендинг, SMM, веб-разработку и графический дизайн. В основе визуальной системы — логотип, палитра, типографика и арочный графический элемент. Её применение показано на вывеске, бланке, визитках, блокноте, одежде, аксессуарах и цифровых материалах.",
+        "Общие цвета, пропорции и принципы композиции связывают все носители. Бренд получил последовательный визуальный язык, который можно развивать вместе с ассортиментом и новыми точками контакта.",
+      ],
     };
   }
   return block;
@@ -281,69 +271,12 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
   if (block.type === "section" && block.index === "01") {
     return {
       ...block,
-      kicker: "ABOUT CLIENT",
-      title: "Three categories.\nOne home.",
+      kicker: "ABOUT THE CLIENT",
+      title: "Details that\nmake a home.",
       paragraphs: [
-        "Home Hub is a company selling doors, windows, and hardware. Its range brings together products that shape light, quiet, security, and comfort at home.",
-        "In this concept, Home Hub is positioned as a place of thoughtful choice where doors, windows, and details complement each other.",
+        "HOME HUB is a Swedish brand of doors, windows, and hardware. These are the details that shape the feeling of home every day — from the first touch of a handle to the way light moves through a room.",
+        "The identity had to express this attention to materials and proportions. We built a restrained visual system with warm natural tones, a clear mark, and a recognizable communication language.",
       ],
-    };
-  }
-  if (block.type === "section" && block.index === "02") {
-    return {
-      ...block,
-      kicker: "TASK",
-      title: "Different products.\nShared character.",
-      paragraphs: [
-        "The goal was to develop branding that unites three product categories and makes Home Hub recognizable at every touchpoint.",
-        "It was important to convey reliability and a modern approach without visual overload.",
-      ],
-    };
-  }
-  if (block.type === "section" && block.index === "03") {
-    return {
-      ...block,
-      kicker: "SOLUTION",
-      title: "Simple form.\nMore possibilities.",
-    };
-  }
-  if (block.type === "section" && block.index === "04") {
-    return {
-      ...block,
-      kicker: "RESULT",
-      title: "One system.\nAcross all touchpoints.",
-    };
-  }
-  if (block.type === "section" && block.index === "02" && block.deliverables) {
-    return {
-      ...block,
-      deliverables: [
-        { title: "Unite\ncategories", description: "A shared visual language for doors, windows, and hardware." },
-        { title: "Simplify\nchoice", description: "Clear information hierarchy and focus on the product." },
-        { title: "Build a\nsystem", description: "Principles that scale to new touchpoints." },
-      ],
-    };
-  }
-  if (block.type === "manifesto") {
-    return {
-      ...block,
-      label: "CORE IDEA",
-      text: "Home starts\nwith details.",
-    };
-  }
-  if (block.type === "banner") {
-    return {
-      ...block,
-      kicker: "IDENTITY IN ACTION",
-      title: "From packaging.\nTo full space.",
-      tags: ["Packaging", "Digital", "Showroom", "Transport"],
-    };
-  }
-  if (block.type === "quote") {
-    return {
-      ...block,
-      author: "Home Hub representative",
-      role: "",
     };
   }
   if (block.type === "facts") {
@@ -351,27 +284,132 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
       ...block,
       items: [
         { label: "Country", value: "Sweden", accent: true, countryCode: "SE" },
-        { label: "Niche", value: "doors, windows, and hardware" },
-        { label: "Product", value: "branding and touchpoint system" },
+        { label: "Niche", value: "doors, windows, hardware" },
+        { label: "Website", value: "home-hub.se" },
+      ],
+    };
+  }
+  if (block.type === "section" && block.index === "02") {
+    return {
+      ...block,
+      kicker: "BRIEF",
+      title: "Keep the warmth.\nKeep the precision.",
+      paragraphs: [
+        "ZOND’s task was to unite the architectural character of the product with a sense of home comfort. The style had to feel modern, calm, and right for both the showroom and digital channels.",
+        "We needed a complete system: from logo and typography to signage, print, apparel, and the website. Every medium had to read as HOME HUB and keep the focus on the product.",
+      ],
+    };
+  }
+  if (block.type === "section" && block.index === "03") {
+    return {
+      ...block,
+      kicker: "SOLUTION",
+      title: "Architecture of form.\nNature of color.",
+      paragraphs: [
+        "The logo is built from four vertical elements that grow in height and width, recalling doors in perspective. The mark pairs with a two-line HOME HUB wordmark. An arch develops the theme as a separate graphic element for compositions and media.",
+        "The palette draws on linen, olive, and walnut tones: #E9D3BB, #31351E, #3C2515, and #C7C5A7. Arial Nova Regular keeps body text clear, while Georgia Pro Cond Italic adds expression to short accents.",
+      ],
+    };
+  }
+  if (block.type === "manifesto") {
+    return {
+      ...block,
+      label: "COMMUNICATION IDEA",
+      text: "Details shape the home.",
+    };
+  }
+  if (block.type === "section" && block.index === "04") {
+    return {
+      ...block,
+      kicker: "SCOPE",
+      title: "One language.\nIn every touchpoint.",
+      paragraphs: [
+        "Signage introduces the brand, print carries the dialogue, and apparel and objects bring it into everyday life. Recognizable colors, the mark, and restrained composition stay consistent across media.",
+        "In digital materials the product, texture, and light lead. Brand elements help unite photography, short messages, and navigation.",
+      ],
+      deliverables: [
+        { title: "Logo and brand mark" },
+        { title: "Colors and typography" },
+        { title: "Graphic elements" },
+        { title: "Signage and print" },
+        { title: "Apparel and objects" },
+        { title: "Digital and social" },
+      ],
+    };
+  }
+  if (block.type === "section" && block.index === "05") {
+    return {
+      ...block,
+      kicker: "RESULT",
+      title: "A coherent image.\nFrom space to detail.",
+      paragraphs: [
+        "For HOME HUB we delivered branding, SMM, web development, and graphic design. The visual system is built on the logo, palette, typography, and an arch graphic — shown on signage, letterheads, cards, notebooks, apparel, accessories, and digital materials.",
+        "Shared colors, proportions, and composition principles connect every medium. The brand now has a consistent visual language that can grow with the assortment and new touchpoints.",
       ],
     };
   }
   return block;
 });
 
+const captionsRu: Record<string, string> = {
+  [media("01.jpg")]: "Шоурум HOME HUB",
+  [media("02.jpg")]: "Логотип и знак",
+  [media("03.jpg")]: "Типографика",
+  [media("04.jpg")]: "Instagram / профиль",
+  [media("05.jpg")]: "Футболка / логотип",
+  [media("06.jpg")]: "Цветовая палитра",
+  [media("07.jpg")]: "Кепка / вышивка",
+  [media("08.jpg")]: "Вывеска",
+  [media("09.jpg")]: "Аксессуары / чехол",
+  [media("10.jpg")]: "Деловая полиграфия / бланк",
+  [media("11.jpg")]: "Одежда / коммуникация",
+  [media("12.jpg")]: "Предметы / чашка",
+  [media("13.jpg")]: "Digital / мобильный формат",
+  [media("14.jpg")]: "Полиграфия / блокнот",
+  [media("15.jpg")]: "Текстиль / шопер",
+  [media("16.jpg")]: "Digital / сайт",
+  [media("17.jpg")]: "Визитки",
+};
+
+const captionsEn: Record<string, string> = {
+  [media("01.jpg")]: "HOME HUB showroom",
+  [media("02.jpg")]: "Logo and mark",
+  [media("03.jpg")]: "Typography",
+  [media("04.jpg")]: "Instagram / profile",
+  [media("05.jpg")]: "T-shirt / logo",
+  [media("06.jpg")]: "Color palette",
+  [media("07.jpg")]: "Cap / embroidery",
+  [media("08.jpg")]: "Signage",
+  [media("09.jpg")]: "Accessories / case",
+  [media("10.jpg")]: "Stationery / letterhead",
+  [media("11.jpg")]: "Apparel / communication",
+  [media("12.jpg")]: "Objects / mug",
+  [media("13.jpg")]: "Digital / mobile",
+  [media("14.jpg")]: "Print / notebook",
+  [media("15.jpg")]: "Textile / tote",
+  [media("16.jpg")]: "Digital / website",
+  [media("17.jpg")]: "Business cards",
+};
+
 export function getHomeHubBlocks(locale: Locale): CaseVisualBlock[] {
-  if (locale === "ru") return blocksRu;
-  if (locale === "en") return blocksEn;
+  if (locale === "ru") return applyGalleryCaptionMap(blocksRu, captionsRu);
+  if (locale === "en") return applyGalleryCaptionMap(blocksEn, captionsEn);
   return blocksUk;
 }
 
 export const homeHubShared = {
   slug: "home-hub",
-  cover: media("cover.webp"),
+  cover: media("cover.jpg"),
+  listCover: media("cover.mp4"),
   media: homeHubMedia,
-  tagline: "Дім починається\nз деталей.",
-  serviceTag: "Брендинг + брендбук",
-  body: `[IMG: media/home-hub/cover.webp]`,
+  theme: {
+    accent: "#31351E",
+    accentInk: "#FFFFFF",
+    manifestoBg: "#31351E",
+    manifestoFg: "#E9D3BB",
+    manifestoEm: "#C7C5A7",
+  },
+  body: `[VID: media/home-hub/cover.mp4]`,
 };
 
 export const homeHubCopy: Record<
@@ -381,22 +419,22 @@ export const homeHubCopy: Record<
   uk: {
     title: "Home Hub",
     description:
-      "Концепт брендингу Home Hub: двері, вікна, фурнітура. Від ідеї та логотипа до брендбуку, упаковки й простору.",
-    tagline: "Дім починається\nз деталей.",
-    serviceTag: "Брендинг + брендбук",
+      "Брендинг HOME HUB: двері, вікна, фурнітура. Логотип, айдентика, вивіска, поліграфія, мерч, SMM і сайт.",
+    tagline: "Архітектура деталей.\nВідчуття дому.",
+    serviceTag: "Брендинг + айдентика",
   },
   ru: {
     title: "Home Hub",
     description:
-      "Концепт брендинга Home Hub: двери, окна, фурнитура. От идеи и логотипа до брендбука, упаковки и пространства.",
-    tagline: "Дом начинается\nс деталей.",
-    serviceTag: "Брендинг + брендбук",
+      "Брендинг HOME HUB: двери, окна, фурнитура. Логотип, айдентика, вывеска, полиграфия, мерч, SMM и сайт.",
+    tagline: "Архитектура деталей.\nОщущение дома.",
+    serviceTag: "Брендинг + айдентика",
   },
   en: {
     title: "Home Hub",
     description:
-      "Home Hub branding concept: doors, windows, hardware. From idea and logo to brand book, packaging, and space.",
-    tagline: "Home starts\nwith details.",
-    serviceTag: "Branding + brand book",
+      "HOME HUB branding for doors, windows, and hardware: logo, identity, signage, print, merch, SMM, and website.",
+    tagline: "Architecture of details.\nA sense of home.",
+    serviceTag: "Branding + identity",
   },
 };

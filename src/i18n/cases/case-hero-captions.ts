@@ -3,10 +3,15 @@ import type { Locale } from "@/i18n/config";
 type HeroCaptions = Record<string, Partial<Record<Locale, string>>>;
 
 const HERO_CAPTIONS: HeroCaptions = {
+  aximod: {
+    uk: "AXIMOD — гальмівна система",
+    ru: "AXIMOD — тормозная система",
+    en: "AXIMOD — braking system",
+  },
   "home-hub": {
-    uk: "Home Hub — концепція фасаду шоуруму",
-    ru: "Home Hub — концепция фасада шоурума",
-    en: "Home Hub — showroom facade concept",
+    uk: "Home Hub — шоурум і айдентика",
+    ru: "Home Hub — шоурум и айдентика",
+    en: "Home Hub — showroom and identity",
   },
   carbit: {
     uk: "Carbit — анімована айдентика",

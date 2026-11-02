@@ -2,6 +2,7 @@ import { bitSchoolCopy, bitSchoolShared, getBitSchoolBlocks } from "./bit-school
 import { ahmadTeaCopy, ahmadTeaShared, getAhmadTeaBlocks } from "./ahmad-tea";
 import { carbitCopy, carbitShared, getCarbitBlocks } from "./carbit";
 import { digitalResidenceCopy, digitalResidenceShared, getDigitalResidenceBlocks } from "./digital-residence";
+import { aximodCopy, aximodShared, getAximodBlocks } from "./aximod";
 import { getHomeHubBlocks, homeHubCopy, homeHubShared } from "./home-hub";
 import { altepCopy, altepShared, getAltepBlocks } from "./altep";
 import { getPackagingBlocks, packagingCopy, packagingShared } from "../packaging-collection";
@@ -19,13 +20,28 @@ import type { CaseItem } from "./types";
 
 const cases: CaseItem[] = [
   {
+    slug: aximodShared.slug,
+    title: aximodCopy.uk.title,
+    description: aximodCopy.uk.description,
+    cover: aximodShared.cover,
+    listCover: aximodShared.listCover,
+    media: aximodShared.media,
+    tagline: aximodCopy.uk.tagline,
+    serviceTag: aximodCopy.uk.serviceTag,
+    theme: aximodShared.theme,
+    body: aximodShared.body,
+    blocks: getAximodBlocks("uk"),
+  },
+  {
     slug: homeHubShared.slug,
     title: homeHubCopy.uk.title,
     description: homeHubCopy.uk.description,
     cover: homeHubShared.cover,
+    listCover: homeHubShared.listCover,
     media: homeHubShared.media,
     tagline: homeHubCopy.uk.tagline,
     serviceTag: homeHubCopy.uk.serviceTag,
+    theme: homeHubShared.theme,
     body: homeHubShared.body,
     blocks: getHomeHubBlocks("uk"),
   },
