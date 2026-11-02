@@ -5,7 +5,6 @@ import { applyGalleryCaptionMap } from "./localize-gallery-captions";
 const media = (name: string) => `/assets/cases/home-hub/${name}`;
 
 const homeHubMedia = [
-  "media/home-hub/cover.mp4",
   "media/home-hub/01.jpg",
   "media/home-hub/02.jpg",
   "media/home-hub/03.jpg",
@@ -409,7 +408,7 @@ export const homeHubShared = {
     manifestoFg: "#E9D3BB",
     manifestoEm: "#C7C5A7",
   },
-  body: `[VID: media/home-hub/cover.mp4]`,
+  body: `[IMG: media/home-hub/01.jpg]`,
 };
 
 export const homeHubCopy: Record<

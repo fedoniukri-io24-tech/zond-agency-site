@@ -1,9 +1,9 @@
 /** Must match `images.deviceSizes` in next.config.js (unknown widths are rejected). */
-const CASE_IMAGE_WIDTHS = [640, 828, 1080, 1200, 1920] as const;
+const CASE_IMAGE_WIDTHS = [640, 828, 1080, 1200, 1920, 2560] as const;
 
-const CASE_IMAGE_DEFAULT_WIDTH = 1080;
-const LIGHTBOX_IMAGE_WIDTH = 1920;
-const CASE_IMAGE_QUALITY = 75;
+const CASE_IMAGE_DEFAULT_WIDTH = 1920;
+const LIGHTBOX_IMAGE_WIDTH = 2560;
+const CASE_IMAGE_QUALITY = 90;
 
 export function isCaseGif(src: string): boolean {
   return /\.gif($|\?)/i.test(src);

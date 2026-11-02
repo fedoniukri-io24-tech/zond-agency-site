@@ -5,7 +5,6 @@ import { applyGalleryCaptionMap } from "./localize-gallery-captions";
 const m = (file: string) => `/assets/cases/aximod/${file}`;
 
 const aximodMedia = [
-  "media/aximod/cover.mp4",
   "media/aximod/01.jpg",
   "media/aximod/02.jpg",
   "media/aximod/03.jpg",
@@ -426,7 +425,7 @@ export const aximodShared = {
     manifestoFg: "#FFFFFF",
     manifestoEm: "#FF3900",
   },
-  body: `[VID: media/aximod/cover.mp4]`,
+  body: `[IMG: media/aximod/01.jpg]`,
 };
 
 export const aximodCopy: Record<
