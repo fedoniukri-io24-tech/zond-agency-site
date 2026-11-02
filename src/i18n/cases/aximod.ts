@@ -38,9 +38,9 @@ const blocksUk: CaseVisualBlock[] = [
   {
     type: "facts",
     items: [
-      { label: "Клієнт", value: "AXIMOD", accent: true },
-      { label: "Напрям", value: "Автокомпоненти" },
-      { label: "Продукт", value: "Гальмівні системи" },
+      { label: "Клієнт", value: "AXIMOD", highlight: true },
+      { label: "Ніша", value: "автокомпоненти" },
+      { label: "Продукт", value: "гальмівні системи" },
     ],
   },
   {
@@ -65,7 +65,10 @@ const blocksUk: CaseVisualBlock[] = [
       "Завдання ZOND — сформувати цілісний образ AXIMOD і передати в ньому силу технічного продукту. Бренд мав вирізнятися в автомобільній категорії, залишаючись стриманим і зрозумілим.",
       "Потрібна була система для різних матеріалів і масштабів: нанесення на супорт, невеликого брелока, візитки, коробки, одягу й рекламного постера. Тому ключовими стали чітка геометрія, контраст і послідовне використання фірмових елементів.",
     ],
-    deliverables: [
+  },
+  {
+    type: "deliverables",
+    items: [
       { title: "Точність", description: "Геометрія й типографіка, що передають інженерний характер." },
       { title: "Упізнаваність", description: "Виразний знак і помаранчевий акцент, повʼязані з продуктом." },
       { title: "Системність", description: "Єдині принципи для металу, паперу, тканини та екрана." },
@@ -107,20 +110,20 @@ const blocksUk: CaseVisualBlock[] = [
   },
   {
     type: "section",
-    index: "04",
+    index: "",
     kicker: "СКЛАД РОБОТИ",
     title: "Одна система.\nУ кожній деталі.",
     paragraphs: [
       "Логотип і фірмові елементи поєднують паковання, поліграфію та мерч. На кожному носії зберігаються характерні пропорції, контраст і ритм бренду.",
       "Для цифрових і рекламних матеріалів у центрі композиції — продукт. Короткі повідомлення та графіка AXIMOD підтримують його інженерний характер.",
     ],
-    deliverables: [
-      { title: "Логотип і знак" },
-      { title: "Фірмовий стиль і брендбук" },
-      { title: "Паковання" },
-      { title: "Ділова поліграфія" },
-      { title: "Одяг та аксесуари" },
-      { title: "Digital і реклама" },
+    rules: [
+      "Логотип і знак",
+      "Фірмовий стиль і брендбук",
+      "Паковання",
+      "Ділова поліграфія",
+      "Одяг та аксесуари",
+      "Digital і реклама",
     ],
     variant: "book",
   },
@@ -196,9 +199,9 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
     return {
       ...block,
       items: [
-        { label: "Клиент", value: "AXIMOD", accent: true },
-        { label: "Направление", value: "Автокомпоненты" },
-        { label: "Продукт", value: "Тормозные системы" },
+        { label: "Клиент", value: "AXIMOD", highlight: true },
+        { label: "Ниша", value: "автокомпоненты" },
+        { label: "Продукт", value: "тормозные системы" },
       ],
     };
   }
@@ -211,7 +214,12 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
         "Задача ZOND — сформировать целостный образ AXIMOD и передать в нём силу технического продукта. Бренд должен был выделяться в автомобильной категории, оставаясь сдержанным и понятным.",
         "Нужна была система для разных материалов и масштабов: нанесение на суппорт, небольшой брелок, визитка, коробка, одежда и рекламный постер. Поэтому ключевыми стали чёткая геометрия, контраст и последовательное использование фирменных элементов.",
       ],
-      deliverables: [
+    };
+  }
+  if (block.type === "deliverables") {
+    return {
+      ...block,
+      items: [
         { title: "Точность", description: "Геометрия и типографика, которые передают инженерный характер." },
         { title: "Узнаваемость", description: "Выразительный знак и оранжевый акцент, связанные с продуктом." },
         { title: "Системность", description: "Единые принципы для металла, бумаги, ткани и экрана." },
@@ -236,7 +244,7 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
       text: "Скорость — это выбор.\nКонтроль — необходимость.",
     };
   }
-  if (block.type === "section" && block.index === "04") {
+  if (block.type === "section" && block.variant === "book") {
     return {
       ...block,
       kicker: "СОСТАВ РАБОТЫ",
@@ -245,13 +253,13 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
         "Логотип и фирменные элементы объединяют упаковку, полиграфию и мерч. На каждом носителе сохраняются характерные пропорции, контраст и ритм бренда.",
         "Для цифровых и рекламных материалов в центре композиции — продукт. Короткие сообщения и графика AXIMOD поддерживают его инженерный характер.",
       ],
-      deliverables: [
-        { title: "Логотип и знак" },
-        { title: "Фирменный стиль и брендбук" },
-        { title: "Упаковка" },
-        { title: "Деловая полиграфия" },
-        { title: "Одежда и аксессуары" },
-        { title: "Digital и реклама" },
+      rules: [
+        "Логотип и знак",
+        "Фирменный стиль и брендбук",
+        "Упаковка",
+        "Деловая полиграфия",
+        "Одежда и аксессуары",
+        "Digital и реклама",
       ],
     };
   }
@@ -285,9 +293,9 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
     return {
       ...block,
       items: [
-        { label: "Client", value: "AXIMOD", accent: true },
-        { label: "Field", value: "Auto components" },
-        { label: "Product", value: "Braking systems" },
+        { label: "Client", value: "AXIMOD", highlight: true },
+        { label: "Niche", value: "auto components" },
+        { label: "Product", value: "braking systems" },
       ],
     };
   }
@@ -300,7 +308,12 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
         "ZOND’s task was to shape a coherent AXIMOD image and express the strength of a technical product. The brand had to stand out in the automotive category while staying restrained and clear.",
         "We needed a system for different materials and scales: a caliper mark, a small keychain, a business card, a box, apparel, and a poster. Clear geometry, contrast, and consistent brand elements became the core.",
       ],
-      deliverables: [
+    };
+  }
+  if (block.type === "deliverables") {
+    return {
+      ...block,
+      items: [
         { title: "Precision", description: "Geometry and type that convey an engineering character." },
         { title: "Recognition", description: "A distinctive mark and orange accent linked to the product." },
         { title: "Consistency", description: "Shared principles for metal, paper, fabric, and screen." },
@@ -325,7 +338,7 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
       text: "Speed is a choice.\nControl is a necessity.",
     };
   }
-  if (block.type === "section" && block.index === "04") {
+  if (block.type === "section" && block.variant === "book") {
     return {
       ...block,
       kicker: "SCOPE",
@@ -334,13 +347,13 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
         "The logo and brand elements unite packaging, print, and merch. Characteristic proportions, contrast, and rhythm stay consistent across every medium.",
         "In digital and advertising layouts the product stays in the center. Short messages and AXIMOD graphics support its engineering character.",
       ],
-      deliverables: [
-        { title: "Logo and mark" },
-        { title: "Identity and brand book" },
-        { title: "Packaging" },
-        { title: "Business stationery" },
-        { title: "Apparel and accessories" },
-        { title: "Digital and advertising" },
+      rules: [
+        "Logo and mark",
+        "Identity and brand book",
+        "Packaging",
+        "Business stationery",
+        "Apparel and accessories",
+        "Digital and advertising",
       ],
     };
   }

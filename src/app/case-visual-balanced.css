@@ -324,7 +324,7 @@
 .case-visual-page.visual.balanced .project-facts > div.country-fact {
   border-color: var(--case-accent);
   background: var(--case-accent);
-  color: #171717;
+  color: var(--case-accent-ink);
 }
 
 .case-visual-page.visual.balanced .project-facts dt {

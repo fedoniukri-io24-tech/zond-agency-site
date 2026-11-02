@@ -39,8 +39,8 @@ const blocksUk: CaseVisualBlock[] = [
     type: "facts",
     items: [
       { label: "Країна", value: "Швеція", accent: true, countryCode: "SE" },
-      { label: "Напрям", value: "Двері, вікна, фурнітура" },
-      { label: "Послуги", value: "Брендинг, SMM,\nвеброзробка,\nграфічний дизайн" },
+      { label: "Ніша", value: "двері, вікна, фурнітура" },
+      { label: "Продукт", value: "home & living" },
     ],
   },
   {
@@ -64,6 +64,14 @@ const blocksUk: CaseVisualBlock[] = [
     paragraphs: [
       "Завдання ZOND — обʼєднати архітектурний характер продукту та відчуття домашнього затишку. Стиль мав бути сучасним, спокійним і доречним у просторі салону та в цифрових каналах.",
       "Потрібна була цілісна система: від логотипа й типографіки до вивіски, поліграфії, одягу та сайту. Важливо, щоб кожен носій впізнавався як HOME HUB і підтримував увагу до продукту.",
+    ],
+  },
+  {
+    type: "deliverables",
+    items: [
+      { title: "Архітектурність", description: "Чіткий знак, ритм вертикалей і продумані пропорції." },
+      { title: "Природність", description: "Тепла палітра, що поєднується з деревом, тканиною й папером." },
+      { title: "Послідовність", description: "Єдиний характер у просторі салону, на носіях і в digital." },
     ],
   },
   {
@@ -102,20 +110,20 @@ const blocksUk: CaseVisualBlock[] = [
   },
   {
     type: "section",
-    index: "04",
+    index: "",
     kicker: "СКЛАД РОБОТИ",
     title: "Одна мова.\nУ кожному дотику.",
     paragraphs: [
       "Вивіска знайомить із брендом, поліграфія підтримує діалог, а одяг і предмети переносять його у повсякденність. На всіх носіях зберігаються впізнавані кольори, знак і стримана композиція.",
       "У цифрових матеріалах головну роль відіграють продукт, фактура та світло. Фірмові елементи допомагають обʼєднати фотографії, короткі повідомлення й навігацію.",
     ],
-    deliverables: [
-      { title: "Логотип і фірмовий знак" },
-      { title: "Кольори та типографіка" },
-      { title: "Графічні елементи" },
-      { title: "Вивіска та поліграфія" },
-      { title: "Одяг і предмети" },
-      { title: "Digital та соціальні мережі" },
+    rules: [
+      "Логотип і фірмовий знак",
+      "Кольори та типографіка",
+      "Графічні елементи",
+      "Вивіска та поліграфія",
+      "Одяг і предмети",
+      "Digital та соціальні мережі",
     ],
     variant: "book",
   },
@@ -190,8 +198,8 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
       ...block,
       items: [
         { label: "Страна", value: "Швеция", accent: true, countryCode: "SE" },
-        { label: "Направление", value: "Двери, окна, фурнитура" },
-        { label: "Услуги", value: "Брендинг, SMM,\nвеб-разработка,\nграфический дизайн" },
+        { label: "Ниша", value: "двери, окна, фурнитура" },
+        { label: "Продукт", value: "home & living" },
       ],
     };
   }
@@ -203,6 +211,16 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
       paragraphs: [
         "Задача ZOND — объединить архитектурный характер продукта и ощущение домашнего уюта. Стиль должен был быть современным, спокойным и уместным в пространстве салона и в цифровых каналах.",
         "Нужна была целостная система: от логотипа и типографики до вывески, полиграфии, одежды и сайта. Важно, чтобы каждый носитель узнавался как HOME HUB и поддерживал внимание к продукту.",
+      ],
+    };
+  }
+  if (block.type === "deliverables") {
+    return {
+      ...block,
+      items: [
+        { title: "Архитектурность", description: "Чёткий знак, ритм вертикалей и продуманные пропорции." },
+        { title: "Естественность", description: "Тёплая палитра, которая сочетается с деревом, тканью и бумагой." },
+        { title: "Последовательность", description: "Единый характер в пространстве салона, на носителях и в digital." },
       ],
     };
   }
@@ -224,7 +242,7 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
       text: "Детали формируют дом.",
     };
   }
-  if (block.type === "section" && block.index === "04") {
+  if (block.type === "section" && block.variant === "book") {
     return {
       ...block,
       kicker: "СОСТАВ РАБОТЫ",
@@ -233,13 +251,13 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
         "Вывеска знакомит с брендом, полиграфия поддерживает диалог, а одежда и предметы переносят его в повседневность. На всех носителях сохраняются узнаваемые цвета, знак и сдержанная композиция.",
         "В цифровых материалах главную роль играют продукт, фактура и свет. Фирменные элементы помогают объединить фотографии, короткие сообщения и навигацию.",
       ],
-      deliverables: [
-        { title: "Логотип и фирменный знак" },
-        { title: "Цвета и типографика" },
-        { title: "Графические элементы" },
-        { title: "Вывеска и полиграфия" },
-        { title: "Одежда и предметы" },
-        { title: "Digital и социальные сети" },
+      rules: [
+        "Логотип и фирменный знак",
+        "Цвета и типографика",
+        "Графические элементы",
+        "Вывеска и полиграфия",
+        "Одежда и предметы",
+        "Digital и социальные сети",
       ],
     };
   }
@@ -274,8 +292,8 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
       ...block,
       items: [
         { label: "Country", value: "Sweden", accent: true, countryCode: "SE" },
-        { label: "Field", value: "Doors, windows, hardware" },
-        { label: "Services", value: "Branding, SMM,\nweb development,\ngraphic design" },
+        { label: "Niche", value: "doors, windows, hardware" },
+        { label: "Product", value: "home & living" },
       ],
     };
   }
@@ -287,6 +305,16 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
       paragraphs: [
         "ZOND’s task was to unite the architectural character of the product with a sense of home comfort. The style had to feel modern, calm, and right for both the showroom and digital channels.",
         "We needed a complete system: from logo and typography to signage, print, apparel, and the website. Every medium had to read as HOME HUB and keep the focus on the product.",
+      ],
+    };
+  }
+  if (block.type === "deliverables") {
+    return {
+      ...block,
+      items: [
+        { title: "Architecture", description: "A clear mark, vertical rhythm, and considered proportions." },
+        { title: "Natural feel", description: "A warm palette that sits with wood, fabric, and paper." },
+        { title: "Consistency", description: "One character across the showroom, media, and digital." },
       ],
     };
   }
@@ -308,7 +336,7 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
       text: "Details shape the home.",
     };
   }
-  if (block.type === "section" && block.index === "04") {
+  if (block.type === "section" && block.variant === "book") {
     return {
       ...block,
       kicker: "SCOPE",
@@ -317,13 +345,13 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
         "Signage introduces the brand, print carries the dialogue, and apparel and objects bring it into everyday life. Recognizable colors, the mark, and restrained composition stay consistent across media.",
         "In digital materials the product, texture, and light lead. Brand elements help unite photography, short messages, and navigation.",
       ],
-      deliverables: [
-        { title: "Logo and brand mark" },
-        { title: "Colors and typography" },
-        { title: "Graphic elements" },
-        { title: "Signage and print" },
-        { title: "Apparel and objects" },
-        { title: "Digital and social" },
+      rules: [
+        "Logo and brand mark",
+        "Colors and typography",
+        "Graphic elements",
+        "Signage and print",
+        "Apparel and objects",
+        "Digital and social",
       ],
     };
   }
