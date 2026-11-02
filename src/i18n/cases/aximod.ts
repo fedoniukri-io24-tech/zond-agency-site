@@ -93,15 +93,6 @@ const blocksUk: CaseVisualBlock[] = [
     footer: "AXIMOD / ENGINEERED FOR CONTROL",
   },
   {
-    type: "palette",
-    colors: [
-      { name: "Electric Orange", hex: "#FF3900", bg: "#FF3900", fg: "#FFFFFF" },
-      { name: "Graphite", hex: "#141419", bg: "#141419", fg: "#FFFFFF" },
-      { name: "Steel Blue", hex: "#394960", bg: "#394960", fg: "#FFFFFF" },
-      { name: "Metallic Grey", hex: "#C7C7C7", bg: "#C7C7C7", fg: "#141419" },
-    ],
-  },
-  {
     type: "gallery",
     layout: "wide",
     images: [{ src: m("05.jpg"), caption: "Кольорова система" }],

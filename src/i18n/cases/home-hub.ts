@@ -39,8 +39,8 @@ const blocksUk: CaseVisualBlock[] = [
     type: "facts",
     items: [
       { label: "Країна", value: "Швеція", accent: true, countryCode: "SE" },
-      { label: "Ніша", value: "двері, вікна, фурнітура" },
-      { label: "Сайт", value: "home-hub.se" },
+      { label: "Напрям", value: "Двері, вікна, фурнітура" },
+      { label: "Послуги", value: "Брендинг, SMM,\nвеброзробка,\nграфічний дизайн" },
     ],
   },
   {
@@ -89,15 +89,6 @@ const blocksUk: CaseVisualBlock[] = [
     label: "ІДЕЯ КОМУНІКАЦІЇ",
     text: "Деталі формують дім.",
     footer: "HOME HUB / DETAILS SHAPE THE HOME",
-  },
-  {
-    type: "palette",
-    colors: [
-      { name: "Linen Dawn", hex: "#E9D3BB", bg: "#E9D3BB", fg: "#3C2515" },
-      { name: "Olive Twilight", hex: "#31351E", bg: "#31351E", fg: "#FFFFFF" },
-      { name: "Walnut Shadow", hex: "#3C2515", bg: "#3C2515", fg: "#FFFFFF" },
-      { name: "Sage Mist", hex: "#C7C5A7", bg: "#C7C5A7", fg: "#31351E" },
-    ],
   },
   {
     type: "gallery",
@@ -199,8 +190,8 @@ const blocksRu: CaseVisualBlock[] = blocksUk.map((block) => {
       ...block,
       items: [
         { label: "Страна", value: "Швеция", accent: true, countryCode: "SE" },
-        { label: "Ниша", value: "двери, окна, фурнитура" },
-        { label: "Сайт", value: "home-hub.se" },
+        { label: "Направление", value: "Двери, окна, фурнитура" },
+        { label: "Услуги", value: "Брендинг, SMM,\nвеб-разработка,\nграфический дизайн" },
       ],
     };
   }
@@ -283,8 +274,8 @@ const blocksEn: CaseVisualBlock[] = blocksUk.map((block) => {
       ...block,
       items: [
         { label: "Country", value: "Sweden", accent: true, countryCode: "SE" },
-        { label: "Niche", value: "doors, windows, hardware" },
-        { label: "Website", value: "home-hub.se" },
+        { label: "Field", value: "Doors, windows, hardware" },
+        { label: "Services", value: "Branding, SMM,\nweb development,\ngraphic design" },
       ],
     };
   }
