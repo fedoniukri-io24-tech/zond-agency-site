@@ -22,6 +22,10 @@ export const serviceSlugs = [
   "brand-audit",
   "brand-voice",
   "font-design",
+  "presentations",
+  "labels",
+  "catalogs",
+  "infographics",
 ] as const;
 
 export type ServiceSlug = (typeof serviceSlugs)[number];
@@ -106,6 +110,10 @@ export const serviceTitles: Record<Locale, Record<ServiceSlug, string>> = {
     "brand-audit": "Аудит бренду",
     "brand-voice": "Голос бренду",
     "font-design": "Дизайн шрифтів",
+    "presentations": "Дизайн презентацій",
+    "labels": "Дизайн етикеток",
+    "catalogs": "Дизайн каталогів",
+    "infographics": "Технічна інфографіка",
   },
   en: {
     branding: "Branding",
@@ -129,6 +137,10 @@ export const serviceTitles: Record<Locale, Record<ServiceSlug, string>> = {
     "brand-audit": "Brand audit",
     "brand-voice": "Brand voice",
     "font-design": "Font design",
+    "presentations": "Presentation design",
+    "labels": "Label design",
+    "catalogs": "Catalog design",
+    "infographics": "Technical infographics",
   },
   ru: {
     branding: "Брендинг",
@@ -152,6 +164,10 @@ export const serviceTitles: Record<Locale, Record<ServiceSlug, string>> = {
     "brand-audit": "Аудит бренда",
     "brand-voice": "Голос бренда",
     "font-design": "Дизайн шрифтов",
+    "presentations": "Дизайн презентаций",
+    "labels": "Дизайн этикеток",
+    "catalogs": "Дизайн каталогов",
+    "infographics": "Техническая инфографика",
   },
 };
 
@@ -266,6 +282,26 @@ export const serviceMeta: Record<
       description:
         "Фірмовий шрифт для бренду в Києві: кирилиця й латиниця під стиль компанії. Той самий шрифт, що в конкурента, ховає бренд серед інших, замовте свій.",
     },
+    "presentations": {
+      title: "Розробка і створення презентації компанії для інвесторів | ZOND",
+      description:
+        "Розробка презентації компанії, інвестиційної презентації та комерційної пропозиції: структура слайдів, графіки й дизайн у фірмовому стилі. Слайди з шаблону інвестор упізнає одразу.",
+    },
+    "labels": {
+      title: "Дизайн етикетки і розробка етикеток для лінійки товарів | ZOND",
+      description:
+        "Дизайн етикетки для товару і всієї лінійки: концепції, адаптації під смаки й об'єми, 3D-мокапи і макети до друку. На полиці в етикетки є кілька секунд, щоб її помітили.",
+    },
+    "catalogs": {
+      title: "Верстка каталогу продукції і дизайн у Києві: ціна розробки | ZOND",
+      description:
+        "Дизайн та верстка каталогу продукції в Києві: структура розділів, таблиці характеристик, файли для друкарні. У каталозі без системи товар губиться.",
+    },
+    "infographics": {
+      title: "Інфографіка на замовлення в Києві: дизайн і ціна розробки | ZOND",
+      description:
+        "Інфографіка на замовлення в Києві: схеми обладнання, процесів і цифр у стилі бренду для каталогу, сайту й тендера. Складний продукт на схемі зрозумілий без інженера.",
+    },
   },
   en: {
     branding: {
@@ -373,6 +409,26 @@ export const serviceMeta: Record<
       description:
         "Font design by ZOND branding agency.",
     },
+    "presentations": {
+      title: "Presentation design | ZOND",
+      description:
+        "Presentation design by ZOND branding agency.",
+    },
+    "labels": {
+      title: "Label design | ZOND",
+      description:
+        "Label design by ZOND branding agency.",
+    },
+    "catalogs": {
+      title: "Catalog design | ZOND",
+      description:
+        "Catalog design by ZOND branding agency.",
+    },
+    "infographics": {
+      title: "Technical infographics | ZOND",
+      description:
+        "Technical infographics by ZOND branding agency.",
+    },
   },
   ru: {
     branding: {
@@ -479,6 +535,26 @@ export const serviceMeta: Record<
       title: "Разработка фирменного шрифта компании на заказ | ZOND",
       description:
         "Разработка фирменного шрифта в Киеве: кириллица и латиница под стиль бренда. Когда на упаковке тот же шрифт, что у конкурента, бренд трудно отличить.",
+    },
+    "presentations": {
+      title: "Разработка и создание презентации компании: цена в Киеве | ZOND",
+      description:
+        "Разработка презентации компании, инвестиционной презентации и коммерческого предложения: структура слайдов, графики и дизайн в фирменном стиле. Слайды из шаблона инвестор узнаёт сразу.",
+    },
+    "labels": {
+      title: "Дизайн этикетки и разработка этикеток в Киеве: цена дизайна | ZOND",
+      description:
+        "Дизайн этикетки для товара и всей линейки: концепции, адаптации под вкусы и объёмы, 3D-мокапы и макеты к печати. На полке у этикетки есть пара секунд, чтобы её заметили.",
+    },
+    "catalogs": {
+      title: "Верстка каталога продукции и дизайн в Киеве: цена разработки | ZOND",
+      description:
+        "Верстка каталога и дизайн каталога продукции в Киеве: структура разделов, таблицы характеристик, файлы для типографии. В каталоге без системы товар теряется.",
+    },
+    "infographics": {
+      title: "Инфографика на заказ в Киеве: создание и цена разработки | ZOND",
+      description:
+        "Инфографика на заказ в Киеве: схемы оборудования, процессов и цифр в стиле бренда для каталога, сайта и тендера. Сложный продукт на схеме понятен без инженера.",
     },
   },
 };

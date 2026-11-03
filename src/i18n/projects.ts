@@ -30,6 +30,10 @@ const SERVICE_CASE_CATEGORIES: Record<ServiceSlug, CaseCategory[]> = {
   "brand-audit": ["branding", "strategy"],
   "brand-voice": ["strategy"],
   "font-design": ["branding"],
+  presentations: ["graphic", "strategy"],
+  labels: ["packaging"],
+  catalogs: ["graphic", "packaging"],
+  infographics: ["graphic"],
 };
 
 function toProjectItem(

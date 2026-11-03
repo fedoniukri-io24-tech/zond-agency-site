@@ -109,6 +109,10 @@ const REVIEW_SLUGS_BY_SERVICE: Record<string, readonly string[]> = {
   "brand-audit": ["altep", "kavlora", "digital-residence", "ahmad-tea"],
   "brand-voice": ["ahmad-tea", "yakomoga", "medeus", "digital-residence"],
   "font-design": ["digital-residence", "altep", "kavlora", "bit-school"],
+  presentations: ["ahmad-tea", "medeus", "digital-residence", "altep"],
+  labels: ["goshchanochka", "akula-mama", "kavlora", "bit-school"],
+  catalogs: ["pridniprovsky-zavod", "altep", "goshchanochka", "kavlora"],
+  infographics: ["pridniprovsky-zavod", "altep", "medeus", "digital-residence"],
 };
 
 const REVIEWS_NOTE: Record<Locale, string> = {
