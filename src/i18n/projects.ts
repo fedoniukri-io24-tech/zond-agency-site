@@ -25,6 +25,11 @@ const SERVICE_CASE_CATEGORIES: Record<ServiceSlug, CaseCategory[]> = {
   communication: ["strategy"],
   "marketing-360": ["strategy", "smm"],
   "influence-marketing": ["strategy", "smm"],
+  "marketing-research": ["strategy"],
+  "motion-design": ["graphic", "smm"],
+  "brand-audit": ["branding", "strategy"],
+  "brand-voice": ["strategy"],
+  "font-design": ["branding"],
 };
 
 function toProjectItem(

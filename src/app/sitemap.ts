@@ -3,6 +3,7 @@ import { locales } from "@/i18n/config";
 import { getBlogSlugs, withBlogLanguages } from "@/i18n/blog";
 import { getCaseSlugs } from "@/i18n/cases";
 import { serviceSlugs } from "@/i18n/services";
+import { hasServiceLocale, withServiceLanguages } from "@/i18n/text-services";
 import {
   getAlternateLanguages,
   getBlogDetailPath,
@@ -44,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   const serviceEntries = locales.flatMap((locale) =>
-    serviceSlugs.map((slug) => {
+    serviceSlugs.filter((slug) => hasServiceLocale(slug, locale)).map((slug) => {
       const pathname = getServiceDetailPath(locale, slug);
 
       return {
@@ -52,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly" as const,
         priority: slug === "branding" ? 0.9 : 0.7,
         alternates: {
-          languages: getAlternateLanguages(siteUrl, pathname),
+          languages: withServiceLanguages(getAlternateLanguages(siteUrl, pathname), slug),
         },
       };
     }),

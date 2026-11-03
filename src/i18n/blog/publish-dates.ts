@@ -1,5 +1,8 @@
 /** Webflow publish dates by slug. Empty until the export from backup step 10. */
 export const blogPublishDates: Record<string, string> = {
+  "linkedin-ads-b2b": "2026-10-28",
+  "packaging-taste": "2026-10-30",
+  "company-name-in-english": "2026-11-01",
   "when-to-change-logo": "2026-11-03",
   "what-is-branding": "2025-08-15",
   "what-is-illustration": "2025-08-22",

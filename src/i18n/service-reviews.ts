@@ -104,6 +104,11 @@ const REVIEW_SLUGS_BY_SERVICE: Record<string, readonly string[]> = {
   "influence-marketing": ["ahmad-tea", "medeus", "yakomoga", "goshchanochka"],
   rebranding: ["altep", "kavlora", "digital-residence", "bit-school"],
   "marketing-360": ["ahmad-tea", "medeus", "yakomoga", "digital-residence"],
+  "marketing-research": ["ahmad-tea", "yakomoga", "digital-residence", "kavlora"],
+  "motion-design": ["bit-school", "medeus", "kyiv-tourism-department", "yakomoga"],
+  "brand-audit": ["altep", "kavlora", "digital-residence", "ahmad-tea"],
+  "brand-voice": ["ahmad-tea", "yakomoga", "medeus", "digital-residence"],
+  "font-design": ["digital-residence", "altep", "kavlora", "bit-school"],
 };
 
 const REVIEWS_NOTE: Record<Locale, string> = {

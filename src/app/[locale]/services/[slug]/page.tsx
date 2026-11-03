@@ -13,6 +13,7 @@ import PackagingPage from "@/components/PackagingPage";
 import PositioningPage from "@/components/PositioningPage";
 import RebrandingPage from "@/components/RebrandingPage";
 import SmmPage from "@/components/SmmPage";
+import ServiceLandingPage from "@/components/ServiceLandingPage";
 import ServiceTitlePage from "@/components/ServiceTitlePage";
 import { isLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
@@ -23,12 +24,19 @@ import {
   serviceMeta,
   serviceSlugs,
 } from "@/i18n/services";
+import {
+  hasServiceLocale,
+  textServices,
+  withServiceLanguages,
+} from "@/i18n/text-services";
 import { createServiceMetadata } from "@/lib/metadata";
 import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
-    serviceSlugs.map((slug) => ({ locale, slug })),
+    serviceSlugs
+      .filter((slug) => hasServiceLocale(slug, locale))
+      .map((slug) => ({ locale, slug })),
   );
 }
 
@@ -42,7 +50,15 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   if (!isLocale(locale) || !isServiceSlug(slug)) return {};
 
-  return createServiceMetadata(locale, slug, serviceMeta[locale][slug]);
+  if (!hasServiceLocale(slug, locale)) return {};
+
+  const metadata = createServiceMetadata(locale, slug, serviceMeta[locale][slug]);
+  const languages = metadata.alternates?.languages as Record<string, string> | undefined;
+  if (languages && textServices[slug]) {
+    metadata.alternates = { ...metadata.alternates, languages: withServiceLanguages(languages, slug) };
+  }
+
+  return metadata;
 }
 
 export default async function ServicePage({
@@ -55,6 +71,25 @@ export default async function ServicePage({
 
   const dictionary = await getDictionary(locale);
   const projects = getServiceProjects(locale, slug);
+
+  const textService = textServices[slug];
+  if (textService) {
+    const copy = textService.page[locale];
+    const seo = textService.seo[locale];
+    if (!copy || !seo) notFound();
+
+    return (
+      <ServiceLandingPage
+        locale={locale}
+        dictionary={dictionary}
+        projects={projects}
+        copy={copy}
+        serviceSlug={slug}
+        seo={seo}
+        heroImage={textService.heroImage}
+      />
+    );
+  }
 
   if (slug === "branding") {
     return (

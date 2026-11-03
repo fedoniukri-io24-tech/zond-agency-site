@@ -17,6 +17,11 @@ export const serviceSlugs = [
   "logo",
   "brandbook",
   "rebranding",
+  "marketing-research",
+  "motion-design",
+  "brand-audit",
+  "brand-voice",
+  "font-design",
 ] as const;
 
 export type ServiceSlug = (typeof serviceSlugs)[number];
@@ -96,6 +101,11 @@ export const serviceTitles: Record<Locale, Record<ServiceSlug, string>> = {
     logo: "Логотип",
     brandbook: "Брендбук",
     rebranding: "Ребрендинг",
+    "marketing-research": "Маркетингові дослідження",
+    "motion-design": "Моушн-дизайн",
+    "brand-audit": "Аудит бренду",
+    "brand-voice": "Голос бренду",
+    "font-design": "Дизайн шрифтів",
   },
   en: {
     branding: "Branding",
@@ -114,6 +124,11 @@ export const serviceTitles: Record<Locale, Record<ServiceSlug, string>> = {
     logo: "Logo design",
     brandbook: "Brand book",
     rebranding: "Rebranding",
+    "marketing-research": "Marketing research",
+    "motion-design": "Motion design",
+    "brand-audit": "Brand audit",
+    "brand-voice": "Brand voice",
+    "font-design": "Font design",
   },
   ru: {
     branding: "Брендинг",
@@ -132,6 +147,11 @@ export const serviceTitles: Record<Locale, Record<ServiceSlug, string>> = {
     logo: "Логотип",
     brandbook: "Брендбук",
     rebranding: "Ребрендинг",
+    "marketing-research": "Маркетинговые исследования",
+    "motion-design": "Моушн-дизайн",
+    "brand-audit": "Аудит бренда",
+    "brand-voice": "Голос бренда",
+    "font-design": "Дизайн шрифтов",
   },
 };
 
@@ -221,6 +241,31 @@ export const serviceMeta: Record<
       description:
         "Оновити бренд і не втратити своїх клієнтів реально. Ребрендинг компанії та редизайн айдентики. Аудит, позиціонування, план переходу. Кейси ZOND, Київ.",
     },
+    "marketing-research": {
+      title: "Маркетингові дослідження та аналіз ринку в Києві на замовлення | ZOND",
+      description:
+        "Маркетингові дослідження та аналіз ринку в Києві: конкуренти, аудиторія і попит. Коли запуск вирішують навмання, звіт ZOND дає висновки для рішення.",
+    },
+    "motion-design": {
+      title: "Анімація логотипу і моушн-дизайн: замовити ролик у Києві | ZOND",
+      description:
+        "Анімація логотипу і моушн-дизайн у Києві: анімаційні ролики для реклами та сайту. Статичний банер гортають, а ролик у стилі бренду затримує погляд.",
+    },
+    "brand-audit": {
+      title: "Аудит бренду від агенції: бренд-аудит для бізнесу | ZOND",
+      description:
+        "Аудит бренду в Києві від агенції ZOND: позиціонування, стиль і комунікації. Коли продажі стоять, а причина незрозуміла, аудит покаже, що заважає бренду.",
+    },
+    "brand-voice": {
+      title: "Розробка голосу бренду і tone of voice компанії | ZOND",
+      description:
+        "Голос бренду і tone of voice компанії: гайд з тоном, словами й прикладами текстів, ZOND, Київ. Коли кожен пише по-своєму, бренд звучить як п'ять різних.",
+    },
+    "font-design": {
+      title: "Фірмовий шрифт: замовити розробку шрифту для компанії | ZOND",
+      description:
+        "Фірмовий шрифт для бренду в Києві: кирилиця й латиниця під стиль компанії. Той самий шрифт, що в конкурента, ховає бренд серед інших, замовте свій.",
+    },
   },
   en: {
     branding: {
@@ -303,6 +348,31 @@ export const serviceMeta: Record<
       description:
         "Rebranding without losing your customers: brand audit, new positioning, logo and identity update, and a transition plan. ZOND case studies.",
     },
+    "marketing-research": {
+      title: "Marketing research | ZOND",
+      description:
+        "Marketing research by ZOND branding agency.",
+    },
+    "motion-design": {
+      title: "Motion design | ZOND",
+      description:
+        "Motion design by ZOND branding agency.",
+    },
+    "brand-audit": {
+      title: "Brand audit | ZOND",
+      description:
+        "Brand audit by ZOND branding agency.",
+    },
+    "brand-voice": {
+      title: "Brand voice | ZOND",
+      description:
+        "Brand voice by ZOND branding agency.",
+    },
+    "font-design": {
+      title: "Font design | ZOND",
+      description:
+        "Font design by ZOND branding agency.",
+    },
   },
   ru: {
     branding: {
@@ -384,6 +454,31 @@ export const serviceMeta: Record<
       title: "Ребрендинг компании и редизайн бренда, цена | ZOND, Киев",
       description:
         "Обновить бренд и не потерять своих клиентов реально. Ребрендинг компании и редизайн айдентики. Аудит, позиционирование, план перехода. Кейсы ZOND, Киев.",
+    },
+    "marketing-research": {
+      title: "Маркетинговые исследования и анализ рынка в Киеве на заказ | ZOND",
+      description:
+        "Маркетинговые исследования и анализ рынка в Киеве: конкуренты, аудитория и спрос. Когда запуск решают наугад, отчёт ZOND даёт выводы для решения.",
+    },
+    "motion-design": {
+      title: "Моушн-дизайн и анимация логотипа: заказать ролик в Киеве | ZOND",
+      description:
+        "Моушн-дизайн в Киеве: анимация логотипа и анимационные ролики для рекламы и сайта. Статичный баннер пролистывают, а ролик в стиле бренда задерживает взгляд.",
+    },
+    "brand-audit": {
+      title: "Аудит бренда от агентства: бренд-аудит для бизнеса | ZOND",
+      description:
+        "Аудит бренда в Киеве от агентства ZOND: позиционирование, стиль и коммуникации. Когда продажи стоят, а причина неясна, аудит покажет, что мешает бренду.",
+    },
+    "brand-voice": {
+      title: "Разработка голоса бренда и tone of voice компании | ZOND",
+      description:
+        "Голос бренда и tone of voice компании: гайд с тоном, словами и примерами текстов, ZOND, Киев. Когда каждый пишет по-своему, бренд звучит как пять разных.",
+    },
+    "font-design": {
+      title: "Разработка фирменного шрифта компании на заказ | ZOND",
+      description:
+        "Разработка фирменного шрифта в Киеве: кириллица и латиница под стиль бренда. Когда на упаковке тот же шрифт, что у конкурента, бренд трудно отличить.",
     },
   },
 };
