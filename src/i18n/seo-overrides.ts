@@ -6,6 +6,8 @@ export type SeoOverride = {
 };
 
 export const seoOverrides: Record<string, SeoOverride> = {
+  "/blog/when-to-change-logo": {"title": "Редизайн логотипу і ребрендинг лого: коли час міняти логотип | ZOND", "description": "Редизайн логотипу потрібен, коли знак не читається на телефоні або його плутають з конкурентами. 7 ознак і як змінити логотип без втрати впізнаваності."},
+  "/ru/blog/when-to-change-logo": {"title": "Редизайн логотипа и ребрендинг лого: когда пора менять логотип | ZOND", "description": "Редизайн логотипа нужен, когда знак не читается на экране телефона или его путают с конкурентами. Разбираем 7 признаков и как сменить логотип без потери узнаваемости."},
   "/": {"title": "Брендинг-агенція ZOND: розробка бренду, айдентика, дизайн | Київ", "description": "Брендингова агенція ZOND у Києві: стратегія, неймінг, логотип, айдентика, брендбук, упаковка і SMM. Працюємо з 2021 року, стратегія до результату."},
   "/blog": {"title": "Блог про брендинг, логотипи і брендбуки | ZOND"},
   "/en/blog/what-is-branding": {"title": "What is a brand and branding: elements and stages | ZOND", "description": "A brand is what people think about a company. Branding is the work of shaping that perception into a lasting image."},

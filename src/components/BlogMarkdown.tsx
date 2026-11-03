@@ -102,6 +102,8 @@ function renderBlock(block: string, index: number) {
     const lines = trimmed.split("\n").filter(Boolean);
     const ordered = /^\d+\./.test(lines[0] ?? "");
     const ListTag = ordered ? "ol" : "ul";
+    // normalizeArticleContent splits numbered items into separate blocks, keep their numbers
+    const start = ordered ? Number.parseInt(lines[0], 10) : undefined;
     const items: { term: string; detail: string[] }[] = [];
 
     for (const line of lines) {
@@ -118,7 +120,11 @@ function renderBlock(block: string, index: number) {
     const isDefinitionList = items.some((item) => item.detail.length > 0);
 
     return (
-      <ListTag key={index} className={isDefinitionList ? "case-def-list" : undefined}>
+      <ListTag
+        key={index}
+        className={isDefinitionList ? "case-def-list" : undefined}
+        start={start && start > 1 ? start : undefined}
+      >
         {items.map((item, itemIndex) => (
           <li key={itemIndex} className={item.detail.length ? "case-def-item" : undefined}>
             {item.detail.length ? (

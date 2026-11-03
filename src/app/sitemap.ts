@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/config";
-import { getBlogSlugs } from "@/i18n/blog";
+import { getBlogSlugs, withBlogLanguages } from "@/i18n/blog";
 import { getCaseSlugs } from "@/i18n/cases";
 import { serviceSlugs } from "@/i18n/services";
 import {
@@ -80,7 +80,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly" as const,
         priority: 0.75,
         alternates: {
-          languages: getAlternateLanguages(siteUrl, pathname),
+          languages: withBlogLanguages(getAlternateLanguages(siteUrl, pathname), slug),
         },
       };
     }),

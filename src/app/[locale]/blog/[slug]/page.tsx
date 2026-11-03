@@ -1,5 +1,11 @@
 import BlogPostPage from "@/components/BlogPostPage";
-import { getBlogPost, getBlogSlugs, getRelatedBlogPosts, isBlogSlug } from "@/i18n/blog";
+import {
+  getBlogPost,
+  getBlogSlugs,
+  getRelatedBlogPosts,
+  isBlogSlug,
+  withBlogLanguages,
+} from "@/i18n/blog";
 import { isLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { getBlogDetailPath } from "@/i18n/routing";
@@ -25,7 +31,7 @@ export async function generateMetadata({
   const post = getBlogPost(locale, slug);
   if (!post) return {};
 
-  return createPathMetadata(
+  const metadata = createPathMetadata(
     locale,
     getBlogDetailPath(locale, slug),
     {
@@ -34,6 +40,12 @@ export async function generateMetadata({
     },
     post.cover || undefined,
   );
+  const languages = metadata.alternates?.languages as Record<string, string> | undefined;
+  if (languages) {
+    metadata.alternates = { ...metadata.alternates, languages: withBlogLanguages(languages, slug) };
+  }
+
+  return metadata;
 }
 
 export default async function BlogArticlePage({

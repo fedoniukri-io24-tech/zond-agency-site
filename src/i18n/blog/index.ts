@@ -1,4 +1,4 @@
-import type { Locale } from "@/i18n/config";
+import { locales, type Locale } from "@/i18n/config";
 import type { BlogPost } from "./types";
 import postsEn from "./posts.en";
 import postsRu from "./posts.ru";
@@ -26,6 +26,19 @@ export function getBlogSlugs(locale: Locale): string[] {
 
 export function isBlogSlug(locale: Locale, slug: string): boolean {
   return getBlogSlugs(locale).includes(slug);
+}
+
+/** Drop hreflang entries for languages where the post does not exist yet. */
+export function withBlogLanguages(
+  languages: Record<string, string>,
+  slug: string,
+): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(languages).filter(([key]) => {
+      if (key === "x-default") return isBlogSlug("uk", slug);
+      return !(locales as readonly string[]).includes(key) || isBlogSlug(key as Locale, slug);
+    }),
+  );
 }
 
 function getPostTopic(slug: string): string {
