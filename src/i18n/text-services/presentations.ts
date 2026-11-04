@@ -26,8 +26,8 @@ const uk: ServicePageContent = {
       "label": "типи задач: компанія, інвестори, продажі"
     },
     {
-      "value": "02",
-      "label": "версії файлу: для екрана і для розсилки в PDF"
+      "value": "03",
+      "label": "версії файлу: для екрана, розсилки в PDF і друку"
     }
   ],
   "audienceTitle": "Коли потрібна презентація",
@@ -344,8 +344,8 @@ const ru: ServicePageContent = {
       "label": "типа задач: компания, инвесторы, продажи"
     },
     {
-      "value": "02",
-      "label": "версии файла: для экрана и для рассылки в PDF"
+      "value": "03",
+      "label": "версии файла: для экрана, рассылки в PDF и печати"
     }
   ],
   "audienceTitle": "Когда нужна презентация",
@@ -707,7 +707,7 @@ const ukSeo: BrandingSeoContent = {
     }
   ],
   "editorialEyebrow": "08 / ДЕТАЛЬНІШЕ",
-  "editorialTitle": "Створення бізнес презентацій під задачу"
+  "editorialTitle": "Створення бізнес-презентацій під задачу"
 };
 
 const ruSeo: BrandingSeoContent = {
@@ -779,7 +779,7 @@ const ruSeo: BrandingSeoContent = {
     }
   ],
   "editorialEyebrow": "08 / ПОДРОБНЕЕ",
-  "editorialTitle": "Создание бизнес презентаций под задачу"
+  "editorialTitle": "Создание бизнес-презентаций под задачу"
 };
 
 export const presentations: TextServiceContent = {
