@@ -317,8 +317,8 @@ const uk: ServicePageContent = {
       "slug": "identity"
     },
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Моушн-дизайн",
+      "slug": "motion-design"
     }
   ]
 };
@@ -973,8 +973,8 @@ const ru: ServicePageContent = {
       "slug": "identity"
     },
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Моушн-дизайн",
+      "slug": "motion-design"
     }
   ]
 };

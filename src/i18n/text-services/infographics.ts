@@ -302,8 +302,8 @@ const uk: ServicePageContent = {
   "relatedTitle": "Суміжні послуги",
   "related": [
     {
-      "title": "Графічний дизайн",
-      "slug": "graphics"
+      "title": "Дизайн презентацій",
+      "slug": "presentations"
     },
     {
       "title": "Ілюстрація",
@@ -616,8 +616,8 @@ const ru: ServicePageContent = {
   "relatedTitle": "Смежные услуги",
   "related": [
     {
-      "title": "Графический дизайн",
-      "slug": "graphics"
+      "title": "Дизайн презентаций",
+      "slug": "presentations"
     },
     {
       "title": "Иллюстрация",

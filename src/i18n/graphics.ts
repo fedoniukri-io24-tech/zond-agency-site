@@ -294,6 +294,18 @@ const uk: ServicePageContent = {
     {
       "title": "Ілюстрація",
       "slug": "illustration"
+    },
+    {
+      "title": "Дизайн презентацій",
+      "slug": "presentations"
+    },
+    {
+      "title": "Дизайн каталогів",
+      "slug": "catalogs"
+    },
+    {
+      "title": "Технічна інфографіка",
+      "slug": "infographics"
     }
   ]
 };
@@ -734,6 +746,18 @@ const ru: ServicePageContent = {
     {
       "title": "Иллюстрация",
       "slug": "illustration"
+    },
+    {
+      "title": "Дизайн презентаций",
+      "slug": "presentations"
+    },
+    {
+      "title": "Дизайн каталогов",
+      "slug": "catalogs"
+    },
+    {
+      "title": "Техническая инфографика",
+      "slug": "infographics"
     }
   ]
 };

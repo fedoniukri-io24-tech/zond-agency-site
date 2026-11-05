@@ -270,7 +270,7 @@ const uk: ServicePageContent = {
   ],
   relatedTitle: "Суміжні послуги",
   related: [
-    { title: "Брендинг", slug: "branding" },
+    { title: "Моушн-дизайн", slug: "motion-design" },
     { title: "Графіка", slug: "graphics" },
     { title: "Інфлюенс маркетинг", slug: "influence-marketing" },
   ],
@@ -576,7 +576,7 @@ const ru: ServicePageContent = {
   ],
   relatedTitle: "Смежные услуги",
   related: [
-    { title: "Брендинг", slug: "branding" },
+    { title: "Моушн-дизайн", slug: "motion-design" },
     { title: "Графика", slug: "graphics" },
     { title: "Инфлюенс маркетинг", slug: "influence-marketing" },
   ],

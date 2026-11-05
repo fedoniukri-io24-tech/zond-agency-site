@@ -307,8 +307,8 @@ const uk: ServicePageContent = {
   "relatedTitle": "Суміжні послуги",
   "related": [
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Маркетингові дослідження",
+      "slug": "marketing-research"
     },
     {
       "title": "Позиціонування",
@@ -959,8 +959,8 @@ const ru: ServicePageContent = {
   "relatedTitle": "Смежные услуги",
   "related": [
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Маркетинговые исследования",
+      "slug": "marketing-research"
     },
     {
       "title": "Позиционирование",

@@ -214,7 +214,7 @@ const uk: ServicePageContent = {
   related: [
     { title: "Брендинг", slug: "branding" },
     { title: "Брендбук", slug: "brandbook" },
-    { title: "Айдентика", slug: "identity" },
+    { title: "Дизайн шрифтів", slug: "font-design" },
   ],
 };
 
@@ -507,7 +507,7 @@ const ru: ServicePageContent = {
   related: [
     { title: "Брендинг", slug: "branding" },
     { title: "Брендбук", slug: "brandbook" },
-    { title: "Айдентика", slug: "identity" },
+    { title: "Дизайн шрифтов", slug: "font-design" },
   ],
 };
 

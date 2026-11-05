@@ -310,8 +310,8 @@ const uk: ServicePageContent = {
   "relatedTitle": "Суміжні послуги",
   "related": [
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Дизайн шрифтів",
+      "slug": "font-design"
     },
     {
       "title": "Логотип",
@@ -956,8 +956,8 @@ const ru: ServicePageContent = {
   "relatedTitle": "Смежные услуги",
   "related": [
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Дизайн шрифтов",
+      "slug": "font-design"
     },
     {
       "title": "Логотип",

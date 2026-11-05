@@ -310,8 +310,8 @@ const uk: ServicePageContent = {
       "slug": "graphics"
     },
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Дизайн каталогів",
+      "slug": "catalogs"
     },
     {
       "title": "Веб-розробка",
@@ -628,8 +628,8 @@ const ru: ServicePageContent = {
       "slug": "graphics"
     },
     {
-      "title": "Брендинг",
-      "slug": "branding"
+      "title": "Дизайн каталогов",
+      "slug": "catalogs"
     },
     {
       "title": "Веб-разработка",
