@@ -262,7 +262,7 @@ const uk: ServicePageContent = {
   related: [
     { title: "Брендинг", slug: "branding" },
     { title: "Ілюстрація", slug: "illustration" },
-    { title: "Дизайн етикеток", slug: "labels" },
+    { title: "Айдентика", slug: "identity" },
   ],
 };
 
@@ -562,7 +562,7 @@ const ru: ServicePageContent = {
   related: [
     { title: "Брендинг", slug: "branding" },
     { title: "Иллюстрация", slug: "illustration" },
-    { title: "Дизайн этикеток", slug: "labels" },
+    { title: "Айдентика", slug: "identity" },
   ],
 };
 

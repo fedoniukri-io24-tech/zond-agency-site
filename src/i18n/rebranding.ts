@@ -295,8 +295,8 @@ const uk: ServicePageContent = {
   "relatedTitle": "Суміжні послуги",
   "related": [
     {
-      "title": "Аудит бренду",
-      "slug": "brand-audit"
+      "title": "Брендинг",
+      "slug": "branding"
     },
     {
       "title": "Логотип",
@@ -907,8 +907,8 @@ const ru: ServicePageContent = {
   ],
   "related": [
     {
-      "title": "Аудит бренда",
-      "slug": "brand-audit"
+      "title": "Брендинг",
+      "slug": "branding"
     },
     {
       "title": "Логотип",

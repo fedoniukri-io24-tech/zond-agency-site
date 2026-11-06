@@ -316,8 +316,8 @@ const uk: ServicePageContent = {
   relatedTitle: "Суміжні послуги",
   related: [
     {
-        "title": "Голос бренду",
-        "slug": "brand-voice"
+        "title": "Брендинг",
+        "slug": "branding"
     },
     {
         "title": "Позиціонування",
@@ -984,8 +984,8 @@ const ru: ServicePageContent = {
     "relatedTitle": "Смежные услуги",
     "related": [
         {
-            "title": "Голос бренда",
-            "slug": "brand-voice"
+            "title": "Брендинг",
+            "slug": "branding"
         },
         {
             "title": "Позиционирование",

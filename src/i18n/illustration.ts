@@ -262,7 +262,7 @@ const uk: ServicePageContent = {
   relatedTitle: "Суміжні послуги",
   related: [
     { title: "Упаковка", slug: "packaging" },
-    { title: "Технічна інфографіка", slug: "infographics" },
+    { title: "Брендинг", slug: "branding" },
     { title: "Брендбук", slug: "brandbook" },
   ],
 };
@@ -576,7 +576,7 @@ const ru: ServicePageContent = {
   relatedTitle: "Смежные услуги",
   related: [
     { title: "Упаковка", slug: "packaging" },
-    { title: "Техническая инфографика", slug: "infographics" },
+    { title: "Брендинг", slug: "branding" },
     { title: "Брендбук", slug: "brandbook" },
   ],
 };

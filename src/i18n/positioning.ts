@@ -317,8 +317,8 @@ const uk: ServicePageContent = {
       "slug": "communication"
     },
     {
-      "title": "Маркетингові дослідження",
-      "slug": "marketing-research"
+      "title": "Брендинг",
+      "slug": "branding"
     }
   ]
 };
@@ -940,8 +940,8 @@ const ru: ServicePageContent = {
       "slug": "communication"
     },
     {
-      "title": "Маркетинговые исследования",
-      "slug": "marketing-research"
+      "title": "Брендинг",
+      "slug": "branding"
     }
   ],
   "compareTitle": "Почему ZOND, а не фриланс или готовый шаблон?",

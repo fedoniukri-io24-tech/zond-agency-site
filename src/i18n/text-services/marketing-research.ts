@@ -310,8 +310,8 @@ const uk: ServicePageContent = {
       "slug": "positioning"
     },
     {
-      "title": "Аудит бренду",
-      "slug": "brand-audit"
+      "title": "Брендинг",
+      "slug": "branding"
     },
     {
       "title": "Неймінг",
@@ -628,8 +628,8 @@ const ru: ServicePageContent = {
       "slug": "positioning"
     },
     {
-      "title": "Аудит бренда",
-      "slug": "brand-audit"
+      "title": "Брендинг",
+      "slug": "branding"
     },
     {
       "title": "Нейминг",

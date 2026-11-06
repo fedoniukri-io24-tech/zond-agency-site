@@ -260,7 +260,7 @@ const uk: ServicePageContent = {
   related: [
     { title: "Брендинг", slug: "branding" },
     { title: "Логотип", slug: "logo" },
-    { title: "Голос бренду", slug: "brand-voice" },
+    { title: "Айдентика", slug: "identity" },
   ],
 };
 
@@ -558,7 +558,7 @@ const ru: ServicePageContent = {
   related: [
     { title: "Брендинг", slug: "branding" },
     { title: "Логотип", slug: "logo" },
-    { title: "Голос бренда", slug: "brand-voice" },
+    { title: "Айдентика", slug: "identity" },
   ],
 };
 
