@@ -320,6 +320,324 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Catalog design",
+  "title": "Product catalog design and layout",
+  "titleAccent": "",
+  "lead": "We create product catalogs and technical publications with spec tables for print, PDF mailouts and your company website.",
+  "sub": "We bring sections, tables and photos into one system, so a client finds the right item in a couple of minutes.",
+  "cta": "Discuss the project",
+  "heroAlt": "Product catalog design and layout",
+  "heroCaption": "One layout. Three versions.",
+  "metricsTitle": "One layout. Three versions.",
+  "stats": [
+    {
+      "value": "08",
+      "label": "parts of the work, from structure to print"
+    },
+    {
+      "value": "06",
+      "label": "steps from brief to files for your printer"
+    },
+    {
+      "value": "03",
+      "label": "versions: print, PDF and a website version"
+    },
+    {
+      "value": "01",
+      "label": "page template for adding new products later"
+    }
+  ],
+  "audienceTitle": "When a company needs a catalog",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Dealers and distributors",
+      "description": "A partner sells your product without calling your manager when the range and its specs are gathered in one file."
+    },
+    {
+      "index": "02",
+      "title": "Trade shows and client meetings",
+      "description": "A printed catalog stays with the booth visitor after the conversation and reminds them of the company at the right moment."
+    },
+    {
+      "index": "03",
+      "title": "Tenders and large wholesale buyers",
+      "description": "A procurement manager compares offers by specs, and clear tables make that choice noticeably easier."
+    },
+    {
+      "index": "04",
+      "title": "New range or new brand",
+      "description": "A new series, a rebrand or entering a market in another country makes the old catalog outdated overnight."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "YOUR STYLE ON PAPER",
+    "titleLine": "One style.",
+    "titleAccent": "On every spread.",
+    "body": "At ZOND, publications are made by the same team that creates brand identity, so typefaces, colors and graphics match your website and packaging."
+  },
+  "includesTitle": "What's included in catalog design",
+  "includesSubtitle": "The work starts with the section structure, and only then come the cover, page grid, tables and print files.",
+  "includes": [
+    "Section structure and a plan of every page.",
+    "Concept for the cover and a typical spread.",
+    "The full product catalog laid out.",
+    "Spec tables in one consistent style.",
+    "Printer files with bleed and color profiles.",
+    "A lightweight PDF for email and messengers.",
+    "A version of the pages for viewing on the website.",
+    "A page template for future new products.",
+    "All layout source files for edits."
+  ],
+  "deliverables": [
+    "Section structure and a plan of every page.",
+    "Concept for the cover and a typical spread.",
+    "The full product catalog laid out.",
+    "Spec tables in one consistent style.",
+    "Printer files with bleed and color profiles.",
+    "A lightweight PDF for email and messengers.",
+    "A version of the pages for viewing on the website.",
+    "A page template for future new products.",
+    "All layout source files for edits."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the exact list of versions and files based on the print run and project tasks.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Section structure",
+      "description": "We split the range into groups the way clients search: by purpose, series or industry, and set the order of sections.",
+      "image": "/assets/photography/positioning-3.webp",
+      "alt": "Stage illustration: Section structure"
+    },
+    {
+      "index": "02",
+      "title": "Publication concept",
+      "description": "We show a spread, meaning two facing pages, in two style options, and you choose the design direction.",
+      "image": "/assets/photography/branding-1.webp",
+      "alt": "Stage illustration: Publication concept"
+    },
+    {
+      "index": "03",
+      "title": "Cover and title page",
+      "description": "We design a cover people recognize on a dealer's shelf and in their inbox, with the logo, series name and catalog year.",
+      "image": "/assets/photography/brandbook-0.webp",
+      "alt": "Stage illustration: Cover and title page"
+    },
+    {
+      "index": "04",
+      "title": "Modular grid",
+      "description": "We set columns, margins and places for photos, text and item codes, so hundreds of pages look like one coherent publication.",
+      "image": "/assets/photography/graphics-0.webp",
+      "alt": "Stage illustration: Modular grid"
+    },
+    {
+      "index": "05",
+      "title": "Spec tables",
+      "description": "We turn technical specs into tables where dimensions, power and configuration can be compared at a glance.",
+      "image": "/assets/photography/brandbook-2.webp",
+      "alt": "Stage illustration: Spec tables"
+    },
+    {
+      "index": "06",
+      "title": "Product photos and diagrams",
+      "description": "We bring photos to one lighting and background, and draw diagrams and icons where a single shot is not enough to explain.",
+      "image": "/assets/photography/graphics-3.webp",
+      "alt": "Stage illustration: Product photos and diagrams"
+    },
+    {
+      "index": "07",
+      "title": "Page layout",
+      "description": "We lay out text, photos and tables on the approved grid and check hyphenation, page numbers, item codes and contents.",
+      "image": "/assets/photography/packaging-3.webp",
+      "alt": "Stage illustration: Page layout"
+    },
+    {
+      "index": "08",
+      "title": "Prepress",
+      "description": "We set color profiles, bleed and vector files, so the layout meets the printer's requirements.",
+      "image": "/assets/photography/web-development-2.webp",
+      "alt": "Stage illustration: Prepress"
+    }
+  ],
+  "casesTitle": "ZOND catalog and print design cases",
+  "casesSubtitle": "ZOND projects in branding, print and brand graphics. Task details and the actual scope of work are on each project page.",
+  "processTitle": "How we create a catalog",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief and goals",
+      "description": "We clarify the task, audience, print run, format and number of pages.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Structure",
+      "description": "We put together sections, item order and a plan of every page, and agree it with you.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Concept",
+      "description": "We show the cover and a spread, and approve the style and grid of a typical page.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Layout",
+      "description": "We lay out all text, photos and spec tables on the approved grid.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Proofreading",
+      "description": "We check item codes, figures and hyphenation, and make your edits on every spread.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Files",
+      "description": "We prepare files to the printer's specs and a separate lightweight PDF for online use.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "One style.",
+  "whyItems": [
+    {
+      "title": "One style. On every spread.",
+      "description": "At ZOND, publications are made by the same team that creates brand identity, so typefaces, colors and graphics match your website and packaging."
+    }
+  ],
+  "compareTitle": "Why ZOND instead of a freelancer or a template?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "Freelance",
+    "Template"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Structure",
+      "zond": "Built for your range",
+      "freelance": "As the client sends it",
+      "generator": "Someone else's sections"
+    },
+    {
+      "criterion": "Style",
+      "zond": "Your brand identity",
+      "freelance": "Designer's personal manner",
+      "generator": "Looks like hundreds of others"
+    },
+    {
+      "criterion": "Tables",
+      "zond": "One data system",
+      "freelance": "Depends on experience",
+      "generator": "Each edited by hand"
+    },
+    {
+      "criterion": "Print",
+      "zond": "Prepress and bleed",
+      "freelance": "Not always",
+      "generator": "Needs refinement"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "Reviews of working with ZOND",
+  "reviewsNote": "Real client reviews of joint projects with the studio.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "Where your product catalog works",
+  "productNote": "We prepare one layout in three versions: a printer file with bleed, a lightweight PDF for sending by messenger and email, and pages for viewing on your company website.",
+  "products": [
+    {
+      "src": "/assets/photography/brandbook-3.webp",
+      "alt": "Illustrative application: printed catalog",
+      "caption": "Printed catalog"
+    },
+    {
+      "src": "/assets/photography/graphics-0.webp",
+      "alt": "Illustrative application: PDF for mailouts",
+      "caption": "PDF for mailouts"
+    },
+    {
+      "src": "/assets/photography/web-development-2.webp",
+      "alt": "Illustrative application: website version",
+      "caption": "Website version"
+    }
+  ],
+  "formTitle": "Let's bring your range into one catalog.",
+  "formDescription": "Tell us about your products and task, and we will suggest a structure for the new catalog.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "How much does catalog design and layout cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the number of pages, how complex the tables are, photo editing and the number of language versions."
+    },
+    {
+      "question": "How long does it take to create a catalog?",
+      "answer": "We set the timeline together with the cost once the scope is clear. It depends on the number of pages, whether texts and photos are ready and how fast edits go."
+    },
+    {
+      "question": "What do I need to prepare for catalog development?",
+      "answer": "Company catalog development starts with a list of items, specs and high-resolution photos. We will clarify anything missing at the brief."
+    },
+    {
+      "question": "Can you update a catalog based on the old layout?",
+      "answer": "Yes. Send the source files or a PDF of the previous edition: we will replace items and prices, and keep the grid and style or update them to your brand identity."
+    },
+    {
+      "question": "Do you prepare the catalog for a print shop?",
+      "answer": "Yes, we deliver files with color profiles, bleed and vector graphics to your printer's specs, and can oversee the print run if needed."
+    },
+    {
+      "question": "Do you make a digital version of the catalog?",
+      "answer": "Yes, besides the print file we prepare a lightweight PDF with clickable contents and links that is easy to open on a phone and send in a messenger."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Graphic design",
+      "slug": "graphics"
+    },
+    {
+      "title": "Brand book",
+      "slug": "brandbook"
+    },
+    {
+      "title": "Packaging",
+      "slug": "packaging"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Дизайн каталогов",
   "title": "Дизайн и верстка каталога продукции",
@@ -714,6 +1032,82 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Розробка дизайну каталогу продукції"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "How catalog layout differs from catalog design",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Layout means placing text, photos and tables on every page according to a pre-approved scheme. Design sets that scheme: the style, typefaces, colors, cover and the grid of a typical spread."
+        },
+        {
+          "kind": "p",
+          "text": "That is why catalog design and layout go in this order: we lay out pages once you have approved the spread. This way style edits don't have to be repeated across hundreds of pages."
+        }
+      ]
+    },
+    {
+      "title": "What a technical catalog page is made of",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "In this kind of publication the buyer compares models, so every item has the same set of data in the same place on each page, and the eye finds the right line at once:"
+        },
+        {
+          "kind": "p",
+          "text": "product photo on a uniform background;"
+        },
+        {
+          "kind": "p",
+          "text": "name, series and item code;"
+        },
+        {
+          "kind": "p",
+          "text": "spec table with units of measurement;"
+        },
+        {
+          "kind": "p",
+          "text": "installation diagram, redrawn by an illustrator if the source is poor;"
+        },
+        {
+          "kind": "p",
+          "text": "icons for product features."
+        }
+      ]
+    },
+    {
+      "title": "What affects the price of catalog layout",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The price of catalog layout depends on the number of pages and how complex the grid is. A page with text and one photo takes less time than a spread with three-column tables and installation diagrams."
+        },
+        {
+          "kind": "p",
+          "text": "How much catalog design costs also depends on photo editing, redrawing diagrams and the number of language versions. So we name the total after the brief, when the range and scope are clear."
+        }
+      ]
+    },
+    {
+      "title": "Printed and digital catalog",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The print file is heavy: it has bleed, paper color profiles and high-resolution images. For mailouts and the website we make a lightweight PDF from the same layout, which opens quickly even on a phone."
+        },
+        {
+          "kind": "p",
+          "text": "The catalog continues what your brand identity already sets, and ZOND designers build brochures and trade show materials in the same system by the same rules."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "Product catalog design"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -792,6 +1186,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const catalogs: TextServiceContent = {
   heroImage: "/assets/photography/brandbook-0.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

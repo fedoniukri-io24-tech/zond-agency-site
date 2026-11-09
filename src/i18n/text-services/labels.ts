@@ -320,6 +320,324 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Label design",
+  "title": "Label design and development",
+  "titleAccent": "",
+  "lead": "We design labels for a single product or a whole product line, from concept to print-ready artwork.",
+  "sub": "Shoppers find your product on the shelf quickly, and every new flavor looks like part of the same family.",
+  "cta": "Discuss the project",
+  "heroAlt": "Label design and development",
+  "heroCaption": "One system. The whole line.",
+  "metricsTitle": "One system. The whole line.",
+  "stats": [
+    {
+      "value": "08",
+      "label": "parts of the work, from research to files"
+    },
+    {
+      "value": "06",
+      "label": "steps from brief to print-ready artwork"
+    },
+    {
+      "value": "03",
+      "label": "container types in examples: bottle, jar, pouch"
+    },
+    {
+      "value": "01",
+      "label": "design system for every flavor and size"
+    }
+  ],
+  "audienceTitle": "When you need label design",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Launching a new product",
+      "description": "A new product needs a label that shows at a glance what it is and why it beats the usual choice."
+    },
+    {
+      "index": "02",
+      "title": "Expanding the product line",
+      "description": "New flavors and sizes should look like one family with existing products, not a set of random layouts."
+    },
+    {
+      "index": "03",
+      "title": "The product gets lost on the shelf",
+      "description": "Shoppers walk past? We find out what gets in the way: color, a hard-to-read name or looking too much like the neighbors."
+    },
+    {
+      "index": "04",
+      "title": "Rebranding or a new market",
+      "description": "We update the design for a new brand image or for the rules and habits of shoppers in another country or region."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "ONE BRAND ON THE SHELF",
+    "titleLine": "Different flavors.",
+    "titleAccent": "One face.",
+    "body": "At ZOND, labels are designed by the same team that creates logos and brand identity, so your product speaks the language of your brand."
+  },
+  "includesTitle": "What's included in label development",
+  "includesSubtitle": "The work starts with the shelf and the shopper: first we look at competitors, then we search for the image, typeface, color and order of information.",
+  "includes": [
+    "Shelf and competitor analysis.",
+    "Several design concepts to choose from.",
+    "Approved design of the main label.",
+    "Back label with mandatory information.",
+    "Adaptations for flavors and sizes in the line.",
+    "3D mockups of the design on your container.",
+    "Color and typeface specification for print.",
+    "Print-ready artwork files.",
+    "Property rights to the approved design."
+  ],
+  "deliverables": [
+    "Shelf and competitor analysis.",
+    "Several design concepts to choose from.",
+    "Approved design of the main label.",
+    "Back label with mandatory information.",
+    "Adaptations for flavors and sizes in the line.",
+    "3D mockups of the design on your container.",
+    "Color and typeface specification for print.",
+    "Print-ready artwork files.",
+    "Property rights to the approved design."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the exact list of items and files based on your product line and task.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Shelf analysis",
+      "description": "We study competitor designs in your category and find how your product will stand out next to its neighbors on the store shelf.",
+      "image": "/assets/photography/positioning-2.webp",
+      "alt": "Stage illustration: Shelf analysis"
+    },
+    {
+      "index": "02",
+      "title": "Design concepts",
+      "description": "We offer several directions and explain why each one fits your product, your audience and the character of your brand.",
+      "image": "/assets/photography/positioning-1.webp",
+      "alt": "Stage illustration: Design concepts"
+    },
+    {
+      "index": "03",
+      "title": "Typeface and color",
+      "description": "We choose typefaces and a palette so the name reads from a distance and print colors are set precisely, by specification.",
+      "image": "/assets/photography/packaging-0.webp",
+      "alt": "Stage illustration: Typeface and color"
+    },
+    {
+      "index": "04",
+      "title": "Mandatory information",
+      "description": "We place ingredients, volume, barcode and manufacturer details so they are easy to read and don't compete with the front.",
+      "image": "/assets/photography/packaging-1.webp",
+      "alt": "Stage illustration: Mandatory information"
+    },
+    {
+      "index": "05",
+      "title": "Line adaptations",
+      "description": "We carry the design over to other flavors and sizes: each item looks different, and the whole line stays recognizable.",
+      "image": "/assets/photography/identity-1.webp",
+      "alt": "Stage illustration: Line adaptations"
+    },
+    {
+      "index": "06",
+      "title": "3D container mockups",
+      "description": "We show the design on a 3D model of the container, so you can see it on the bottle or jar before the first print run.",
+      "image": "/assets/photography/packaging-3.webp",
+      "alt": "Stage illustration: 3D container mockups"
+    },
+    {
+      "index": "07",
+      "title": "Prepress",
+      "description": "We prepare artwork to the printer's specs: dimensions, bleed, die-cut lines and the color profile for printing.",
+      "image": "/assets/photography/application-package.webp",
+      "alt": "Stage illustration: Prepress"
+    },
+    {
+      "index": "08",
+      "title": "File handoff",
+      "description": "We hand over vector and raster files for the printer and your team, and the property rights to the design pass to you.",
+      "image": "/assets/photography/packaging-2.webp",
+      "alt": "Stage illustration: File handoff"
+    }
+  ],
+  "casesTitle": "Label and packaging design cases",
+  "casesSubtitle": "ZOND packaging and branding projects for product manufacturers. Task details and the actual scope of work are on each project page.",
+  "processTitle": "How we create a label",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief",
+      "description": "We discuss the product, audience, container, printing method and your wishes for the design.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Market",
+      "description": "We look at the competitor shelf, category trends and how shoppers choose the product.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Concepts",
+      "description": "We present several label design directions and explain the logic behind each one.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Mockups",
+      "description": "We try the chosen design on a 3D model of your container and make the agreed edits.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Product line",
+      "description": "We adapt the design to every flavor, size and format in your product line.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Print",
+      "description": "We prepare artwork to your printer's specs and hand over the final files and rights.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "Different flavors.",
+  "whyItems": [
+    {
+      "title": "Different flavors. One face.",
+      "description": "At ZOND, labels are designed by the same team that creates logos and brand identity, so your product speaks the language of your brand."
+    }
+  ],
+  "compareTitle": "Why ZOND instead of a freelancer or an online builder?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "Freelance",
+    "Online builder"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Basis",
+      "zond": "Shelf and audience analysis",
+      "freelance": "Designer's experience",
+      "generator": "Ready-made template"
+    },
+    {
+      "criterion": "Team",
+      "zond": "Art director and prepress",
+      "freelance": "One designer",
+      "generator": "None"
+    },
+    {
+      "criterion": "Product line",
+      "zond": "One system for all SKUs",
+      "freelance": "Each layout separately",
+      "generator": "Each layout by hand"
+    },
+    {
+      "criterion": "Print",
+      "zond": "Artwork for your printer",
+      "freelance": "Depends on experience",
+      "generator": "Needs refinement"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "Reviews of working with ZOND",
+  "reviewsNote": "Real client reviews of joint projects with ZOND.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "Where your product label works",
+  "productNote": "For each container we adjust the proportions and order of information: a wraparound band on a bottle, a round sticker on a jar lid, the front of a pouch or carton.",
+  "products": [
+    {
+      "src": "/assets/photography/packaging-1.webp",
+      "alt": "Illustrative application: bottles and vials",
+      "caption": "Bottles and vials"
+    },
+    {
+      "src": "/assets/photography/application-package.webp",
+      "alt": "Illustrative application: jars and small jars",
+      "caption": "Jars and small jars"
+    },
+    {
+      "src": "/assets/photography/packaging-2.webp",
+      "alt": "Illustrative application: pouches and boxes",
+      "caption": "Pouches and boxes"
+    }
+  ],
+  "formTitle": "Let's make your product stand out on the shelf.",
+  "formDescription": "Tell us about the product, container and line, and we will suggest where to start.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "How much does label design cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the number of concepts and items in the line, illustrations, container type and rounds of design edits."
+    },
+    {
+      "question": "How long does label development take?",
+      "answer": "We set the timeline together with the cost once the scope is clear. It depends on the number of flavors and sizes, how complex the graphics are and how fast approvals go."
+    },
+    {
+      "question": "How is label design different from packaging design?",
+      "answer": "Packaging is the container itself: its shape, structure and material. A label is the graphics and information on it, and it can be updated without changing the bottle or jar in production."
+    },
+    {
+      "question": "Do you prepare label artwork for print?",
+      "answer": "Yes. A prepress specialist prepares artwork to your printer's specs: dimensions, bleed, die-cut lines and the color profile for the chosen label material."
+    },
+    {
+      "question": "Can you update an existing label?",
+      "answer": "Yes. First we decide what shoppers recognize and what is worth keeping: color, mark or typeface. We update the rest so regular customers don't get lost at the shelf."
+    },
+    {
+      "question": "Who owns the rights to the label design?",
+      "answer": "Property rights to the approved design are transferred to you. You can print runs at any printer and place new orders without us."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Packaging",
+      "slug": "packaging"
+    },
+    {
+      "title": "Brand identity",
+      "slug": "identity"
+    },
+    {
+      "title": "Graphic design",
+      "slug": "graphics"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Дизайн этикеток",
   "title": "Дизайн и разработка этикеток",
@@ -714,6 +1032,82 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Дизайн етикеток для лінійки товарів"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "Labels for a product line",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A product line is several items under one brand. Label design for a line starts with a system: some elements are shared, and others help the shopper quickly find their flavor or size:"
+        },
+        {
+          "kind": "p",
+          "text": "shared: logo, name typeface, grid and the place of each information block;"
+        },
+        {
+          "kind": "p",
+          "text": "variable: flavor color, illustration, volume and item name;"
+        },
+        {
+          "kind": "p",
+          "text": "a new SKU, meaning a product item, is built by ready-made rules."
+        }
+      ]
+    },
+    {
+      "title": "What must appear on a label",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "On a bottle, the label often has three parts. The back label is a sticker on the reverse side with ingredients and manufacturer details, the neck label repeats the brand, and the main label carries the name. The manufacturer provides the labeling text, and we place it on the back label:"
+        },
+        {
+          "kind": "p",
+          "text": "product name, trademark and manufacturer;"
+        },
+        {
+          "kind": "p",
+          "text": "ingredients, volume or weight, storage conditions;"
+        },
+        {
+          "kind": "p",
+          "text": "shelf life, barcode and conformity marks."
+        }
+      ]
+    },
+    {
+      "title": "What affects the cost of label design",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Label development for your product has no fixed price list, so we calculate the cost after the brief. The price of label design depends on the number of concepts, the number of SKUs, custom illustrations and how complex the container is."
+        },
+        {
+          "kind": "p",
+          "text": "The number of edit rounds and the deadline also affect the total. We fix the scope and estimate in the commercial proposal before kickoff, so the work and schedule are clear in advance."
+        }
+      ]
+    },
+    {
+      "title": "The label within the brand system",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Sometimes the bottle or jar changes along with the graphics. Then you need packaging design, and we handle packaging and label development as one project. Colors and typefaces come from your brand identity."
+        },
+        {
+          "kind": "p",
+          "text": "If there is no mark yet, it is worth starting with one: logo design sets the form for every item, and the label repeats it across all flavors and sizes in the line, so shoppers recognize the brand even on the bottom shelf."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "Label design for a product line"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -792,6 +1186,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const labels: TextServiceContent = {
   heroImage: "/assets/photography/packaging-1.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

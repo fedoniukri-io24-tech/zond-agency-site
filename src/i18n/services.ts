@@ -325,14 +325,14 @@ export const serviceMeta: Record<
         "SMM promotion: strategy, content, Tone of Voice, reputation management, and visual style on Facebook, Instagram, Telegram, and YouTube. ZOND studio.",
     },
     illustration: {
-      title: "Custom commercial illustration - Illustrator price | ZOND",
+      title: "Custom commercial illustration, illustrator prices | ZOND",
       description:
-        "Stock images are forgotten instantly. Custom commercial illustration: characters, comics, and graphics for packaging, websites, and ads. ZOND studio.",
+        "Stock images are forgotten at once. Custom commercial illustration: characters, comics and graphics for packaging, websites and advertising. ZOND studio.",
     },
     packaging: {
-      title: "Packaging and label design — ZOND",
+      title: "Packaging and label design services in Kyiv | ZOND",
       description:
-        "Packaging and label design: concept, 3D mockups, SKU adaptations, and print-ready layouts. Packaging that attracts attention and sells on the shelf.",
+        "Your product goes unnoticed on the shelf. Packaging and label design that people pick up. Print-ready layouts and support in production. ZOND, Kyiv.",
     },
     "influence-marketing": {
       title: "Influence marketing — blogger advertising in Ukraine | ZOND",
@@ -370,14 +370,14 @@ export const serviceMeta: Record<
         "We build business websites: strategy, structure, design, responsive development, testing, and launch. Web development by ZOND.",
     },
     logo: {
-      title: "Logo design — business logo development — ZOND",
+      title: "Logo design in Kyiv: order a custom logo, price | ZOND",
       description:
-        "Business logo development: original design, color palette, logobook, and file package. Logos that are easy to recognize and hard to forget.",
+        "A logo from a generator blends in with thousands of others. Order a logo people remember, with all the files for print and digital. ZOND studio, Kyiv.",
     },
     brandbook: {
-      title: "Brand book — brand book development — ZOND",
+      title: "Brand book development in Kyiv: order a brand guide | ZOND",
       description:
-        "Brand book development: logo, color, typography, graphics, and media rules. Brand books that preserve consistency at every touchpoint.",
+        "Every contractor draws your brand their own way. Order a brand book that sets the rules for your logo, colors, fonts, and media. ZOND studio, Kyiv.",
     },
     rebranding: {
       title: "Company rebranding, brand refresh under one roof | ZOND",
@@ -385,49 +385,49 @@ export const serviceMeta: Record<
         "Rebranding without losing your customers: brand audit, new positioning, logo and identity update, and a transition plan. ZOND case studies.",
     },
     "marketing-research": {
-      title: "Marketing research | ZOND",
+      title: "Marketing Research and Market Analysis in Kyiv | ZOND",
       description:
-        "Marketing research by ZOND branding agency.",
+        "Marketing research and market analysis in Kyiv: competitors, audience and demand. Instead of a launch on a guess, a ZOND report gives findings for decisions.",
     },
     "motion-design": {
-      title: "Motion design | ZOND",
+      title: "Logo Animation and Motion Design Videos in Kyiv | ZOND",
       description:
-        "Motion design by ZOND branding agency.",
+        "Logo animation and motion design in Kyiv: animated videos for ads and websites. People scroll past a static banner, a video in your brand style holds attention.",
     },
     "brand-audit": {
-      title: "Brand audit | ZOND",
+      title: "Brand Audit by a Branding Agency in Kyiv | ZOND",
       description:
-        "Brand audit by ZOND branding agency.",
+        "Brand audit in Kyiv by ZOND agency: positioning, style and communication. When sales stall and the reason is unclear, the audit shows what holds the brand back.",
     },
     "brand-voice": {
-      title: "Brand voice | ZOND",
+      title: "Brand voice and tone of voice development | ZOND",
       description:
-        "Brand voice by ZOND branding agency.",
+        "Brand voice and tone of voice: a guide with tone, vocabulary and sample texts by ZOND, Kyiv. When everyone writes their own way, a brand sounds like five.",
     },
     "font-design": {
-      title: "Font design | ZOND",
+      title: "Custom brand typeface: font design for your company | ZOND",
       description:
-        "Font design by ZOND branding agency.",
+        "Custom brand typeface in Kyiv: Cyrillic and Latin drawn for your company style. The same font your competitor uses hides your brand, so order your own.",
     },
     "presentations": {
-      title: "Presentation design | ZOND",
+      title: "Company and investor presentation design | ZOND",
       description:
-        "Presentation design by ZOND branding agency.",
+        "Company presentations, investor decks and sales proposals: slide structure, charts and design in your brand identity. Investors spot a template deck at once.",
     },
     "labels": {
-      title: "Label design | ZOND",
+      title: "Label design for a product line | ZOND",
       description:
-        "Label design by ZOND branding agency.",
+        "Label design for a single product or a whole line: concepts, flavor and size adaptations, 3D mockups and print-ready files. A label has seconds to get noticed.",
     },
     "catalogs": {
-      title: "Catalog design | ZOND",
+      title: "Product catalog design and layout in Kyiv | ZOND",
       description:
-        "Catalog design by ZOND branding agency.",
+        "Product catalog design and layout in Kyiv: section structure, spec tables and files for your printer. Without a clear system, products get lost in a catalog.",
     },
     "infographics": {
-      title: "Technical infographics | ZOND",
+      title: "Custom infographics in Kyiv: design and pricing | ZOND",
       description:
-        "Technical infographics by ZOND branding agency.",
+        "Custom infographics in Kyiv: equipment, process and data diagrams in your brand style for catalogs, websites and tenders. A complex product, clear at a glance.",
     },
   },
   ru: {

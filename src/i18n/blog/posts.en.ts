@@ -2,6 +2,521 @@ import type { BlogPost } from "./types";
 
 const posts: BlogPost[] = [
   {
+    "slug": "when-to-change-logo",
+    "title": "Logo redesign: 7 signs it is time to change your logo",
+    "description": "A logo needs a redesign when it is unreadable on a phone or people confuse it with competitors. 7 signs and how to change a logo without losing recognition.",
+    "cover": "/assets/photography/logo-0.webp",
+    "published": "2026-11-03",
+    "body": `A logo is drawn for the business as it was at launch. A few years later the company has grown and changed its range, but the mark stays the same and starts to hold it back. Below we explain what a redesign is, which seven signs show that a mark is out of date, and how to change a logo while keeping it recognizable.
+
+### What is a logo redesign
+
+A logo redesign is an update of the mark in which the company keeps its name and recognizable features but changes the shape, color, [typeface](/en/our-services/font-design) or details. Usually the drawing gets simpler, the proportions are evened out, and separate versions are made for small sizes.
+
+Rebranding is broader. It touches positioning, sometimes the name, advertising and the whole visual identity, and the new mark is only the visible part of the change. So when an owner asks for a logo rebrand without changing the strategy, what they really mean is a redesign.
+
+### 7 signs it is time to change your logo
+
+A logo update is worth discussing when two or three of the signs below apply at once. A single sign can usually be fixed with a targeted edit of the drawing, without a new mark.
+
+#### The logo is unreadable on a phone screen
+
+In a browser tab the mark takes up 16 by 16 pixels, and only a little more in a social media avatar or a chat list. At that size thin lines, small text and a slogan inside the mark blur into a spot. Check it yourself: shrink the mark to the size of a fingernail and see what is left of it.
+
+#### It looks like it came from the 2000s
+
+Shadows, 3D effects, highlights and complex gradients were typical of 2000s logos. Today a mark like that gives away the company's age, and customers carry that impression over to the product. If the mark has not been updated in fifteen years, maybe the service has not changed either. An outdated typeface with curls gives the same impression.
+
+#### The business has grown or changed direction
+
+An emblem drawn for a small coffee shop or a startup does not always fit a company that has entered a new market, launched a second product line or raised prices. If the emblem says cheap and local while you sell at a premium across the country, the customer gets two different signals.
+
+#### People confuse the logo with competitors
+
+Every niche has its clichés: a green leaf for organic products, a tooth for dentistry, a little house for property developers. A buyer cannot tell apart emblems built from the same elements and colors, either on the shelf or in search results. Put the emblems of your five closest competitors next to yours, and the similarity will be obvious.
+
+#### It is hard to apply to different media
+
+A gradient cannot be reproduced in embroidery on a uniform, a thin line cannot be cut out for a sign, and a color mark without a single-color version gets lost on staff uniforms, stamps, letterheads and in black and white print. Do contractors rework it for every new medium each time? Then the mark was designed for screens only.
+
+#### The logo has picked up unwanted associations
+
+Sometimes a mark starts to resemble someone else's brand, a symbol or a gesture that nobody thought about when it was created. It also happens that part of the emblem has lost its meaning because the company changed its product, while the old picture stayed on the mark. Customers usually notice such things before the owner does.
+
+#### There are several versions of the logo and no rules
+
+The website has one version, social media another, the packaging a third, and in a different shade at that. This happens when the mark has no logobook, a document with the rules: versions, colors, clear space and minimum size. Without it every designer draws the emblem their own way, and the brand ends up with more and more versions.
+
+### Update the logo or create a new one
+
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>What changes</th>
+      <th>When it fits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Restyling</td>
+      <td>Color, typeface, line weight</td>
+      <td>The mark is recognized but looks dated</td>
+    </tr>
+    <tr>
+      <td>Redesign</td>
+      <td>Shape and typeface, recognizable features stay</td>
+      <td>The mark reads poorly or looks like others</td>
+    </tr>
+    <tr>
+      <td>New logo</td>
+      <td>Everything, including the idea of the mark</td>
+      <td>The market, positioning or name has changed</td>
+    </tr>
+  </tbody>
+</table>
+
+In most cases a redesign is enough: customers still recognize the mark, and the media can be switched over gradually, starting with the website. If it is too early to change the drawing, see [how to improve a logo without changes](/en/blog/improve-logo-without-changes) to the mark itself.
+
+### Why brands simplify their logos
+
+Logo redesign examples from big brands show one trend: marks become simpler and read better on modern screens. In January 2011 Starbucks removed the ring with the words Starbucks Coffee and kept the siren. In 2019 Mastercard kept the two circles without the name. [According to the company](https://newsroom.mastercard.com/news/press/2019/january/mastercard-evolves-its-brand-mark-by-dropping-its-name/), more than 80% of people recognize the symbol without the word. You will find more examples in [the evolution of logos](/en/blog/logo-evolution), which we covered separately.
+
+### How to change a logo without losing recognition
+
+A logo change goes smoothly if you prepare for it in advance:
+
+1. Decide what stays from the old mark: the color, shape, first letter or symbol. These are the features people recognize the company by.
+2. Before approval, test the new version in an avatar, on a sign, on packaging, in one color and at a small size.
+3. Put together a logobook or update the visual identity so that contractors use the same versions.
+4. Make a replacement plan: the website, social media and documents first, then signs, packaging and vehicles.
+5. Tell customers about the update in a post or an email: what has changed and why. This makes it easier for them to recognize you after the update.
+
+### Frequently asked questions about changing a logo
+
+<details>
+  <summary>How often do companies change their logo?</summary>
+  <div class="sp-answer">
+    <p>There is no fixed term. Companies change it when the signs from this article appear: the mark is unreadable, does not fit the media or no longer reflects the business. Small edits to color and typeface are made more often.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Do I need to change the logo if the company name has changed?</summary>
+  <div class="sp-answer">
+    <p>Is the name written right in the mark? Then it will have to be redrawn completely. If the mark is a symbol, sometimes a new lettering part next to the old symbol is enough, since customers already remember the symbol from the sign.</p>
+  </div>
+</details>
+
+<details>
+  <summary>What should I do with old materials after a redesign?</summary>
+  <div class="sp-answer">
+    <p>The website and social media are changed right away, printed materials are used up until the stock runs out, and signs and vehicles move to the new mark according to plan, so you do not pay for an urgent replacement. Remove the old version from document templates.</p>
+  </div>
+</details>
+
+Did you recognize your mark in two or three of the signs? Start with a simple check on different media and next to your competitors. When edits are not enough, [logo design](/en/our-services/logo) from scratch or a full [rebranding](/en/our-services/rebranding) will give you a mark that fits the business as it is today.`
+  },
+  {
+    "slug": "company-name-in-english",
+    "title": "How to come up with a good company name in English: examples",
+    "description": "Good company names in English: 6 methods and real company examples. We show how to check that abroad the name is not a rude word or someone else's trademark.",
+    "cover": "/assets/photography/naming-1.webp",
+    "published": "2026-11-01",
+    "body": `A company name in English makes sense for businesses that sell abroad, launch an online service or work with foreign partners. Below we look at when such a name works better than a Ukrainian one, six techniques for coming up with it, examples of Ukrainian companies, and the checks to run before entering a new market.
+
+### When a company needs an English name
+
+An English company name pays off when your customers and partners read English: in export, in online services and IT, in work with foreign clients. Such a name does not need translating, people find it in search abroad, and it can be registered as a trademark in the markets where you sell. A Ukrainian name suits a local business better: a coffee shop, a clinic or a service in one city, where people search for and remember the name in their native language. Do you work in Ukraine today but plan to enter Poland or the US in 2-3 years? Then it is better to choose a name for those markets right away, because changing it later will affect the domain, the trademark, the sign and everything customers already remember. The decision depends on the market and on the language your brand's target audience thinks in.
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterion</th>
+      <th>English name</th>
+      <th>Ukrainian name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Market and customers</td>
+      <td>Export, IT, foreign partners</td>
+      <td>A local service or shop, buyers in Ukraine</td>
+    </tr>
+    <tr>
+      <td>How memorable it is for a local audience</td>
+      <td>Lower if people do not read English</td>
+      <td>Higher, the name is clear on first reading</td>
+    </tr>
+    <tr>
+      <td>Domain and search abroad</td>
+      <td>A .com works, people search for the name without transliteration</td>
+      <td>People type the Latin spelling in different ways</td>
+    </tr>
+    <tr>
+      <td>Trademark registration abroad</td>
+      <td>One spelling for all countries</td>
+      <td>Foreign markets need an extra Latin version</td>
+    </tr>
+    <tr>
+      <td>Sign and documents in Ukraine</td>
+      <td>The legal entity still gets a Ukrainian name</td>
+      <td>One name on the sign, in documents and in ads</td>
+    </tr>
+  </tbody>
+</table>
+
+### What makes a good name in English
+
+A name is good when it is easy to read and remember. How it sounds matters less than how it connects to the company. Check your options against five criteria:
+
+- Short. 1-2 words that fit into a logo and a website address. People will shorten a long name in conversation anyway, and not always the way the brand would like.
+- Reads the same on paper and by ear. Someone who heard the name on the phone or in a podcast should be able to type it into search without help. For online services that customers find through search, this is the main thing.
+- Connected to the field or the brand image. It can be a direct description of the service or a metaphor that hints at how you are useful. The word cube in Petcube, for example, describes the shape of the device.
+- Unlike competitors. If the niche already has five companies with smart or pro in the name, customers will confuse the sixth with the rest.
+- No second meaning. In the languages of your market the word has no slang, rude or funny meaning that will surface in the very first review.
+
+### 6 naming techniques in English
+
+Naming in English rests on six techniques, and they are also how good company names in English are made. The techniques can be combined, but each has its own risk.
+
+#### Take an existing English word
+
+A ready word from the dictionary carries an image right away: Apple means the fruit, Puma names a wild cat. The buyer needs no explanation, and the designer can easily find a symbol for the logo. The downside is that good short words in popular niches have long been registered as trademarks. Besides, many words have a second, slang meaning that a native speaker knows and an ordinary dictionary will not show. When the word you want is taken, you add a second part to it or change a letter, and those are the next techniques. Another option is a rare word from botany, geography or mythology, since such words appear less often among trademarks.
+
+#### Join two words
+
+Two words merged into one or placed side by side give a name that is clear and at the same time less common: Facebook is built from face and book, YouTube from you and tube. There are far more such combinations than single words in the dictionary, so it is easier to find a free one. Pairs where one word names an object and the other a quality or an action work well. Watch the length, three words are already hard to remember, and watch for an accidental reference to a famous phrase, film or song that will pull the brand's meaning off course. Before choosing a pair, say it out loud: there should be no awkward cluster of consonants where the words meet.
+
+#### Build a new word from parts
+
+In naming, a neologism is a new word built from parts of other words. That is how Microsoft came about: [according to the company](https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1975), the name was made from microprocessors and software, and the spelling Micro-soft first appears in a letter from Bill Gates to Paul Allen dated July 29, 1975. A neologism has the best chance of a free domain and trademark. Check two things: that the new word does not match an existing word with an unrelated meaning, and that it is easy to read without help. Such a name gets its meaning from the brand, so a recognizable root inside it helps. Start with roots that describe the service and try different combinations.
+
+#### Shorten it to an abbreviation
+
+An abbreviation is made of the first letters of several words. IKEA, [as the company itself explains](https://www.ikea.com.do/en/about-us), stands for the initials of its founder Ingvar Kamprad, the Elmtaryd farm and the village of Agunnaryd, and the name appeared in 1943. KFC is short for Kentucky Fried Chicken. The letters should be easy to pronounce together, and the full form is handy to give in a slogan. On their own, letters say nothing about the company until the brand becomes well known, and combinations of 2-3 letters are already taken in many niches. Before choosing an abbreviation, read it out loud letter by letter: if it sounds like someone else's abbreviation, people will confuse them.
+
+#### Name it after a surname or a place
+
+A founder's surname or the name of a place makes a name personal: Ford carries the surname of Henry Ford, and Adobe, [according to the company itself](https://blog.adobe.com/en/publish/2022/12/05/celebrating-special-milestone-10-things-you-might-not-know-about-adobes-40-years-innovation), was named after Adobe Creek, which ran behind co-founder John Warnock's house. Behind a surname stands a real person, and their story is easy to believe. Check how a foreigner will read and pronounce your surname. A place carries another risk: the name of a city or district can tie the brand to one region once the company grows. The surnames of two founders are sometimes joined, but such a brand name quickly becomes long.
+
+#### Write a Ukrainian word in Latin letters
+
+A Ukrainian word or name written in Latin letters keeps the local flavor and can still be read abroad. That is what Hoverla Soft from Lviv did, taking the name of Ukraine's highest mountain. The technique works if the word is short and has no difficult sounds. Under the official transliteration [approved by the Cabinet of Ministers in 2010](https://zakon.rada.gov.ua/laws/show/55-2010-п), ж is written as zh, х as kh, ц as ts, щ as shch, and ї at the start of a word as yi, and foreigners find such combinations hard to read. Before choosing, write the word in three or four ways and ask a foreigner which version they read correctly.
+
+### Examples: Ukrainian companies with English names
+
+If you are looking for examples of company names in English, it is handy to take them from Ukrainian companies that have worked in foreign markets from day one. Here is how the names of six of them are built and which technique from the list above the founders used:
+
+<table>
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>What it does</th>
+      <th>How the name is built</th>
+      <th>Technique from the article</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Grammarly</td>
+      <td>An assistant for writing in English, founded in 2009</td>
+      <td>The word grammar and the suffix -ly, the founders chose the new name when the online editor started to pay off</td>
+      <td>A new word from parts</td>
+    </tr>
+    <tr>
+      <td>Readdle</td>
+      <td>Apps for documents, founded in 2007 in Odesa</td>
+      <td>The word read with the double letters that were fashionable at the time, the first product was a document reader</td>
+      <td>A new word from parts</td>
+    </tr>
+    <tr>
+      <td>Petcube</td>
+      <td>Cameras for watching pets at home</td>
+      <td>Pet and cube: a co-founder described the device as a small cube, and at first the project was called Rocki after the inventor's dog</td>
+      <td>Two words</td>
+    </tr>
+    <tr>
+      <td>Reface</td>
+      <td>An app for swapping faces in videos</td>
+      <td>Re and face: a co-founder liked that it is a verb, like to google, and the name Doublicat did not last long</td>
+      <td>Two words</td>
+    </tr>
+    <tr>
+      <td>Jooble</td>
+      <td>Job search, founded in 2006</td>
+      <td>A reworked name of the Google search engine, as the founders told Forbes Ukraine</td>
+      <td>A new word from parts</td>
+    </tr>
+    <tr>
+      <td>Hoverla Soft</td>
+      <td>Software development, Lviv</td>
+      <td>The name of Hoverla, Ukraine's highest mountain, in Latin letters plus the word soft (software)</td>
+      <td>Latin letters</td>
+    </tr>
+  </tbody>
+</table>
+
+### International naming: how to check a name before going abroad
+
+International naming is checked before the company is registered and the logo is ordered, because after launch a name change will affect the domain, the sign, the packaging and customer habits, while links and reviews will stay under the old name.
+
+#### What the word means in other languages
+
+The word is checked for slang, rude meanings and sound-alikes in all the languages of the markets the business is entering. An ordinary dictionary is not enough for this: slang changes fast, so people look at slang dictionaries and ask native speakers, preferably several from different countries. Tell the native speaker right away that this is a company name and what field it is from, otherwise they will judge the word without context. Separately, check whether the name sounds like an obscene word or a well-known competitor when said quickly. It is handy to put the answers in a table: option, language, what the native speaker heard. With several markets, repeat the check for each language.
+
+#### How people pronounce it and write it down by ear
+
+A simple listening test: say the name out loud and ask a person to write it down. This shows where the stress, double letters or English letter combinations that are read differently from how they are spelled trip people up. The creators of Reface said [in an interview](https://adsider.com/beating-tiktok-without-breaking-a-sweat-reface-co-founder-shares-the-insights/) that they temporarily renamed the app Doublicat, after which investors could not pronounce the name, and in the App Store people searched for it as dublikat. In the end they went back to Reface. Repeat the test with people from different countries: an English speaker and a Pole will read the same combination of letters differently.
+
+#### Are the domain and trademark free
+
+The domain and trademark are checked together, otherwise you may end up with a name you cannot protect. The order is as follows:
+
+1. Search for the name in Google and on social media: is there a company with the same or a similar name in your niche and in the countries you are entering? Look through at least the first two pages of results.
+2. Check the .com domain and the domain zones of the countries where you will sell, as well as free account names on social media. If the .com is taken, find out whether a website runs there and what the owner does.
+3. Search for the trademark in the [WIPO Global Brand Database](https://branddb.wipo.int/), in [TMview](https://www.tmdn.org/tmview/), which collects trademarks from EU offices and many other countries, in the [Trademark Search](https://tmsearch.uspto.gov/) system of the US office (USPTO) and in the database of the Ukrainian IP office ([UANIPIO](https://sis.nipo.gov.ua/uk/search/simple/)).
+4. Decide how to register the trademark abroad. [The WIPO Madrid System](https://www.wipo.int/en/web/madrid-system/members/index) unites 117 members, and one application in it covers up to 133 countries, the second option is a separate application in each country. Check registration times and costs with a patent attorney.
+
+### How to choose one name out of several
+
+It is easier to choose from a shortlist of 3-5 options. Rate each against the five criteria of a good name and show them to people from your target audience, including foreigners if you are entering their market. Ask what they expect from a company with that name: the answers will show whether the name matches the brand's positioning. Then look at how the name works in the logo, on the website and in the visual identity, and keep the one that passed all the checks. A week later, ask the same people which brand name they remember without a prompt.
+
+Good company names in English come out when the sound is backed by checks of meaning, pronunciation, domain and trademark, and the choice is made together with the people the brand is created for. The stages of the work are described in the article [all about naming a business and a brand](/en/blog/naming-guide), and [naming](/en/our-services/naming) is convenient to order together with the next step, [logo design](/en/our-services/logo).`
+  },
+  {
+    "slug": "packaging-taste",
+    "title": "Color psychology in packaging design: how packaging changes taste",
+    "description": "Packaging color changes taste before the first sip: a round shape seems sweeter, a heavy box pricier. The research, and how to pick a color for a product.",
+    "cover": "/assets/photography/packaging-1.webp",
+    "published": "2026-10-30",
+    "body": `Shoppers judge taste while the product is still on the shelf, deciding from the look and weight of the package whether the yogurt will be sweet and the chips spicy. Color psychology in packaging design explains why this happens. Below you will find studies with their authors and journals, a table of colors and tastes, and the steps to choose and test a color before printing.
+
+### Why packaging affects taste
+
+Packaging affects taste because the brain builds taste from all the senses at once, and the eyes get there before the tongue. In the mid 20th century the marketer Louis Cheskin called the habit of transferring impressions from the package to the product sensation transference. Frédéric Brochet and Gil Morrot ([Journal International des Sciences de la Vigne et du Vin, 1999](https://doi.org/10.20870/oeno-one.1999.33.4.1017)) gave 57 oenology students the same wine with a table wine label and a grand cru label, and 52 rated the grand cru higher, trusting the label. We wrote separately about [why a business needs packaging design](/en/blog/packaging-design-benefits).
+
+### What the research showed
+
+Most studies focus on color, but in experiments with one and the same product, taste ratings were also changed by the shape of the package, its weight and even the typeface on the [brand label](/en/our-services/labels).
+
+#### Color hints at sweetness, sourness and richness
+
+Color changes taste even when the product is the same. Betina Piqueras-Fiszman and Charles Spence ([Journal of Sensory Studies, 2012](https://doi.org/10.1111/j.1745-459X.2012.00397.x)) served hot chocolate to 57 participants in cups of four colors: red, orange, white and dark cream. From the orange and cream cups the drink seemed more chocolatey and was liked more, and from the cream cup it also seemed sweeter. In a study by Gil Morrot and colleagues (Brain and Language, 2001), white wine was colored with an odorless red dye, and 54 tasters described its aroma with the words used for red wine.
+
+#### A round shape seems sweeter than an angular one
+
+Rounded shapes are linked with sweet tastes, angular ones with sour. Carlos Velasco and co-authors ([Food Quality and Preference, 2014](https://doi.org/10.1016/j.foodqual.2013.12.005)) tested how shapes, typefaces and names convey taste: rounded ones expressed sweetness better, angular ones sourness. Pei Liang and colleagues ([Behavioural Brain Research, 2013](https://doi.org/10.1016/j.bbr.2013.07.001)) showed a circle, an ellipse, a square and a triangle before tasting sugar solutions, and after the rounded figures sensitivity to sweetness went up.
+
+#### Heavy packaging makes a product seem more expensive
+
+Heavy packaging makes the taste richer and the product more expensive in the buyer's eyes. Katrin Kampfer and co-authors from Bamberg ([PLOS ONE, 2017](https://doi.org/10.1371/journal.pone.0186121)) put a lead weight into a box of chocolates, and chocolate from the 234 g box was rated richer than from an identical box weighing 184 g, even though the boxes looked exactly the same. The result was repeated with a soft drink can weighted by 60 g, and along with the taste, the willingness to pay more went up.
+
+#### Typeface and images play a part too
+
+A typeface hints at taste just like the shape of the package does. Carlos Velasco, Andy Woods, Sarah Hyndman and Charles Spence ([i-Perception, 2015](https://doi.org/10.1177/2041669515593040)) asked people to match typefaces to the words sweet, sour, salty and bitter. Rounded typefaces were linked with sweet, angular ones with the other tastes. A photo of a berry or a lemon slice works more directly, because it names the taste right away and the shopper does not have to guess.
+
+### What taste a packaging color suggests
+
+<table>
+  <thead>
+    <tr>
+      <th>Color</th>
+      <th>What taste the buyer expects</th>
+      <th>Where it is used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Red</td>
+      <td>Sweet or spicy, depending on the shade</td>
+      <td>Snacks, sauces, sweets</td>
+    </tr>
+    <tr>
+      <td>Pink</td>
+      <td>Sweet, berry, mild</td>
+      <td>Yogurts, desserts, ice cream</td>
+    </tr>
+    <tr>
+      <td>Yellow</td>
+      <td>Sour lemon or creamy</td>
+      <td>Baked goods, butter, citrus drinks</td>
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>Fruity, warm, juicy</td>
+      <td>Juices, snacks, citrus flavors</td>
+    </tr>
+    <tr>
+      <td>Green</td>
+      <td>Fresh, slightly sour or minty</td>
+      <td>Tea, vegetables, mint sweets</td>
+    </tr>
+    <tr>
+      <td>Blue</td>
+      <td>Cool, light, fresh</td>
+      <td>Water, dairy products, seafood</td>
+    </tr>
+    <tr>
+      <td>Black</td>
+      <td>Bitter, strong, rich</td>
+      <td>Coffee, dark chocolate, premium snacks</td>
+    </tr>
+  </tbody>
+</table>
+
+The role of color in packaging depends on the category: red on snacks draws attention and, as is commonly believed, stimulates appetite, while green on tea promises freshness but on chocolate is confusing.
+
+### How to choose a packaging color
+
+Choosing a packaging color starts with the shelf and takes five factors into account:
+
+- Category codes. People look for a taste by familiar colors, for milk that is blue and white. In an experiment by Piqueras-Fiszman and Spence ([Appetite, 2011](https://doi.org/10.1016/j.appet.2011.07.012)) with British crisps in a bag of an unusual color, some people failed to guess the flavor.
+- Neighbors on the shelf. A red pack gets lost among red neighbors. Where the market is heading is shown by the [packaging design trends](/en/blog/packaging-design-trends) of big brands.
+- Target audience and price. Bright colors are more common in the mass segment, calm ones in the premium segment.
+- Market and culture. In a survey by Xiaoang Wan and co-authors ([Frontiers in Psychology, 2014](https://doi.org/10.3389/fpsyg.2014.01365)), 452 people from China, India, Malaysia and the US agreed only on linking black with bitter and pink with sweet.
+- Print and light. The shade is approved on a printed sample, because a screen distorts it.
+
+### How to test packaging before launch
+
+Testing costs less than reprinting a print run, and test data deserves more trust than the team's taste. It fits into four steps:
+
+1. Put the mockup on a shelf next to competitors and see whether the eye finds it from a few steps away and whether the taste is recognizable without the label text.
+2. Print a test sample and compare it in daylight and under store lighting.
+3. Run a blind tasting of the same product in two packaging versions, with taste rated on a scale.
+4. Ask people from the target audience what taste they expect from the package before they try the product.
+
+The effect of packaging on consumer choice is made up of color, shape, weight and typeface all at once. If the brand is only preparing its packaging, build testing into the brief, and test the [packaging design](/en/our-services/packaging) before the print run.`
+  },
+  {
+    "slug": "linkedin-ads-b2b",
+    "title": "LinkedIn ads for B2B: how to work with a cold audience",
+    "description": "LinkedIn ads for B2B: how to set up targeting by job title and company, which formats work with a cold audience and when Facebook is the better deal.",
+    "cover": "/assets/photography/communication-0.webp",
+    "published": "2026-10-28",
+    "body": `The B2B customer you are looking for has not heard of your company yet, and the first ad has to be useful to them before any talk about price. Below we explain how to set up LinkedIn ads for this kind of audience: targeting by job title and company, formats, budget, a comparison with Facebook, and warming people up to an inquiry.
+
+### Why LinkedIn suits B2B
+
+LinkedIn suits B2B because people list their job title, company and industry in their profile themselves, and this data lets you find the person who makes the decision. A cold audience is people who do not know your brand yet and have not visited your website. On LinkedIn, ads reach them by work attributes, for example procurement directors at logistics companies with 201-500 employees. Promoting a company on LinkedIn pays off when the very first ad makes it clear how you are different, and that is the task [brand positioning](/en/our-services/positioning) solves.
+
+### How to set up LinkedIn ads
+
+LinkedIn ads are launched in the ad account, and the setup goes from top to bottom in seven steps:
+
+1. Account. The ad account is created in Campaign Manager and linked to the company page. The currency and page cannot be changed after creation, so choose them right away.
+2. Campaign. In 2025 LinkedIn [renamed the account levels](https://www.linkedin.com/help/lms/answer/a8323033): what used to be a campaign group is now called a campaign, and it brings together ad sets with a shared goal.
+3. Objective. For a first introduction choose brand awareness or engagement, for inquiries choose lead generation or website conversions. The objective determines which formats are available.
+4. Audience. When setting up the audience, location and profile language are required, then you add job title, industry and company size. You can launch with 300 members or more. For image and text ads [LinkedIn recommends](https://business.linkedin.com/advertise/ads/audience) an audience of 50,000 or more, for message ads 15,000 or more.
+5. Format. One ad set usually has one format: image, video, document, message or text.
+6. Budget and bids. The minimum daily budget is 10 dollars, and the lifetime budget of a new campaign starts at 100 dollars ([LinkedIn help](https://business.linkedin.com/marketing-solutions/success/best-practices/maximize-your-budget), October 2026). The system picks the bid itself, or you set it manually per click, per impression or per message sent.
+7. Conversions. The LinkedIn Insight Tag is placed on the website: it counts inquiries, collects visitors into a retargeting audience and shows which companies and job titles your visitors come from.
+
+### Targeting a cold audience
+
+Targeted LinkedIn ads narrow down a cold audience in three ways: by person, by company and by your own contact lists.
+
+#### By job title and seniority
+
+Job title targeting takes the ad to the person who makes the purchasing decision. LinkedIn lets you choose the job title, the function (procurement, finance) and the seniority, from specialist to director and owner. Job title gives the narrowest selection, while function together with seniority is more reliable, because people name the same role in different ways. In the same way you exclude interns and students so you do not pay for their impressions.
+
+#### By company and industry
+
+The company is set by industry, size, name and region. Size is chosen in ranges by number of employees, for example 51-200 or 201-500, and small firms are excluded for large deals. Each new attribute in the settings reduces reach, so LinkedIn help advises starting broader and narrowing down after the first results. If the account warns that the audience is too narrow, remove one of the filters.
+
+#### Company lists and retargeting
+
+A company list is uploaded as a file, for example 200 target customers from your CRM, and the ads go to employees of exactly those firms. Retargeting shows ads to people who visited the website, watched a video, opened a document or a lead form. A website visitor audience starts working once it reaches 300 people, and [LinkedIn help](https://www.linkedin.com/help/lms/answer/a415978) advises giving it up to 90 days to build up.
+
+### Which ad formats work with a cold audience
+
+Formats differ in how much effort they ask of a person. Five suit a cold audience, and it is best to start with those that do not ask people to leave their contact details right away:
+
+- Sponsored post. An ad in the feed with an image, a carousel or a [video](/en/our-services/motion-design), seen on desktop, tablet and phone. Good for a first introduction.
+- Lead form. An inquiry form is attached to the ad and fills in the name and email from the profile automatically, so there is no need to go to the website.
+- Document. A PDF with research or a checklist is read right in the feed, and the download can be gated with a lead form so you get a contact in exchange for something useful.
+- Message ads. The message lands in the LinkedIn inbox, and you pay per send. The conversation format adds reply buttons, but it is better to send it to strangers after the first contact.
+- Text ad. A short text on the right or at the top of the page, desktop only. A simple way to test which headline gets clicks.
+
+### When Facebook works for B2B
+
+Facebook works for B2B when you need a low entry threshold and repeat contacts. The minimum daily budget for an ad set on Meta is from 1 dollar, on LinkedIn from 10 (Meta and LinkedIn help, October 2026). Job title is not the main tool here, so a B2B audience is built from your own data: website visitors through Meta Pixel, customer lists and people similar to them (Lookalike). Retargeting on Facebook catches up with those who came to the website from LinkedIn, and lead ads there use Instant Forms, which also fill in data from the profile.
+
+### LinkedIn or Facebook: which to choose
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterion</th>
+      <th>LinkedIn</th>
+      <th>Facebook</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Job title targeting</td>
+      <td>Job title, function, seniority, years of experience</td>
+      <td>Through customer lists, interests, Lookalike</td>
+    </tr>
+    <tr>
+      <td>Minimum budget</td>
+      <td>$10 a day</td>
+      <td>From $1 a day</td>
+    </tr>
+    <tr>
+      <td>Audience size</td>
+      <td>From 300 people, 50,000 or more recommended (15,000 or more for messages)</td>
+      <td>Wider, but without work data from the profile</td>
+    </tr>
+    <tr>
+      <td>Lead forms</td>
+      <td>Lead Gen Forms fill in profile data</td>
+      <td>Instant Forms fill in profile data</td>
+    </tr>
+    <tr>
+      <td>Retargeting</td>
+      <td>Insight Tag on the website, from 300 people</td>
+      <td>Meta Pixel on the website and lookalike audiences</td>
+    </tr>
+  </tbody>
+</table>
+
+One channel is enough to test a hypothesis, but a combination works more often: LinkedIn finds the right people by job title, and Facebook shows the ads again to those who have already visited the website. When there are several channels, they are planned together, and this approach is called [360 marketing](/en/our-services/marketing360).
+
+### How to warm up a cold audience
+
+Warming up is a three-step strategy, from useful content to an inquiry, and each step runs as a separate ad set with its own audience:
+
+1. Reach with useful content. A post, video or document solves the customer's problem without selling: a breakdown of mistakes, a calculation, a market overview. Campaign objective: brand awareness or engagement, and LinkedIn remembers who watched the video to the end or opened the document.
+2. Retargeting the engaged. People who watched the video, opened the document or visited the website are shown a case study and a specific offer. Here it is fine to name the product and show the client's numbers, if the client has allowed them to be published.
+3. An offer with a lead form. At the last step you ask for contact details in exchange for a consultation, an audit or a demo. A form with profile data shortens the path to an inquiry, and [LinkedIn help](https://business.linkedin.com/advertise/ads/sponsored-content/lead-gen-ads/specs) advises keeping three or four fields in it.
+
+### Frequently asked questions about LinkedIn ads
+
+<details>
+  <summary>How much do LinkedIn ads cost?</summary>
+  <div class="sp-answer">
+    <p>The price is set by an auction and depends on the audience, objective and format. According to LinkedIn help as of October 2026, the minimum daily budget is 10 dollars, and the lifetime budget of a new campaign starts at 100 dollars. You pay per click, per 1,000 impressions or per send.</p>
+  </div>
+</details>
+
+<details>
+  <summary>Who are LinkedIn ads right for?</summary>
+  <div class="sp-answer">
+    <p>Companies that sell complex or expensive solutions to other companies and need to reach a specific job title: IT, manufacturing, logistics, consulting, financial services. Stores with impulse demand will find it easier to start with Facebook.</p>
+  </div>
+</details>
+
+<details>
+  <summary>How do you measure the effectiveness of LinkedIn ads?</summary>
+  <div class="sp-answer">
+    <p>By inquiries and cost per inquiry, or more precisely by deals in your CRM. Clicks show interest, but the B2B cycle is long, so results are assessed a few weeks after launch. The Insight Tag sends conversions to the ad account, and UTM tags in links show inquiries in Google Analytics.</p>
+  </div>
+</details>
+
+LinkedIn ads for B2B work when precise targeting is backed by useful content and a clear path to an inquiry. Posts, visuals and analytics for the brand's social media are easiest to run within one strategy, which is how [SMM promotion](/en/our-services/smm) works.`
+  },
+  {
     "slug": "what-is-branding",
     "title": "What is a brand and branding: elements and stages",
     "description": "A brand is what people think about a company. Branding is the work of shaping that perception into a lasting image.",

@@ -132,44 +132,124 @@ const en: BrandingSeoContent = {
   spoilerLabel: "Learn more",
   sections: [
     {
-      title: "Packaging and label design: what is the difference",
+      title: "Packaging design and label design: what is the difference",
       blocks: [
-        { kind: "p", text: "Packaging and labels are different elements with different functions." },
-        { kind: "term", label: "Packaging", text: "is the physical shell of a product (box, jar, bottle, bag, tube, or other container). Its development covers not only appearance but also shape, construction, materials, opening method, and buyer interaction." },
-        { kind: "term", label: "Label", text: "is an informational and visual element placed on packaging. It contains the brand logo, product name, ingredients, specifications, barcode, and other legally required information. The label is the main design carrier and helps buyers quickly understand what the product is." },
+        {
+          kind: "p",
+          text: "Packaging and a label are different elements that do different jobs.",
+        },
+        {
+          kind: "term",
+          label: "Packaging",
+          text:
+            "is the physical shell of a product (a box, jar, bottle, bag, tube or any other container). When it is developed, the team thinks through not only its look but also its shape, structure, materials, the way it opens and how the buyer interacts with it.",
+        },
+        {
+          kind: "term",
+          label: "A label",
+          text:
+            "is an informational and, at the same time, visual element placed on the packaging. It carries the brand logo, product name, ingredients, specifications, barcode and other mandatory information required by law. The label becomes the main carrier of the design and helps the buyer quickly understand what the product is and how it differs from others.",
+        },
       ],
     },
     {
-      title: "Print layout requirements",
+      title: "Layout requirements for print",
       blocks: [
-        { kind: "p", text: "Even the best design can fail in production if not prepared correctly for print. Packaging development ends with layout preparation according to production technical requirements." },
-        { kind: "p", text: "This includes dimensions, die lines, folds, bleed, safe zones, color codes, image resolution, material specifics, and print technology. At ZOND we prepare layouts so printers can start work without additional revisions." },
+        {
+          kind: "p",
+          text:
+            "Even the best design can look terrible if it is prepared for print incorrectly. That is why packaging work ends with preparing the layout to the technical requirements of production.",
+        },
+        {
+          kind: "p",
+          text:
+            "At this stage we take into account the packaging dimensions, die-cut lines, folds, bleeds, safe margins, the color palette with codes, image resolution, the specifics of the material and the printing technology. At ZOND we prepare layouts so the printer can put them straight into production without any extra corrections.",
+        },
       ],
     },
     {
-      title: "What affects packaging design price",
+      title: "What the cost of packaging design depends on",
       blocks: [
-        { kind: "p", text: "Price depends not only on visual complexity but on the full scope of work. At ZOND we consider:" },
-        { kind: "ul", items: ["packaging type, format, and construction;", "depth of market, competitor, and audience research;", "number of design concepts to present;", "number of SKUs and adaptations for flavors, volumes, or product lines;", "need for illustrations, 3D visualization, or additional graphics;", "number of approved revision rounds;", "project timeline."] },
-        { kind: "p", text: "After briefing we analyze the task, define scope, timeline, and price, then document it in a commercial proposal." },
+        {
+          kind: "p",
+          text:
+            "The price of label and packaging design depends not only on how complex the visual solution is, but on the full scope of work. At ZOND we take into account:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "the type, format and structure of the packaging;",
+            "how deep the research into the market, competitors and target audience goes;",
+            "the number of design concepts to present;",
+            "the number of SKUs and adaptations for different flavors, volumes or product lines;",
+            "the need for illustrations, 3D visualization or extra graphics;",
+            "the number of agreed revision rounds;",
+            "the project timeline.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "After the briefing we analyze the task, define the scope of work, the timeline and the cost, and then put all of this in a commercial proposal.",
+        },
       ],
     },
     {
       title: "Packaging for different product categories",
       blocks: [
-        { kind: "p", text: "There is no universal packaging design that works equally well for all products. What attracts a cosmetics buyer may be inappropriate for baby food, and premium alcohol packaging follows different principles than household chemicals." },
-        { kind: "p", text: "We always account for product specifics, analyze competitor packaging, familiar visual patterns, and how to stand out without losing trust." },
-        { kind: "p", text: "At ZOND you can order packaging design for:" },
-        { kind: "ul", items: ["food products;", "beverages;", "cosmetics;", "household chemicals;", "pharmaceutical products;", "children's products;", "electronics;", "clothing;", "accessories, and more."] },
-        { kind: "p", text: "Regardless of niche, our goal is packaging that looks attractive and helps the product compete successfully." },
+        {
+          kind: "p",
+          text:
+            "There is no universal packaging design that works equally well for every product. What catches the eye of someone choosing cosmetics can be completely out of place for baby food, and packaging for premium alcohol follows very different principles from household chemicals.",
+        },
+        {
+          kind: "p",
+          text:
+            "That is why we always consider the specifics of the product when we develop packaging. We look at how competitors present their products, which visual solutions buyers are already used to and what will help the product stand out without losing trust.",
+        },
+        {
+          kind: "p",
+          text: "At ZOND you can order packaging design for a wide range of products:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "food;",
+            "beverages;",
+            "cosmetics;",
+            "household chemicals;",
+            "pharmaceutical products;",
+            "children's products;",
+            "electronics;",
+            "clothing;",
+            "accessories and more.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "Whatever the niche, our task stays the same: to create packaging that looks attractive and helps the product compete successfully on the market.",
+        },
       ],
     },
     {
-      title: "Services often combined with packaging design",
+      title: "Services that go well with packaging design",
       blocks: [
-        { kind: "p", text: "If the product lacks clear positioning, character, and visual style, start with brand development before packaging design." },
-        { kind: "p", text: "Then packaging is created based on strategy and identity — logically continuing the brand and strengthening recognition." },
-        { kind: "p", text: "When the product needs a unique hero, story, or graphics not found on stock sites, complement packaging design with commercial illustration — custom graphics that convey product character, differentiate flavors or lines, and make packaging recognizable before the buyer reads the name." },
+        {
+          kind: "p",
+          text:
+            "If the product does not yet have clear positioning, character and visual style, it is worth ordering brand development before packaging design. At this stage we define who the product is for, how it differs from competitors, which values it should convey and what impression it should make on the buyer.",
+        },
+        {
+          kind: "p",
+          text:
+            "After that, the packaging is built on the strategy and identity already in place. It does not look random, but continues the brand logically and makes it more recognizable.",
+        },
+        {
+          kind: "p",
+          text:
+            "When a product needs a special hero, story or graphics you will not find on stock sites, packaging design is worth combining with commercial illustration. This is original artwork created specifically for the product and the brand's goals. It helps convey the product's character, tell flavors or lines apart, add emotion and make the packaging recognizable before the buyer even reads the name on it.",
+        },
       ],
     },
   ],
@@ -179,44 +259,124 @@ const ru: BrandingSeoContent = {
   spoilerLabel: "Подробнее",
   sections: [
     {
-      title: "Дизайн упаковки и этикетки: в чём разница",
+      title: "Дизайн упаковки и этикетки: в чем разница",
       blocks: [
-        { kind: "p", text: "Упаковка и этикетка — разные элементы, выполняющие разные функции." },
-        { kind: "term", label: "Упаковка", text: "— физическая оболочка продукта (коробка, банка, бутылка, пакет, тубус или другая тара). При её разработке продумывают не только внешний вид, но и форму, конструкцию, материалы, способ открывания и взаимодействие с покупателем." },
-        { kind: "term", label: "Этикетка", text: "— информационный и визуальный элемент на упаковке: логотип, название, состав, характеристики, штрихкод и другая обязательная информация. Этикетка — главный носитель дизайна." },
+        {
+          kind: "p",
+          text: "Упаковка и этикетка — это разные элементы, которые выполняют разные функции.",
+        },
+        {
+          kind: "term",
+          label: "Упаковка",
+          text:
+            "— это физическая оболочка продукта (коробка, банка, бутылка, пакет, тубус или любая другая тара). При ее разработке продумывают не только внешний вид, но и форму, конструкцию, материалы, способ открывания и взаимодействие с покупателем.",
+        },
+        {
+          kind: "term",
+          label: "Этикетка",
+          text:
+            "— это информационный и одновременно визуальный элемент, который размещается на упаковке. Она содержит логотип бренда, название продукта, состав, характеристики, штрихкод и другую обязательную информацию, предусмотренную законодательством. Именно этикетка становится главным носителем дизайна и помогает покупателю быстро понять, что это за продукт и чем он отличается от других.",
+        },
       ],
     },
     {
       title: "Требования к макету для печати",
       blocks: [
-        { kind: "p", text: "Даже лучший дизайн может выглядеть плохо, если неправильно подготовить его к печати. Создание упаковки завершается подготовкой макета по техническим требованиям производства." },
-        { kind: "p", text: "Учитываются размеры, линии высечки, сгибы, вылеты, безопасные поля, палитра, разрешение изображений, материал и технология печати. В ZOND мы готовим макеты так, чтобы типография могла сразу передать их в работу." },
+        {
+          kind: "p",
+          text:
+            "Даже лучший дизайн может выглядеть плохо, если его неправильно подготовить к печати. Именно поэтому создание упаковки завершается подготовкой макета в соответствии с техническими требованиями производства.",
+        },
+        {
+          kind: "p",
+          text:
+            "На этом этапе учитываются размеры упаковки, линии высечки, сгибы, вылеты под обрез, безопасные поля, палитра цветов с кодами, разрешение изображений, особенности материала и технологии печати. В ZOND мы готовим макеты так, чтобы типография могла сразу передать их в работу без дополнительных доработок.",
+        },
       ],
     },
     {
       title: "От чего зависит стоимость дизайна упаковки",
       blocks: [
-        { kind: "p", text: "Цена зависит не только от сложности визуального решения, но и от всего объёма работы. В ZOND учитываем:" },
-        { kind: "ul", items: ["тип, формат и конструкцию упаковки;", "глубину исследования рынка, конкурентов и аудитории;", "количество концепций;", "количество SKU и адаптаций;", "нужны ли иллюстрации, 3D-визуализация или дополнительная графика;", "количество раундов правок;", "сроки реализации проекта."] },
-        { kind: "p", text: "После брифинга анализируем задачу, определяем объём, сроки и стоимость, затем фиксируем в коммерческом предложении." },
+        {
+          kind: "p",
+          text:
+            "Цена дизайна этикетки и упаковки зависит не только от сложности визуального решения, но и от всего объема работы. В ZOND при ее расчете учитываются:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "тип, формат и конструкция упаковки;",
+            "глубина исследования рынка, конкурентов и целевой аудитории;",
+            "количество дизайн-концепций, которые нужно презентовать;",
+            "количество SKU и адаптаций для разных вкусов, объемов или линеек;",
+            "потребность в иллюстрациях, 3D-визуализации или дополнительной графике;",
+            "количество согласованных раундов правок;",
+            "сроки реализации проекта.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "После брифинга мы анализируем задачу, определяем объем работ, сроки их выполнения и стоимость, после чего фиксируем эту информацию в коммерческом предложении.",
+        },
       ],
     },
     {
       title: "Упаковка для разных категорий товара",
       blocks: [
-        { kind: "p", text: "Не существует универсального дизайна упаковки для всех товаров. То, что привлекает покупателя косметики, может быть неуместно для детского питания." },
-        { kind: "p", text: "При разработке мы всегда учитываем специфику товара, анализируем конкурентов и визуальные паттерны категории." },
-        { kind: "p", text: "В ZOND можно заказать дизайн упаковки для:" },
-        { kind: "ul", items: ["продуктов питания;", "напитков;", "косметики;", "бытовой химии;", "фармацевтики;", "товаров для детей;", "электроники;", "одежды;", "аксессуаров и других категорий."] },
-        { kind: "p", text: "Независимо от ниши, наша задача — создать упаковку, которая выглядит привлекательно и помогает продукту конкурировать на рынке." },
+        {
+          kind: "p",
+          text:
+            "Не существует универсального дизайна упаковки, который одинаково хорошо работает для всех товаров. То, что привлекает внимание покупателя, который выбирает косметику, может быть совершенно неуместным для детского питания, а упаковка премиального алкоголя строится по совсем другим принципам, чем дизайн бытовой химии.",
+        },
+        {
+          kind: "p",
+          text:
+            "Именно поэтому при разработке упаковки мы всегда учитываем специфику товара. Анализируем, как оформляют продукцию конкуренты, какие визуальные решения уже стали привычными для покупателей и что поможет продукту выделиться, не теряя доверия.",
+        },
+        {
+          kind: "p",
+          text: "В ZOND вы можете заказать дизайн упаковки для самых разных товаров:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "продуктов питания;",
+            "напитков;",
+            "косметики;",
+            "бытовой химии;",
+            "фармацевтической продукции;",
+            "товаров для детей;",
+            "электроники;",
+            "одежды;",
+            "аксессуаров и прочего.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "Независимо от ниши, наша задача остается неизменной — создать упаковку, которая будет выглядеть привлекательно и поможет продукту успешно конкурировать на рынке.",
+        },
       ],
     },
     {
       title: "С какими услугами сочетают дизайн упаковки",
       blocks: [
-        { kind: "p", text: "Если у продукта нет чёткого позиционирования и визуального стиля, перед дизайном упаковки стоит заказать разработку бренда." },
-        { kind: "p", text: "Затем упаковка создаётся на основе стратегии и айдентики — логично продолжая бренд и усиливая узнаваемость." },
-        { kind: "p", text: "Когда продукту нужен особый герой, сюжет или графика, дизайн упаковки дополняют коммерческой иллюстрацией — авторской графикой, созданной специально под продукт и задачи бренда." },
+        {
+          kind: "p",
+          text:
+            "Если у продукта еще нет четкого позиционирования, характера и визуального стиля, перед созданием дизайна упаковки стоит заказать услугу по разработке бренда. На этом этапе определяется, для кого создан продукт, чем он отличается от конкурентов, какие ценности должен транслировать и какое впечатление производить на покупателя.",
+        },
+        {
+          kind: "p",
+          text:
+            "После этого на основе сформированной стратегии и айдентики создается упаковка, которая не выглядит случайной, а логично продолжает бренд и усиливает его узнаваемость.",
+        },
+        {
+          kind: "p",
+          text:
+            "Когда продукту нужен особый герой, сюжет или графика, которую не найти на фотостоках, дизайн упаковки стоит дополнить коммерческой иллюстрацией. Это авторская графика, созданная специально под продукт и задачи бренда. Она помогает передать характер товара, развести разные вкусы или линейки, добавить эмоции и сделать упаковку узнаваемой еще до того, как покупатель прочитает на ней название.",
+        },
       ],
     },
   ],

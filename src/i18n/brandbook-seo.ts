@@ -126,42 +126,114 @@ const en: BrandingSeoContent = {
     {
       title: "What a brand book includes and how it differs from a logobook",
       blocks: [
-        { kind: "p", text: "Brand book and logobook are often confused. In fact, they are two different documents solving different tasks." },
-        { kind: "term", label: "Logobook", text: "is a focused guide dedicated to the company logo and its usage rules — all logo versions, brand colors, minimum sizes, clear space, and correct application examples." },
-        { kind: "p", text: "A brand book includes everything in a logobook and more:" },
-        { kind: "ul", items: ["typography system;", "graphic element usage rules;", "key media layout rules;", "ready templates or media layouts."] },
-        { kind: "p", text: "A brand book is a complete rule system that helps a company maintain consistent style and recognition at every touchpoint." },
+        {
+          kind: "p",
+          text:
+            "People often mix up the terms brand book and logobook. In fact, these are two different documents that solve different tasks.",
+        },
+        {
+          kind: "term",
+          label: "A logobook",
+          text:
+            "is a narrow guide devoted to the company logo and the rules for using it. It records all versions of the logo, the brand colors, minimum sizes, the clear space, and examples of correct use.",
+        },
+        {
+          kind: "p",
+          text: "A brand book includes everything a logobook has, but goes further. It also covers:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "the font and typography system;",
+            "rules for using graphic elements;",
+            "design rules for key media;",
+            "ready-made templates or layouts for media.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "In other words, a brand book is a complete system of rules that helps a company keep one style and stay recognizable at every point of contact with customers.",
+        },
       ],
     },
     {
       title: "Why a business needs a brand book",
       blocks: [
-        { kind: "p", text: "Imagine a product launch is days away. The site is almost ready, ads are set up, packaging is in print — and then you discover an old logo on the box, a different font in ads, and off-brand colors from the printer. Everyone did their part, but the brand never became one whole." },
-        { kind: "p", text: "A brand book solves these problems. It becomes the single source of rules for everyone working with the brand, reducing debates about colors and fonts and cutting down vendor clarification requests." },
+        {
+          kind: "p",
+          text:
+            "Imagine there are only a few days left before a new product launch. The website is almost ready, the ads are set up, the packaging is at the printer. And then it turns out that the box carries the old logo, the ad creatives use a different font, and the printer missed the brand color. Everyone did their part of the work, but the brand never came together as a whole.",
+        },
+        {
+          kind: "p",
+          text:
+            "These are exactly the problems a brand book solves. It becomes the single source of rules for everyone who works with the brand. The team no longer wastes time arguing about colors, fonts, or ad design, and contractors don't ask dozens of clarifying questions before they start.",
+        },
       ],
     },
     {
-      title: "What affects brand book price",
+      title: "What affects the cost of a brand book",
       blocks: [
-        { kind: "p", text: "Every business has different needs, so brand book scope and price vary. At ZOND, pricing is individual. We consider:" },
-        { kind: "ul", items: ["depth of market, competitor, audience, and positioning research;", "number of concepts to prepare;", "scope of identity and number of media to cover;", "number of revision rounds in the project."] },
-        { kind: "p", text: "Price also depends on how urgently the brand book needs to be prepared and presented." },
+        {
+          kind: "p",
+          text:
+            "Every business has its own tasks, so the contents of a brand book can vary a lot, and so can the cost of developing it. That is why at ZOND the price is calculated for each project. When we estimate it, we take into account:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "how deeply we need to analyze the market, competitors, target audience, and brand positioning;",
+            "how many concepts we need to prepare for you to choose from;",
+            "how much identity work and how many media need to be covered;",
+            "how many revision rounds the project includes.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "The price of a brand book also depends on how urgently it needs to be prepared and presented.",
+        },
       ],
     },
     {
-      title: "How to use a brand book inside a company",
+      title: "How to use a brand book inside the company",
       blocks: [
-        { kind: "p", text: "A brand book is not meant to be read once and archived. It is a working tool the team uses every time a new customer touchpoint is created." },
-        { kind: "p", text: "Marketers use it before campaigns, designers rely on it for banners and print, SMM specialists take post and story rules from it, and printers get exact color codes, spacing, and vector logo versions." },
-        { kind: "p", text: "For it to work, the current version must be accessible to all employees and vendors working with the brand." },
+        {
+          kind: "p",
+          text:
+            "A brand book is not made to be looked through once and filed away. It is a working tool the team turns to every time it creates a new point of contact with customers.",
+        },
+        {
+          kind: "p",
+          text:
+            "Marketers use it before launching ad campaigns to keep the creatives in one style. Designers rely on the brand book when they make banners, presentations, or print materials. SMM specialists take the rules for posts and stories from it, and printers take the exact color codes, spacing, and vector versions of the logo.",
+        },
+        {
+          kind: "p",
+          text:
+            "For a brand book to really work, its current version must be available to every employee and contractor who works with the brand.",
+        },
       ],
     },
     {
       title: "Services often combined with a brand book",
       blocks: [
-        { kind: "p", text: "A brand book does not create a brand from scratch. It organizes approved decisions into a system and explains how to use them correctly." },
-        { kind: "p", text: "If positioning and corporate style are defined but there is no recognizable mark yet, combine brand book development with logo design — first the logo, then its usage rules in the brand book." },
-        { kind: "p", text: "If the business is starting from scratch or changing direction, begin with brand development. The brand book is the final stage — it documents brand rules and helps the team maintain consistency after launch." },
+        {
+          kind: "p",
+          text:
+            "A brand book does not create a brand from scratch. It gathers decisions that have already been made into one system and explains how to use them correctly. So before starting, it is important to understand whether the business already has a ready foundation.",
+        },
+        {
+          kind: "p",
+          text:
+            "If the company has already defined its positioning and corporate identity but does not yet have a recognizable mark, it makes sense to combine the brand book with logo design. First the logo is created, and then the rules for using it are set down in the brand book.",
+        },
+        {
+          kind: "p",
+          text:
+            "If the business is starting from scratch, changing direction, or has not yet defined how it differs from competitors, it is better to start with brand development. The brand book is the final stage of that work. It describes the rules for working with the brand, which helps the team keep it consistent after launch.",
+        },
       ],
     },
   ],
@@ -173,42 +245,114 @@ const ru: BrandingSeoContent = {
     {
       title: "Что входит в брендбук и чем он отличается от логобука",
       blocks: [
-        { kind: "p", text: "Понятия «брендбук» и «логобук» часто путают. На самом деле это два разных документа, решающих разные задачи." },
-        { kind: "term", label: "Логобук", text: "— узкоспециализированная инструкция, посвящённая логотипу компании и правилам его использования: все версии логотипа, фирменные цвета, минимальные размеры, охранное поле и примеры правильного применения." },
-        { kind: "p", text: "Брендбук включает всё, что есть в логобуке, и не ограничивается этим:" },
-        { kind: "ul", items: ["система шрифтов и типографики;", "правила использования графических элементов;", "правила оформления ключевых носителей;", "готовые шаблоны или макеты носителей."] },
-        { kind: "p", text: "Брендбук — полная система правил, помогающая компании сохранять единый стиль и узнаваемость в каждой точке контакта с клиентом." },
+        {
+          kind: "p",
+          text:
+            "Довольно часто понятия «брендбук» и «логобук» путают. На самом деле это два разных документа, которые решают разные задачи.",
+        },
+        {
+          kind: "term",
+          label: "Логобук",
+          text:
+            "— это узкоспециализированная инструкция, посвященная логотипу компании и правилам его использования. В нем фиксируются все версии логотипа, фирменные цвета, минимальные размеры, охранное поле и примеры правильного применения.",
+        },
+        {
+          kind: "p",
+          text: "Брендбук включает все, что есть в логобуке, но этим не ограничивается. В него также входят:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "система шрифтов и типографики;",
+            "правила использования графических элементов;",
+            "правила оформления ключевых носителей;",
+            "готовые шаблоны или макеты носителей.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "То есть брендбук — это полная система правил, которая помогает компании сохранять единый стиль и узнаваемость в каждой точке контакта с клиентом.",
+        },
       ],
     },
     {
-      title: "Зачем бизнесу брендбук",
+      title: "Зачем брендбук бизнесу",
       blocks: [
-        { kind: "p", text: "Представьте, что до запуска нового продукта осталось несколько дней. Сайт почти готов, реклама настроена, упаковка в печати — и выясняется, что на коробке старый логотип, в креативах другой шрифт, а типография не попала в фирменный цвет." },
-        { kind: "p", text: "Именно такие проблемы решает брендбук. Он становится единым источником правил для всех, кто работает с брендом." },
+        {
+          kind: "p",
+          text:
+            "Представьте, что до запуска нового продукта осталось несколько дней. Сайт почти готов, реклама настроена, упаковка в печати. И тут выясняется, что на коробке стоит старый логотип, в рекламных креативах появился другой шрифт, а типография не попала в фирменный цвет. Каждый выполнил свою часть работы, но бренд так и не сложился в единое целое.",
+        },
+        {
+          kind: "p",
+          text:
+            "Именно такие проблемы решает брендбук. Он становится единым источником правил для всех, кто работает с брендом. Команда больше не тратит время на споры о цветах, шрифтах или оформлении рекламы, а подрядчики не задают десятки уточняющих вопросов перед началом работы.",
+        },
       ],
     },
     {
       title: "От чего зависит стоимость брендбука",
       blocks: [
-        { kind: "p", text: "У каждого бизнеса свои задачи, поэтому состав брендбука и стоимость могут существенно отличаться. В ZOND цена формируется индивидуально. При расчёте мы учитываем:" },
-        { kind: "ul", items: ["глубину анализа рынка, конкурентов, аудитории и позиционирования;", "количество концепций на выбор;", "объём айдентики и количество носителей;", "количество раундов правок в проекте."] },
-        { kind: "p", text: "Дополнительно цена зависит от срочности подготовки и презентации брендбука." },
+        {
+          kind: "p",
+          text:
+            "У каждого бизнеса свои задачи, поэтому состав брендбука может существенно отличаться, а вместе с этим и стоимость его разработки. Именно поэтому в ZOND она формируется индивидуально. При расчете мы учитываем:",
+        },
+        {
+          kind: "ul",
+          items: [
+            "насколько глубоко нужно проанализировать рынок, конкурентов, целевую аудиторию и позиционирование бренда;",
+            "сколько концепций необходимо подготовить на выбор;",
+            "какой объем айдентики и количество носителей нужно проработать;",
+            "сколько раундов правок будет предусмотрено в рамках проекта.",
+          ],
+        },
+        {
+          kind: "p",
+          text:
+            "Дополнительно цена брендбука зависит от того, насколько срочно его нужно подготовить и презентовать.",
+        },
       ],
     },
     {
       title: "Как пользоваться брендбуком внутри компании",
       blocks: [
-        { kind: "p", text: "Брендбук создаётся не для того, чтобы один раз просмотреть и положить в архив. Это рабочий инструмент, к которому команда обращается при создании каждой новой точки контакта с клиентом." },
-        { kind: "p", text: "Маркетологи используют его перед кампаниями, дизайнеры — при разработке баннеров и полиграфии, SMM-специалисты — для оформления постов и сторис, типографии — для точных кодов цветов и векторных версий логотипа." },
-        { kind: "p", text: "Чтобы брендбук действительно работал, его актуальная версия должна быть доступна всем сотрудникам и подрядчикам." },
+        {
+          kind: "p",
+          text:
+            "Брендбук разрабатывается не для того, чтобы один раз просмотреть его и положить в архив. Это рабочий инструмент, к которому команда обращается каждый раз, когда создает новую точку контакта с клиентом.",
+        },
+        {
+          kind: "p",
+          text:
+            "Маркетологи используют его перед запуском рекламных кампаний, чтобы сохранять единый стиль креативов. Дизайнеры опираются на брендбук при разработке баннеров, презентаций или полиграфии. SMM-специалисты берут из документа правила оформления постов и сторис, а типографии — точные коды цветов, отступы и векторные версии логотипа.",
+        },
+        {
+          kind: "p",
+          text:
+            "Чтобы брендбук действительно работал, его актуальная версия должна быть доступна всем сотрудникам и подрядчикам, которые работают с брендом.",
+        },
       ],
     },
     {
       title: "С какими услугами сочетают брендбук",
       blocks: [
-        { kind: "p", text: "Брендбук не создаёт бренд с нуля. Он собирает уже принятые решения в единую систему и объясняет, как правильно ими пользоваться." },
-        { kind: "p", text: "Если позиционирование и фирменный стиль определены, но нет узнаваемого знака, разработку брендбука стоит сочетать с разработкой логотипа." },
-        { kind: "p", text: "Если бизнес запускается с нуля или меняет направление, начните с разработки бренда. Брендбук — завершающий этап, в котором фиксируются правила работы с брендом." },
+        {
+          kind: "p",
+          text:
+            "Брендбук не создает бренд с нуля. Он собирает уже принятые решения в единую систему и объясняет, как правильно ими пользоваться. Поэтому перед началом работы важно понять, есть ли у бизнеса готовая основа.",
+        },
+        {
+          kind: "p",
+          text:
+            "Если компания уже определила позиционирование и фирменный стиль, но еще не имеет узнаваемого знака, создание брендбука стоит совместить с разработкой логотипа. Сначала создается логотип, а уже потом правила его использования фиксируются в брендбуке.",
+        },
+        {
+          kind: "p",
+          text:
+            "Если же бизнес запускается с нуля, меняет направление или еще не определил, чем отличается от конкурентов, стоит начать с разработки бренда. Брендбук является завершающим этапом этой работы — в нем описываются правила работы с брендом, что помогает команде сохранять его целостность после запуска.",
+        },
       ],
     },
   ],

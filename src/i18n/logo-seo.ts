@@ -111,27 +111,27 @@ const en: BrandingSeoContent = {
   spoilerLabel: "Learn more",
   sections: [
     {
-      title: "Types of logos: mark, wordmark, combination",
+      title: "Types of logos: symbol, wordmark, combination mark",
       blocks: [
         { kind: "p", text: "There are three main types of logos:" },
         {
           kind: "term",
-          label: "Graphic mark.",
-          text: "Made of a drawing, abstract shape, icon, or emblem without the company name. A well-known example is Apple's bitten apple. It suits established brands with high recognition or companies aiming for a concise, self-sufficient visual image.",
+          label: "Symbol.",
+          text: "A drawing, an abstract shape, an icon, or an emblem without the company name. The best-known example is Apple's bitten apple. It suits well-known brands with high recognition, or companies that want a concise visual image that stands on its own.",
         },
         {
           kind: "term",
           label: "Wordmark.",
-          text: "Consists only of the company name styled with a distinctive typeface, color, and typographic treatment. Examples include Google and Coca-Cola. This format works well for brands with short or memorable names.",
+          text: "Only the company name, set in a distinctive typeface and shaped with color and typographic techniques. Examples are Google and Coca-Cola. This format works well for brands with a short or interesting name, and for companies that want people to remember that name.",
         },
         {
           kind: "term",
           label: "Combination mark.",
-          text: "Combines text and a graphic symbol. Examples include Burger King, Adidas, and Red Bull. It works equally well for new companies and brands planning to scale recognition.",
+          text: "Text and a graphic symbol together. Examples are Burger King, Adidas, and Red Bull. This kind of logo suits new companies just as well as brands that plan to scale and grow their recognition.",
         },
         {
           kind: "p",
-          text: "Not sure which logo type fits your business best? We will help you choose a solution that conveys brand character, becomes a recognizable symbol, and works effectively across every touchpoint.",
+          text: "Not sure which type of logo suits your business best? We will help you find a solution that conveys the brand's character, becomes its recognizable symbol, and works equally well at every point of contact with your audience.",
         },
       ],
     },
@@ -140,73 +140,73 @@ const en: BrandingSeoContent = {
       blocks: [
         {
           kind: "p",
-          text: "At first glance, a logo may seem like just an image. So why pay a designer and wait weeks when an online generator can create one for free in minutes? The difference is not speed or money, but what stands behind the result.",
+          text: "At first glance, a logo may look like just a picture. If so, why pay a designer and wait weeks for the result when an online generator makes one for free in a few minutes? In fact, the difference is not about speed or money. It is about what stands behind the finished result.",
         },
         {
           kind: "p",
-          text: "An online generator works by algorithm. It combines ready-made shapes, fonts, and icons to produce a visual quickly. But it does not answer the key question: why should this logo represent your business?",
+          text: "An online generator runs on an algorithm. It simply combines ready-made shapes, fonts, and icons, so it produces a visual option quickly. But a generator does not answer the main question: why should this particular logo represent your business?",
         },
         {
           kind: "p",
-          text: "At ZOND, every decision has logic. Before the first sketch, we study the company, competitors, and audience, and discuss positioning, goals, and visual preferences with the client.",
+          text: "At ZOND, every decision has a reason. Before the first sketch appears, we study the company, its competitors, and its target audience, and discuss the business positioning, goals, and visual preferences with the client. That is why our logos do more than look modern and attractive. They help shape the right perception of the brand.",
         },
         {
           kind: "p",
-          text: "The final deliverable matters too. After the project, you receive a logo with a full file package, adaptive versions for different media, and a logobook with usage rules, plus full intellectual property rights.",
+          text: "The final deliverable matters just as much. When the project is finished, ZOND gives you the logo with a full set of files, its adapted versions for different media, and a logobook with usage rules. We also transfer all property rights to the design to you.",
         },
       ],
     },
     {
-      title: "What affects logo price",
+      title: "What affects the cost of a logo",
       blocks: [
         {
           kind: "p",
-          text: "Logo development cost can vary significantly depending on process complexity and deliverables. When calculating price, we consider:",
+          text: "The cost of a company logo can vary a lot. It depends on how complex the work is and what exactly you get in the end. When we calculate the cost of a logo, we take into account:",
         },
         {
           kind: "ul",
           items: [
-            "how deep the market, competitor, and audience research needs to be;",
-            "how many logo concepts need to be developed for review;",
-            "how many revision rounds are included in the project;",
-            "whether additional materials such as a logobook are required;",
-            "the timeline for project completion.",
+            "how deep the research into the market, competitors, and target audience needs to be;",
+            "how many logo concepts you want to choose from;",
+            "how many revision rounds the project includes;",
+            "whether you need extra materials, such as a logobook;",
+            "the deadline for the project.",
           ],
         },
       ],
     },
     {
-      title: "Logo rights and deliverables",
+      title: "Logo rights and the files you receive",
       blocks: [
         {
           kind: "p",
-          text: "Logo development at ZOND ends with delivery of all materials needed to work with the new identity:",
+          text: "Logo design at ZOND ends with the handover of everything you need to work with your new identity. This includes:",
         },
         {
           kind: "ul",
           items: [
-            "Final logo versions (color, monochrome, and inverse).",
-            "Brand color palette with codes for digital and print (RGB, CMYK, HEX).",
+            "Final versions of the logo (color, monochrome, and inverted).",
+            "A brand color palette with codes for digital and print materials (RGB, CMYK, HEX).",
             "A full package of vector and raster files for print, websites, social media, and presentations.",
             "A logobook with logo usage rules.",
           ],
         },
         {
           kind: "p",
-          text: "We also transfer full intellectual property rights to the final logo so you can use it commercially without restrictions and register it as a trademark.",
+          text: "We also transfer full property rights to the final logo to you, so you can use it in your business without restrictions and register it as a trademark.",
         },
       ],
     },
     {
-      title: "Services often combined with logo design",
+      title: "Services often ordered together with a logo",
       blocks: [
         {
           kind: "p",
-          text: "Clients often combine logo design with a brand book — a document that defines rules for using the logo, brand colors, fonts, and other identity elements across advertising, social media, print, and presentations.",
+          text: "Our clients often combine logo design with a brand book. This is a document that sets the rules for using the logo, brand colors, fonts, and other identity elements. It is a natural next step in building the company's visual image, because a brand book keeps the style consistent in advertising, social media, print, presentations, and other materials, no matter who works on them.",
         },
         {
           kind: "p",
-          text: "Logo design is also frequently combined with brand development — shaping a company's image, character, and corporate style. In that case, the logo is created from a clearly defined brand idea and works organically with other identity elements.",
+          text: "A logo is also often ordered together with brand development, that is, creating the company's unique image, character, and corporate identity. This approach helps turn an ordinary product into a recognizable brand with its own values, mission, and emotional bond with the audience. In this case, the logo is not created on its own but grows out of a clearly defined brand idea, so it conveys the brand's character more precisely, is easier to remember, and works naturally with the other identity elements.",
         },
       ],
     },
@@ -223,21 +223,21 @@ const ru: BrandingSeoContent = {
         {
           kind: "term",
           label: "Графический знак.",
-          text: "Состоит из рисунка, абстрактной формы, иконки или эмблемы и не содержит названия компании. Яркий пример — надкушенное яблоко Apple.",
+          text: "Состоит из рисунка, абстрактной формы, иконки или эмблемы и не содержит названия компании. Яркий пример — надкусанное яблоко Apple. Он подойдет известным брендам с высокой узнаваемостью или компаниям, которые стремятся создать лаконичный и самодостаточный визуальный образ.",
         },
         {
           kind: "term",
           label: "Шрифтовой.",
-          text: "Состоит только из названия компании, оформленного с помощью характерного шрифта, цвета и типографических приёмов. Примеры — Google и Coca-Cola.",
+          text: "Состоит только из названия компании, оформленного с помощью характерного шрифта, цвета и типографических приемов. Примеры — Google и Coca-Cola. Такой формат хорошо работает для брендов с коротким или интересным названием, а также для компаний, которые хотят закрепить его в памяти аудитории.",
         },
         {
           kind: "term",
           label: "Комбинированный.",
-          text: "Сочетает текстовую часть и графический символ. Примеры — Burger King, Adidas и Red Bull.",
+          text: "Соединяет текстовую часть и графический символ. Примеры — Burger King, Adidas и Red Bull. Такой логотип одинаково хорошо подойдет как новым компаниям, так и брендам, которые планируют масштабироваться и развивать узнаваемость.",
         },
         {
           kind: "p",
-          text: "Не знаете, какой тип логотипа лучше подойдёт вашему бизнесу? Мы поможем подобрать решение, которое передаст характер бренда и будет эффективно работать во всех точках контакта с аудиторией.",
+          text: "Не знаете, какой тип логотипа лучше всего подойдет вашему бизнесу? Мы поможем подобрать решение, которое передаст характер бренда, станет его узнаваемым символом и одинаково эффективно будет работать во всех точках контакта с аудиторией.",
         },
       ],
     },
@@ -246,19 +246,19 @@ const ru: BrandingSeoContent = {
       blocks: [
         {
           kind: "p",
-          text: "На первый взгляд может показаться, что логотип — это просто картинка. Но разница не в скорости и не в деньгах, а в том, что стоит за готовым результатом.",
+          text: "На первый взгляд может показаться, что логотип — это лишь картинка. Если так, зачем платить дизайнеру и ждать результата неделями, когда онлайн-генератор бесплатно создаст ее за несколько минут? На самом деле разница не в скорости и не в деньгах, а в том, что стоит за готовым результатом.",
         },
         {
           kind: "p",
-          text: "Онлайн-генератор работает по алгоритму и не отвечает на главный вопрос — почему именно этот логотип должен представлять ваш бизнес?",
+          text: "Онлайн-генератор работает по алгоритму. Он просто соединяет готовые формы, шрифты и иконки, благодаря чему быстро выдает визуальный вариант. Однако генератор не отвечает на главный вопрос — почему именно этот логотип должен представлять ваш бизнес?",
         },
         {
           kind: "p",
-          text: "В ZOND каждое решение имеет логику. Мы изучаем компанию, конкурентов и аудиторию, обсуждаем позиционирование и цели бизнеса.",
+          text: "В ZOND каждое решение имеет логику. Еще до появления первого эскиза мы изучаем компанию, конкурентов и целевую аудиторию, обсуждаем с клиентом позиционирование бизнеса, его цели и визуальные предпочтения. Именно поэтому наши логотипы не просто выглядят современно и привлекательно, а помогают формировать правильное восприятие бренда.",
         },
         {
           kind: "p",
-          text: "После завершения проекта вы получаете логотип с полным комплектом файлов, адаптивными версиями и логобуком, а также все имущественные права на дизайн.",
+          text: "Не менее важен и финальный результат. После завершения проекта вы получаете от ZOND логотип с полным комплектом файлов, его адаптивные версии для разных носителей и логобук с правилами использования. Кроме этого, мы передаем вам все имущественные права на созданный дизайн.",
         },
       ],
     },
@@ -267,39 +267,39 @@ const ru: BrandingSeoContent = {
       blocks: [
         {
           kind: "p",
-          text: "Стоимость создания логотипа может существенно отличаться. При расчёте мы учитываем:",
+          text: "Стоимость создания логотипа для компаний может существенно отличаться. Все зависит от того, насколько сложен этот процесс и что именно вы получаете в результате. При расчете стоимости создания логотипа мы учитываем:",
         },
         {
           kind: "ul",
           items: [
-            "глубину исследования рынка, конкурентов и целевой аудитории;",
-            "количество концепций логотипа на выбор;",
-            "количество раундов правок в рамках проекта;",
+            "насколько глубокое исследование рынка, конкурентов и целевой аудитории нужно провести;",
+            "сколько концепций логотипа необходимо разработать на выбор;",
+            "сколько раундов правок будет предусмотрено в рамках проекта;",
             "нужны ли дополнительные материалы, например логобук;",
-            "сроки завершения проекта.",
+            "в какие сроки нужно завершить проект.",
           ],
         },
       ],
     },
     {
-      title: "Права на логотип и что передаётся в файлах",
+      title: "Права на логотип и что передается в файлах",
       blocks: [
         {
           kind: "p",
-          text: "Разработка логотипа в ZOND завершается передачей всех материалов для работы с новой айдентикой:",
+          text: "Разработка логотипа в ZOND завершается передачей всех материалов, необходимых для работы с новой айдентикой. К ним относятся:",
         },
         {
           kind: "ul",
           items: [
             "Финальные версии логотипа (цветная, монохромная и инверсная).",
-            "Палитра фирменных цветов с кодами (RGB, CMYK, HEX).",
-            "Полный пакет векторных и растровых файлов.",
+            "Палитра фирменных цветов с кодами для цифровых и печатных материалов (RGB, CMYK, HEX).",
+            "Полный пакет векторных и растровых файлов для печати, вебсайтов, социальных сетей и презентаций.",
             "Логобук с правилами использования логотипа.",
           ],
         },
         {
           kind: "p",
-          text: "Мы также передаём полные имущественные авторские права на финальную версию логотипа.",
+          text: "Кроме этого, мы передаем вам полные имущественные авторские права на финальную версию логотипа, чтобы вы могли без ограничений использовать ее в своей коммерческой деятельности и зарегистрировать как торговую марку.",
         },
       ],
     },
@@ -308,11 +308,11 @@ const ru: BrandingSeoContent = {
       blocks: [
         {
           kind: "p",
-          text: "Клиенты часто сочетают разработку логотипа с созданием брендбука — документа с правилами использования логотипа, цветов, шрифтов и других элементов айдентики.",
+          text: "Наши клиенты довольно часто сочетают разработку логотипа с созданием брендбука. Это документ, в котором зафиксированы правила использования логотипа, фирменных цветов, шрифтов и других элементов айдентики. На самом деле это логичное продолжение работы над визуальным образом компании, ведь брендбук помогает сохранять единый стиль в рекламе, соцсетях, полиграфии, презентациях и других материалах независимо от того, кто с ними работает.",
         },
         {
           kind: "p",
-          text: "Заказ логотипа также часто сочетается с разработкой бренда — формированием образа, характера и фирменного стиля компании, чтобы логотип создавался на основе чёткой идеи бренда.",
+          text: "Кроме этого, заказ логотипа часто сочетается с услугой по разработке бренда, то есть формированием уникального образа, характера и фирменного стиля компании. Такой подход помогает превратить обычный продукт в узнаваемую торговую марку с собственными ценностями, миссией и эмоциональной связью с аудиторией. В этом случае логотип создается не отдельно, а на основе четко сформированной идеи бренда, поэтому точнее передает его характер, лучше запоминается и органично работает вместе с другими элементами айдентики.",
         },
       ],
     },

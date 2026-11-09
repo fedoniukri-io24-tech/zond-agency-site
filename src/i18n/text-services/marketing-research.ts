@@ -320,6 +320,324 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Marketing research",
+  "title": "Marketing research and market analysis",
+  "titleAccent": "",
+  "lead": "We study the market and competitors and talk to consumers, so your launch, price or region is backed by data.",
+  "sub": "You get a report with findings and recommendations that your team can put to work right away.",
+  "cta": "Discuss the project",
+  "heroAlt": "Marketing research and market analysis",
+  "heroCaption": "Less guessing. More facts.",
+  "metricsTitle": "Less guessing. More facts.",
+  "stats": [
+    {
+      "value": "01",
+      "label": "final report with findings and recommendations"
+    },
+    {
+      "value": "03",
+      "label": "areas of study: market, competitors, people"
+    },
+    {
+      "value": "06",
+      "label": "steps from brief to results presentation"
+    },
+    {
+      "value": "02",
+      "label": "approaches: desk analysis and surveys"
+    }
+  ],
+  "audienceTitle": "When it is time for market research",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Launching a product or service",
+      "description": "Before you invest in production and advertising, it pays to know how big the demand is and who already holds the niche."
+    },
+    {
+      "index": "02",
+      "title": "Entering a new region",
+      "description": "Another city or country has its own prices and habits, and what sells at home may not work there."
+    },
+    {
+      "index": "03",
+      "title": "Sales drop for no clear reason",
+      "description": "Analysis shows where the problem is: in price, product, sales channel or how customers see the brand."
+    },
+    {
+      "index": "04",
+      "title": "Preparing for a rebrand",
+      "description": "Data on brand perception shows what to keep and what exactly holds the company back."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "DECISIONS BASED ON FACTS",
+    "titleLine": "Data first.",
+    "titleAccent": "Budget second.",
+    "body": "Market analysis and surveys test hypotheses on real customers before the company puts money into production and stock."
+  },
+  "includesTitle": "What marketing research includes",
+  "includesSubtitle": "The work is built from eight parts. We agree their set and depth based on the decision you need to make about a new product or service.",
+  "includes": [
+    "A report with data-based findings and recommendations.",
+    "Estimate of market size, demand and its segments.",
+    "Analysis of competitors and their positioning.",
+    "Target audience profiles and their motives.",
+    "Survey and in-depth interview results.",
+    "Comparison of prices and price segments in the niche.",
+    "A list of risks and barriers to market entry.",
+    "Priorities: what to change first.",
+    "A results presentation for your team."
+  ],
+  "deliverables": [
+    "A report with data-based findings and recommendations.",
+    "Estimate of market size, demand and its segments.",
+    "Analysis of competitors and their positioning.",
+    "Target audience profiles and their motives.",
+    "Survey and in-depth interview results.",
+    "Comparison of prices and price segments in the niche.",
+    "A list of risks and barriers to market entry.",
+    "Priorities: what to change first.",
+    "A results presentation for your team."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the report contents and presentation format with you before work starts.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Market size and demand",
+      "description": "We estimate the size and trend of demand, market segments and entry barriers to see whether there is room for the product.",
+      "image": "/assets/photography/positioning-2.webp",
+      "alt": "Stage illustration: Market size and demand"
+    },
+    {
+      "index": "02",
+      "title": "Competitive field",
+      "description": "We review competitors' range, prices, positioning and ad messages, and look for a free spot for the brand.",
+      "image": "/assets/photography/positioning-3.webp",
+      "alt": "Stage illustration: Competitive field"
+    },
+    {
+      "index": "03",
+      "title": "Target audience",
+      "description": "We describe who buys, how they choose and what stops them from buying. From this we build consumer profiles.",
+      "image": "/assets/photography/positioning-0.webp",
+      "alt": "Stage illustration: Target audience"
+    },
+    {
+      "index": "04",
+      "title": "Customer surveys",
+      "description": "We run surveys when you need numbers: how many people know the brand, how often they buy and how much they are ready to pay.",
+      "image": "/assets/photography/smm-3.webp",
+      "alt": "Stage illustration: Customer surveys"
+    },
+    {
+      "index": "05",
+      "title": "In-depth interviews",
+      "description": "Conversations with customers and your team reveal motives and barriers that survey numbers alone do not explain.",
+      "image": "/assets/photography/communication-0.webp",
+      "alt": "Stage illustration: In-depth interviews"
+    },
+    {
+      "index": "06",
+      "title": "Price segments",
+      "description": "We compare prices in the niche to see where your product looks expensive, where it looks like a good deal and where it gets lost.",
+      "image": "/assets/photography/positioning-1.webp",
+      "alt": "Stage illustration: Price segments"
+    },
+    {
+      "index": "07",
+      "title": "Category trends",
+      "description": "We look at where the product category is heading: which formats appear, where people buy and which queries are already growing.",
+      "image": "/assets/photography/identity-0.webp",
+      "alt": "Stage illustration: Category trends"
+    },
+    {
+      "index": "08",
+      "title": "Recommendation plan",
+      "description": "We turn the data into a plan that shows what to do first with the product, price, sales channels and brand message.",
+      "image": "/assets/photography/branding-0.webp",
+      "alt": "Stage illustration: Recommendation plan"
+    }
+  ],
+  "casesTitle": "Marketing research case studies",
+  "casesSubtitle": "ZOND projects where the work started with market and audience analysis. Each project page describes the task and scope of work.",
+  "processTitle": "How we study your market",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief and goal",
+      "description": "We clarify which decision needs data behind it and what is already known about the market.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Work plan",
+      "description": "We choose methods, data sources, the sample and the report format for your task.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Data collection",
+      "description": "We study open sources and run surveys and interviews with your customers.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Processing",
+      "description": "We cross-check data from different sources and test your team's hypotheses against it.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Findings",
+      "description": "We answer the questions from the brief and spell out which decisions follow from the data.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Presentation",
+      "description": "We present the results to your team and answer questions on every finding.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "Data first.",
+  "whyItems": [
+    {
+      "title": "Data first. Budget second.",
+      "description": "Market analysis and surveys test hypotheses on real customers before the company puts money into production and stock."
+    }
+  ],
+  "compareTitle": "ZOND, in-house or an off-the-shelf report?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "In-house",
+    "Off-the-shelf report"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Data",
+      "zond": "Fit to your question and market",
+      "freelance": "Whatever turned up online",
+      "generator": "General industry overview"
+    },
+    {
+      "criterion": "Surveys",
+      "zond": "Buyers in your niche",
+      "freelance": "Friends and own clients",
+      "generator": "Usually not conducted"
+    },
+    {
+      "criterion": "Findings",
+      "zond": "Business recommendations",
+      "freelance": "Depend on experience",
+      "generator": "Not tied to the company"
+    },
+    {
+      "criterion": "Result",
+      "zond": "Ready for decisions",
+      "freelance": "Data needs checking",
+      "generator": "Needs adaptation"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "Reviews of working with ZOND",
+  "reviewsNote": "Real client reviews from completed ZOND projects.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "What the result looks like",
+  "productNote": "We hand over the results as a document and a presentation. Below are example formats that make it easy to show the findings to management, your team and contractors.",
+  "products": [
+    {
+      "src": "/assets/photography/smm-3.webp",
+      "alt": "Illustrative application: report with findings",
+      "caption": "Report with findings"
+    },
+    {
+      "src": "/assets/photography/positioning-0.webp",
+      "alt": "Illustrative application: audience profile",
+      "caption": "Audience profile"
+    },
+    {
+      "src": "/assets/photography/identity-0.webp",
+      "alt": "Illustrative application: competitor map",
+      "caption": "Competitor map"
+    }
+  ],
+  "formTitle": "Let's test the market before your launch.",
+  "formDescription": "To order marketing research, tell us about the product and your task.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "How much does marketing research cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the number of markets and regions, the chosen methods, the sample size and the depth of the report."
+    },
+    {
+      "question": "How long does the research take?",
+      "answer": "We calculate the timeline for your task as well. Desk analysis is faster, while surveys and interviews add time to find the right people and talk to them."
+    },
+    {
+      "question": "Which research methods do you use?",
+      "answer": "Desk analysis of open data, customer surveys, in-depth interviews and competitor reviews. We choose the set of methods to fit your question and budget."
+    },
+    {
+      "question": "What do we get at the end of the research?",
+      "answer": "A report with data and findings, audience profiles, a competitor map and recommendations. We present the results to your team at a separate session."
+    },
+    {
+      "question": "Can we order competitor analysis only?",
+      "answer": "Yes. We also run competitor research as a standalone project. Its price depends on the number of companies in the sample."
+    },
+    {
+      "question": "Is research needed before a rebrand?",
+      "answer": "Yes, if the reason for falling sales is unclear. It shows what exactly holds the brand back and separates image problems from price or product problems."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Positioning",
+      "slug": "positioning"
+    },
+    {
+      "title": "Branding",
+      "slug": "branding"
+    },
+    {
+      "title": "Naming",
+      "slug": "naming"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Маркетинговые исследования",
   "title": "Маркетинговые исследования и анализ рынка",
@@ -698,6 +1016,66 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Маркетингові дослідження ринку для бізнесу"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "Desk and field research",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Desk research is the analysis of existing data: statistics, industry reviews, consumer feedback, competitor websites. It is enough to estimate market size and the main players."
+        },
+        {
+          "kind": "p",
+          "text": "Field research gathers new data from people. A quantitative survey gives numbers, and in-depth interviews explain motives. It is needed when the question is about brand perception and reasons for choice."
+        }
+      ]
+    },
+    {
+      "title": "What the cost of research depends on",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The price of market research comes from the scope of work. Marketing research for one city and for five regions can differ in cost several times over, even with the same methods and sources."
+        },
+        {
+          "kind": "p",
+          "text": "The amount depends most on the number of markets and regions, the choice between desk analysis and surveys, the sample size and how detailed the report is. We name the exact amount after a brief with you."
+        }
+      ]
+    },
+    {
+      "title": "Market research before creating a brand",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Market research companies usually stop at the report. At ZOND the findings become the basis for the brand: brand positioning is built on what matters to your consumers."
+        },
+        {
+          "kind": "p",
+          "text": "Then brand development turns this position into a name, a mark and a visual identity. For promotion, integrated marketing uses the same marketing data to choose channels and ad formats."
+        }
+      ]
+    },
+    {
+      "title": "How to use research results",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A report is useful as long as decisions are made with it. Consumer data shapes the ad message, the competitor map shows a free position, and the price comparison points to a price segment."
+        },
+        {
+          "kind": "p",
+          "text": "We research product and service markets for companies from different cities in Ukraine, and in Kyiv it is easy to start with a meeting at our office. A repeat study will show whether the changes worked."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "Marketing market research for business"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -760,6 +1138,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const marketingResearch: TextServiceContent = {
   heroImage: "/assets/photography/positioning-1.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

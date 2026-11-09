@@ -69,7 +69,7 @@ const uk: ServicePageContent = {
     },
     {
       index: "05",
-      title: "Пакета форматів",
+      title: "Пакет форматів",
       description: "AI, EPS, PDF, SVG і PNG — для друку, екрана та вебу.",
       image: "/services/web.jpg",
       alt: "Файли ілюстрації в різних форматах",
@@ -273,17 +273,18 @@ const en: ServicePageContent = {
   title: "Illustration",
   titleAccent: "Custom commercial illustration",
   lead:
-    "Corporate characters, comics, and graphics that make your product recognizable on the shelf and in social media.",
+    "Brand characters, comics and graphics that make your product recognizable on the shelf and on social media.",
+  sub: "",
   cta: "Discuss the project",
   heroAlt: "Custom commercial illustration",
   heroCaption: "Characters and graphics that work for the brand.",
-  metricsTitle: "Studio numbers",
+  metricsTitle: "The studio in numbers",
   stats: [
     { value: "6", label: "years\non the market" },
     { value: "1", label: "illustrator" },
-    { value: "50+", label: "artworks" },
+    { value: "50+", label: "illustrations" },
     { value: "55", label: "projects" },
-    { value: "30+", label: "niches\nin work" },
+    { value: "30+", label: "niches\nworked in" },
   ],
   audienceTitle: "Who needs illustration",
   audienceItems: [
@@ -295,10 +296,10 @@ const en: ServicePageContent = {
   includesTitle: "What you get",
   includes: [
     "Several sketches to choose from",
-    "A corporate character for the brand",
-    "Final vector illustration",
-    "Source file with layers",
-    "Files in AI, EPS, PDF, SVG, and PNG",
+    "A brand character",
+    "A final vector illustration",
+    "A layered source file",
+    "Files in AI, EPS, PDF, SVG and PNG",
     "Separate versions for print and screen",
     "Color and monochrome graphics",
     "Commercial usage rights",
@@ -307,42 +308,42 @@ const en: ServicePageContent = {
     {
       index: "01",
       title: "Sketches to choose from",
-      description: "Several image options so you can pick the direction for the final.",
+      description: "Several takes on the image, so you can pick the direction for the final version.",
       image: "/services/character.jpg",
       alt: "Illustration sketches",
     },
     {
       index: "02",
-      title: "Corporate character",
-      description: "A brand character that boosts recognition and emotional connection.",
+      title: "Brand character",
+      description: "A character that makes the brand easier to recognize and builds an emotional bond.",
       image: "/branding/include-character.jpg",
-      alt: "Brand corporate character",
+      alt: "Brand character",
     },
     {
       index: "03",
       title: "Final illustration",
-      description: "Finished vector graphics ready to scale.",
+      description: "Finished vector artwork that scales to any size.",
       image: "/services/graphic.jpg",
       alt: "Final vector illustration",
     },
     {
       index: "04",
       title: "Source file",
-      description: "A layered file for further edits and adaptations.",
+      description: "A layered file for later edits and adaptations.",
       image: "/services/identity.jpg",
-      alt: "Source file with layers",
+      alt: "Layered source file",
     },
     {
       index: "05",
-      title: "Format package",
-      description: "AI, EPS, PDF, SVG, and PNG — for print, screen, and web.",
+      title: "Set of formats",
+      description: "AI, EPS, PDF, SVG and PNG for print, screen and the web.",
       image: "/services/web.jpg",
-      alt: "Illustration files in multiple formats",
+      alt: "Illustration files in different formats",
     },
     {
       index: "06",
       title: "Print and screen versions",
-      description: "Separate adaptations for print and digital media.",
+      description: "Separate adaptations for printed materials and digital media.",
       image: "/services/packaging.jpg",
       alt: "Illustration versions for print and screen",
     },
@@ -356,7 +357,7 @@ const en: ServicePageContent = {
     {
       index: "08",
       title: "Commercial rights",
-      description: "Usage rights are fixed in the contract before work starts.",
+      description: "Usage rights are set out in the contract before work begins.",
       image: "/services/strategy.jpg",
       alt: "Commercial usage rights",
     },
@@ -364,57 +365,165 @@ const en: ServicePageContent = {
   casesTitle: "Commercial illustration cases",
   processTitle: "How we draw",
   process: [
-    { index: "01", title: "Consultation and brief", description: "You describe the task, we clarify details.", duration: "1 day" },
-    { index: "02", title: "Brainstorm", description: "The ZOND team develops the concept.", duration: "1 day" },
-    { index: "03", title: "Sketch creation", description: "We show several options.", duration: "1 day" },
-    { index: "04", title: "Concept approval", description: "We choose a sketch and develop it.", duration: "1 day" },
-    { index: "05", title: "Final files", description: "We assemble the files and deliver them to you.", duration: "1 day" },
+    {
+      index: "01",
+      title: "Consultation and brief",
+      description: "You describe the task, we ask follow-up questions.",
+      duration: "1 day",
+    },
+    {
+      index: "02",
+      title: "Brainstorm",
+      description: "The ZOND team comes up with the image.",
+      duration: "1 day",
+    },
+    {
+      index: "03",
+      title: "Sketching",
+      description: "We show several options.",
+      duration: "1 day",
+    },
+    {
+      index: "04",
+      title: "Image approval",
+      description: "We pick a sketch and work it out in detail.",
+      duration: "1 day",
+    },
+    {
+      index: "05",
+      title: "Final files",
+      description: "We put the files together and hand them over.",
+      duration: "1 day",
+    },
   ],
   teamTitle: "Who leads the project",
   whyTitle: "Why ZOND",
   whyItems: [
-    { title: "We draw to brand identity", description: "We follow your palette and corporate fonts." },
-    { title: "We match the illustrator", description: "Corporate characters, comics, graphics for advertising." },
-    { title: "Print-ready files", description: "Vector and raster, separate versions for screen and print." },
-    { title: "Rights transfer to you", description: "Terms are fixed in the contract before work starts." },
+    {
+      title: "We draw to your brand identity",
+      description: "We work from your palette and brand fonts.",
+    },
+    {
+      title: "We pick the right illustrator",
+      description: "Brand characters, comics, graphics for advertising.",
+    },
+    {
+      title: "Files are print-ready",
+      description: "Vector and raster, with separate versions for screen and print.",
+    },
+    {
+      title: "The rights pass to you",
+      description: "We set out the terms in the contract before work begins.",
+    },
   ],
-  compareTitle: "Why ZOND, not freelance or a generator?",
-  compareColumns: ["Criterion", "ZOND", "Freelance", "Generator (AI)"],
+  compareTitle: "Why ZOND and not a freelancer or a generator?",
+  compareColumns: ["Criterion", "ZOND", "Freelancer", "Generator (AI)"],
   compareRows: [
-    { criterion: "Style", zond: "Matched to your brand", freelance: "Author's style", generator: "Similar to others" },
-    { criterion: "Rights", zond: "Written into the contract", freelance: "Not always", generator: "Under license" },
-    { criterion: "Revisions", zond: "Included in the estimate", freelance: "By agreement", generator: "New prompt" },
-    { criterion: "After delivery", zond: "Same style", freelance: "If available", generator: "Different result" },
+    {
+      criterion: "Style",
+      zond: "Made for your brand",
+      freelance: "The artist's own style",
+      generator: "Looks like everything else",
+    },
+    {
+      criterion: "Rights",
+      zond: "Written into the contract",
+      freelance: "Not always",
+      generator: "Under the license",
+    },
+    {
+      criterion: "Revisions",
+      zond: "Included in the estimate",
+      freelance: "By agreement",
+      generator: "A new prompt",
+    },
+    {
+      criterion: "After delivery",
+      zond: "The same style",
+      freelance: "If they are free",
+      generator: "A different result",
+    },
   ],
   reviewsTitle: "Reviews",
   reviewsNote: "Sample texts for the layout. These are not real client reviews.",
   reviews: [
-    { label: "Sample review 01", quote: "We needed a corporate character for packaging and social media. We received several sketches, chose the look, and quickly got final files.", name: "Client name · Company", role: "Corporate character" },
-    { label: "Sample review 02", quote: "It was important to draw a series in one style under our brand book. All artworks look consistent on the website and in ads.", name: "Client name · Company", role: "Illustration series" },
-    { label: "Sample review 03", quote: "They delivered vector and raster for print and screen, plus a layered source file. Easy to tweak details without reordering.", name: "Client name · Company", role: "Files and rights" },
+    {
+      label: "Sample review 01",
+      quote:
+        "We needed a brand character for our packaging and social media. We got several sketches, chose the image and quickly reached the final files.",
+      name: "Client name · Company",
+      role: "Brand character",
+    },
+    {
+      label: "Sample review 02",
+      quote:
+        "It was important to draw a series in one style that follows our brand book. All the pieces look consistent on the website and in ads.",
+      name: "Client name · Company",
+      role: "Illustration series",
+    },
+    {
+      label: "Sample review 03",
+      quote:
+        "They handed over vector and raster files for print and screen, plus a layered source file. It is easy to fix small details without placing a new order.",
+      name: "Client name · Company",
+      role: "Files and rights",
+    },
   ],
-  productTitle: "Illustration in brand life.",
+  productTitle: "Illustration in the life of a brand.",
   productNote: "Characters and graphics on products and in communication.",
   products: withServiceProductImages([
     { alt: "Illustration on a branded mug", caption: "Branded media" },
-    { alt: "Stickers with a brand character", caption: "Merch" },
-    { alt: "Illustrations on social media", caption: "Social" },
-    { alt: "Character print on apparel", caption: "Apparel" },
+    { alt: "Stickers with the brand character", caption: "Merch" },
+    { alt: "Illustrations on social media", caption: "Social media" },
+    { alt: "Character print on clothing", caption: "Clothing" },
     { alt: "Illustration on packaging", caption: "Packaging" },
-    { alt: "Illustration on outdoor advertising", caption: "Outdoor" },
+    { alt: "Illustration in outdoor advertising", caption: "Outdoor" },
   ]),
   formTitle: "Tell us about your task",
-  formDescription: "Fill out the form. Consultation is free — we quote after the brief.",
+  formDescription:
+    "Fill in the form. The consultation is free, and we name the price after the brief.",
   faqTitle: "FAQ",
   faq: [
-    { question: "What types of commercial illustration exist and where are they used?", answer: "There are four types: a character, a product, a scene, and a diagram with figures. Characters go on packaging and ads, products on catalog cards, scenes on banners and social media, diagrams on websites and presentations." },
-    { question: "How much does commercial illustration cost and how is the price formed?", answer: "Price depends on plot complexity, series size, detail level, and where the artwork will be used. The illustrator quotes after the brief, and the amount is fixed in the estimate before work starts." },
-    { question: "How long does illustration take?", answer: "Timeline depends on series size, plot complexity, and revisions, so we set it in the estimate after the brief. Roughly 1–2 business days for one artwork, 4–5 days for a series." },
-    { question: "Who owns the rights after payment?", answer: "Property rights to the finished work transfer to you. Scope, term, and territory are fixed in the contract signed before work starts." },
-    { question: "In what formats do you deliver finished illustrations?", answer: "Vector and raster versions for screen and print, plus a layered source file. Formats: AI, EPS, PDF, SVG, PNG." },
-    { question: "How many revisions are included?", answer: "Two revision rounds are included in the estimate. Minor tweaks count within those rounds. Extra work beyond two rounds is billed hourly at UAH 2,000." },
-    { question: "Can you illustrate in our brand style?", answer: "Yes. We review your brand book for colors, fonts, and graphic manner. Without guidelines, the illustrator shows several style directions for approval." },
-    { question: "How does a commercial illustrator differ from a freelance artist?", answer: "An artist draws for themselves and sells the work as-is. A commercial illustrator works from a brief, follows brand style, shows sketches for approval, delivers required formats, and transfers usage rights." },
+    {
+      question: "What types of commercial illustration are there and where are they used?",
+      answer:
+        "Commercial illustration comes in four types: a drawn character, a single product, a full scene and a diagram with figures. A character goes on packaging and into advertising, products are drawn for catalog cards, scenes are used for banners and social media, and diagrams for websites and presentations.",
+    },
+    {
+      question: "How much does commercial illustration cost and how is the price set?",
+      answer:
+        "The cost of an illustration depends on how complex the story is, how many pieces are in the series and how much fine detail the drawing has. It also matters where it will be used, from a product card to outdoor advertising. The illustrator names the price after the brief, and it is in the estimate before work begins.",
+    },
+    {
+      question: "How long does it take to create an illustration?",
+      answer:
+        "The timeline depends on the size of the series, the complexity of the story and the number of revisions, so we put it in the estimate after the brief. There is no point naming a deadline at random. An illustration gets done faster when you show references right away. A rough timeline is 1-2 working days for one piece and 4-5 days for a series.",
+    },
+    {
+      question: "Who owns the rights to the illustration after payment?",
+      answer:
+        "The property rights to the finished work pass to you. You can use the image on packaging, in advertising, on your website and in the product itself. The scope of the rights transferred, the term and the territory of use are set out in the contract we sign before work begins.",
+    },
+    {
+      question: "In what formats do you deliver finished illustrations?",
+      answer:
+        "We hand over vector and raster versions, separately for screen and for print, together with a layered source file. The exact list of formats: AI, EPS, PDF, SVG, PNG.",
+    },
+    {
+      question: "How many revisions are included in the price?",
+      answer:
+        "We write the number of revisions into the estimate before work begins. The price includes two rounds of revisions. Small tweaks such as a shade or a line weight are part of those rounds and are not charged separately. Work beyond two rounds is billed by the hour at UAH 2,000 per hour.",
+    },
+    {
+      question: "Can we order an illustration in our brand style?",
+      answer:
+        "Yes. Before we start, we go through your brand book and take the colors, fonts and graphic manner from it. If there are no guidelines, the illustrator shows several style directions to choose from and briefly describes the approved one.",
+    },
+    {
+      question: "What is the difference between a commercial illustrator and a fine artist?",
+      answer:
+        "An artist draws for themselves and sells the finished work as it is, while a commercial illustrator works from a brief. They rely on the client's brand style, show a sketch for approval, deliver files in the required formats and transfer the usage rights.",
+    },
   ],
   relatedTitle: "Related services",
   related: [
@@ -428,9 +537,9 @@ const ru: ServicePageContent = {
   ...uk,
   eyebrow: "Услуги / Иллюстрация",
   title: "Иллюстрация",
-  titleAccent: "Коммерческая иллюстрация на заказ",
+  titleAccent: "Студия иллюстрации для бизнеса",
   lead:
-    "Корпоративные герои, комиксы и графика, по которым ваш продукт узнают на полке и в соцсетях.",
+    "Рисуем корпоративных героев, комиксы и графику для упаковки, сайта и рекламы, цену называем после брифа.",
   cta: "Обсудить проект",
   heroAlt: "Коммерческая иллюстрация на заказ",
   heroCaption: "Персонажи и графика, которые работают на бренд.",
@@ -452,11 +561,11 @@ const ru: ServicePageContent = {
   includesTitle: "Что вы получите",
   includes: [
     "Несколько эскизов на выбор",
-    "Корпоративного героя для бренда",
-    "Чистовую иллюстрацию в векторе",
+    "Корпоративного героя бренда",
+    "Чистовую работу в векторе",
     "Исходный макет со слоями",
     "Файлы в форматах AI, EPS, PDF, SVG и PNG",
-    "Отдельные версии под печать и под экран",
+    "Версии под печать и под экран",
     "Цветную и монохромную графику",
     "Права на коммерческое использование",
   ],
@@ -518,21 +627,21 @@ const ru: ServicePageContent = {
       alt: "Права на коммерческое использование",
     },
   ],
-  casesTitle: "Кейсы коммерческой иллюстрации",
+  casesTitle: "Кейсы иллюстрации",
   processTitle: "Как мы рисуем",
   process: [
     { index: "01", title: "Консультация и бриф", description: "Вы описываете задачу, мы уточняем.", duration: "1 день" },
     { index: "02", title: "Мозговой штурм", description: "Команда ZOND придумывает образ.", duration: "1 день" },
     { index: "03", title: "Создание эскиза", description: "Показываем несколько вариантов.", duration: "1 день" },
     { index: "04", title: "Утверждение образа", description: "Выбираем эскиз и прорабатываем его.", duration: "1 день" },
-    { index: "05", title: "Финальные макеты", description: "Собираем файлы и передаём вам.", duration: "1 день" },
+    { index: "05", title: "Финальные макеты", description: "Собираем файлы и передаем вам.", duration: "1 день" },
   ],
-  teamTitle: "Кто ведёт проект",
-  whyTitle: "Почему ZOND",
+  teamTitle: "Кто ведет проект",
+  whyTitle: "Студия иллюстрации ZOND",
   whyItems: [
     { title: "Рисуем под айдентику бренда", description: "Опираемся на вашу палитру и фирменные шрифты." },
-    { title: "Подбираем иллюстратора", description: "Корпоративные герои, комиксы, графика для рекламы." },
-    { title: "Файлы готовы к печати", description: "Вектор и растр, отдельные версии под экран и полиграфию." },
+    { title: "Иллюстратор под ваш жанр", description: "Корпоративные герои, комиксы, графика для рекламы." },
+    { title: "Ведем проект после сдачи", description: "Новые сюжеты рисуем в том же стиле." },
     { title: "Права переходят вам", description: "Условия фиксируем в договоре до начала работы." },
   ],
   compareTitle: "Почему ZOND, а не фриланс или генератор?",
@@ -540,7 +649,7 @@ const ru: ServicePageContent = {
   compareRows: [
     { criterion: "Стиль", zond: "Под ваш бренд", freelance: "Стиль автора", generator: "Похож на другие" },
     { criterion: "Права", zond: "Пишем в договор", freelance: "Не всегда", generator: "По лицензии" },
-    { criterion: "Правки", zond: "Есть в смете", freelance: "По договорённости", generator: "Новый запрос" },
+    { criterion: "Правки", zond: "В смете заранее", freelance: "По договору", generator: "Новый запрос" },
     { criterion: "После сдачи", zond: "Тот же стиль", freelance: "Если свободен", generator: "Другой результат" },
   ],
   reviewsTitle: "Отзывы",
@@ -561,17 +670,50 @@ const ru: ServicePageContent = {
     { alt: "Иллюстрация на наружной рекламе", caption: "Outdoor" },
   ]),
   formTitle: "Расскажите о своей задаче",
-  formDescription: "Заполните форму. Консультация бесплатная, цену назовём после брифа.",
+  formDescription:
+    "Заполните форму. Бесплатная консультация, цену назовем после брифа.",
   faqTitle: "FAQ",
   faq: [
-    { question: "Какие есть разновидности коммерческой иллюстрации и где они применяются?", answer: "Коммерческая иллюстрация бывает четырёх типов: нарисованный герой, отдельный товар, целая сцена и схема с цифрами. Героя берут на упаковку и в рекламу, товар рисуют для карточек в каталоге, сцену — для баннеров и соцсетей, схему — для сайта и презентаций." },
-    { question: "Сколько стоит коммерческая иллюстрация и как формируется цена?", answer: "Цена зависит от сложности сюжета, количества работ в серии и мелких деталей. Важно и то, где изображение будет работать. Иллюстратор называет цену после брифа, и она стоит в смете до начала работы." },
-    { question: "Сколько времени занимает создание иллюстрации?", answer: "Срок зависит от объёма серии, сложности сюжета и количества правок, поэтому мы ставим его в смету после брифа. Ориентировочно 1–2 рабочих дня на одну работу, 4–5 дней на серию." },
-    { question: "Кому принадлежат права на иллюстрацию после оплаты?", answer: "Имущественные права на готовую работу переходят вам. Объём, срок и территорию использования фиксирует договор, который подписываем до начала работы." },
-    { question: "В каких форматах вы передаёте готовые иллюстрации?", answer: "Векторные и растровые версии отдельно под экран и под печать, вместе с исходным макетом со слоями. Форматы: AI, EPS, PDF, SVG, PNG." },
-    { question: "Сколько правок входит в стоимость работы?", answer: "В стоимость входят два круга правок. Мелкие уточнения входят в эти круги. Работу сверх двух кругов считаем почасово, час стоит 2 000 грн." },
-    { question: "Можно ли заказать иллюстрацию в стиле нашего бренда?", answer: "Да. Перед работой мы смотрим ваш брендбук и берём оттуда цвета, шрифты и манеру графики. Если гайдлайна нет, иллюстратор показывает несколько стилевых направлений на выбор." },
-    { question: "В чём разница между коммерческим иллюстратором и свободным художником?", answer: "Художник рисует для себя и продаёт готовую работу как есть, а коммерческий иллюстратор работает по брифу: опирается на фирменный стиль, показывает эскиз, отдаёт файлы в нужных форматах и передаёт права на использование." },
+    {
+      question: "Сколько стоит иллюстрация и из чего складывается цена?",
+      answer:
+        "Сумму определяют сложность сюжета, количество персонажей и число работ в серии. Добавьте сюда технику, срок и права, которые вы забираете. Точный расчет мы ставим в смету после брифа.",
+    },
+    {
+      question: "Сколько стоит нарисовать иллюстрацию персонажа?",
+      answer:
+        "Корпоративный герой стоит дороже одиночного рисунка, потому что вместе с ним мы рисуем несколько поз и ракурсов. Такой набор нужен, чтобы персонаж одинаково смотрелся на упаковке, на сайте и в рекламе.",
+    },
+    {
+      question: "Какая стоимость иллюстрации для сайта и для упаковки?",
+      answer:
+        "Рисунок для сайта мы готовим в нескольких размерах под экран, для упаковки в печатном качестве и с запасом под обрез. Работа для упаковки выходит дороже, к ней добавляются требования типографии.",
+    },
+    {
+      question: "Сколько стоит иллюстрация в Украине, если заказчик не из Киева?",
+      answer:
+        "Город на расчет не влияет, мы работаем со всей Украиной. Бриф заполняется онлайн, эскизы и правки согласуем в переписке, готовые файлы вы получаете ссылкой. Приезжать в офис для этого не нужно.",
+    },
+    {
+      question: "Сколько времени занимает создание иллюстрации?",
+      answer:
+        "Срок зависит от объема серии, сложности сюжета и количества правок, поэтому мы ставим его в смету после брифа. Одиночная работа занимает 1–2 рабочих дня, серия из нескольких рисунков 4–5 дней, а называть срок наугад смысла нет.",
+    },
+    {
+      question: "Кому принадлежат права на иллюстрацию после оплаты?",
+      answer:
+        "Имущественные права на готовую работу переходят вам. Вы можете ставить изображение на упаковку, в рекламу, на сайт и на мерч. Объем, срок и территорию использования фиксирует договор, который подписываем до начала работы.",
+    },
+    {
+      question: "В каких форматах вы передаете готовые иллюстрации?",
+      answer:
+        "Мы передаем векторные и растровые версии, отдельно под экран и под печать, вместе с исходным макетом со слоями. Точный перечень форматов: AI, EPS, PDF, SVG, PNG.",
+    },
+    {
+      question: "Сколько правок входит в стоимость работы?",
+      answer:
+        "Количество правок мы записываем в смету до начала работы. В стоимость входят два круга правок. Мелкие уточнения вроде оттенка или толщины линии входят в них и отдельно не считаются. Работу сверх двух кругов считаем по часам, час стоит 2 000 грн.",
+    },
   ],
   relatedTitle: "Смежные услуги",
   related: [

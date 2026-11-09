@@ -320,6 +320,324 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Motion design",
+  "title": "Motion design and animated videos for business",
+  "titleAccent": "",
+  "lead": "We make promo and explainer videos, logo animation and graphics for social media, websites and presentations.",
+  "sub": "Every video is built in your visual identity, so people recognize the brand in the first seconds on any platform.",
+  "cta": "Discuss the project",
+  "heroAlt": "Motion design and animated videos for business",
+  "heroCaption": "One video. Many platforms.",
+  "metricsTitle": "One video. Many platforms.",
+  "stats": [
+    {
+      "value": "08",
+      "label": "parts of the work: from script to all files"
+    },
+    {
+      "value": "06",
+      "label": "steps from brief to handoff of the finished video"
+    },
+    {
+      "value": "02",
+      "label": "animation formats for your task: 2D or 3D"
+    },
+    {
+      "value": "03",
+      "label": "platforms: website, social media, event screens"
+    }
+  ],
+  "audienceTitle": "When you need an animated video",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "A complex product or service",
+      "description": "An animated diagram shows in one minute how your service works, even if it is hard to film with a regular camera."
+    },
+    {
+      "index": "02",
+      "title": "Ads on social media and YouTube",
+      "description": "A promo video with motion in the first frames stops the scroll better than a static banner."
+    },
+    {
+      "index": "03",
+      "title": "Company website and presentation",
+      "description": "A short video on the home page or in slides explains the product faster than a whole paragraph of text next to it."
+    },
+    {
+      "index": "04",
+      "title": "Product launch or event",
+      "description": "A teaser for a new product, a loop for the screen at your trade show stand or a video invitation to your presentation."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "YOUR BRAND IN MOTION",
+    "titleLine": "The same style.",
+    "titleAccent": "Now on screen.",
+    "body": "At ZOND the animation studio and the visual identity designers work in one team, so every video speaks the brand's language."
+  },
+  "includesTitle": "What motion design for a video includes",
+  "includesSubtitle": "The work starts long before animation: first the idea and script, then frames, motion, sound and versions for every platform.",
+  "includes": [
+    "Script and storyboard for the future video.",
+    "Key frames in the company's visual identity.",
+    "A finished animated video for your task.",
+    "An animated logo for the video intro.",
+    "Versions for the website, social media and presentations.",
+    "Music and voiceover mixed with the picture.",
+    "A subtitled version for viewing without sound.",
+    "A short teaser to kick off an ad campaign.",
+    "Project source files for future edits."
+  ],
+  "deliverables": [
+    "Script and storyboard for the future video.",
+    "Key frames in the company's visual identity.",
+    "A finished animated video for your task.",
+    "An animated logo for the video intro.",
+    "Versions for the website, social media and presentations.",
+    "Music and voiceover mixed with the picture.",
+    "A subtitled version for viewing without sound.",
+    "A short teaser to kick off an ad campaign.",
+    "Project source files for future edits."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the exact list of versions and files based on your project's tasks.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Video script",
+      "description": "We write what the viewer will see and hear in each scene and fit the main idea into the running time, that is, the length of the video.",
+      "image": "/assets/photography/communication-1.webp",
+      "alt": "Stage illustration: Video script"
+    },
+    {
+      "index": "02",
+      "title": "Scene storyboard",
+      "description": "We draw the future video as a sequence of frame sketches, so you approve the plot and scene changes before animation starts.",
+      "image": "/assets/photography/brand-character-0.webp",
+      "alt": "Stage illustration: Scene storyboard"
+    },
+    {
+      "index": "03",
+      "title": "Style of every frame",
+      "description": "We bring the brand's colors, fonts and graphics into the frame, and for a new ad campaign we create a separate frame style.",
+      "image": "/assets/photography/graphics-0.webp",
+      "alt": "Stage illustration: Style of every frame"
+    },
+    {
+      "index": "04",
+      "title": "Motion in every frame",
+      "description": "We bring text, icons, diagrams and characters to life and set the pace, pauses and smooth scene transitions to the rhythm of the music.",
+      "image": "/assets/photography/brand-character-2.webp",
+      "alt": "Stage illustration: Motion in every frame"
+    },
+    {
+      "index": "05",
+      "title": "Logo animation",
+      "description": "The mark moves in the video intro, on the website and on social media, and every movement highlights its shape, color and idea.",
+      "image": "/assets/photography/logo-1.webp",
+      "alt": "Stage illustration: Logo animation"
+    },
+    {
+      "index": "06",
+      "title": "Sound and voiceover",
+      "description": "We pick music, sound effects and a voiceover artist and sync them with the picture, so the main message comes across even without words.",
+      "image": "/assets/photography/smm-0.webp",
+      "alt": "Stage illustration: Sound and voiceover"
+    },
+    {
+      "index": "07",
+      "title": "Versions for formats",
+      "description": "We prepare 16:9, 9:16 and 1:1 aspect ratios, a short teaser and a subtitled version for silent viewing in social media feeds.",
+      "image": "/assets/photography/web-development-2.webp",
+      "alt": "Stage illustration: Versions for formats"
+    },
+    {
+      "index": "08",
+      "title": "Handoff of all files",
+      "description": "We deliver the video for each platform plus the project source files, so you can update scenes or text later without starting from scratch.",
+      "image": "/assets/photography/web-development-3.webp",
+      "alt": "Stage illustration: Handoff of all files"
+    }
+  ],
+  "casesTitle": "ZOND motion design and animation case studies",
+  "casesSubtitle": "Related ZOND projects in branding, logos and graphics. Each project page describes the task and the actual scope of work.",
+  "processTitle": "How we create your video",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief and goals",
+      "description": "We clarify the video's task, audience, platforms, length and target launch date.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Scene text",
+      "description": "We write the text for each scene and agree on the main idea and the voiceover tone.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Storyboard",
+      "description": "We show the future video in frame sketches, so all edits happen before animation.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Frame style",
+      "description": "We draw key frames in the brand's colors and fonts and approve the video's look.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Motion and sound",
+      "description": "We animate all scenes and mix music, sound effects and voiceover with the finished picture.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Handoff",
+      "description": "We deliver versions for each platform and source files for future video edits.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "The same style.",
+  "whyItems": [
+    {
+      "title": "The same style. Now on screen.",
+      "description": "At ZOND the animation studio and the visual identity designers work in one team, so every video speaks the brand's language."
+    }
+  ],
+  "compareTitle": "Why ZOND instead of a freelancer or an online builder?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "Freelancer",
+    "Online builder"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Idea",
+      "zond": "Script for your task",
+      "freelance": "Depends on the author's idea",
+      "generator": "Ready-made template plot"
+    },
+    {
+      "criterion": "Style",
+      "zond": "Company visual identity",
+      "freelance": "The designer's personal manner",
+      "generator": "Looks like thousands of others"
+    },
+    {
+      "criterion": "Formats",
+      "zond": "Versions for all platforms",
+      "freelance": "Usually just one version",
+      "generator": "Only within the template"
+    },
+    {
+      "criterion": "Result",
+      "zond": "Video and all source files",
+      "freelance": "Everything depends on experience",
+      "generator": "Needs more work"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "Reviews of working with ZOND",
+  "reviewsNote": "Real client reviews of joint projects with ZOND.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "Where your brand animation works",
+  "productNote": "We cut one video for each platform: 16:9 horizontal for the website and YouTube, 9:16 vertical for Reels and TikTok, and a short silent loop for the stand screen.",
+  "products": [
+    {
+      "src": "/assets/photography/web-development-2.webp",
+      "alt": "Illustrative application: website and presentations",
+      "caption": "Website and presentations"
+    },
+    {
+      "src": "/assets/photography/application-social.webp",
+      "alt": "Illustrative application: social media and ads",
+      "caption": "Social media and ads"
+    },
+    {
+      "src": "/assets/photography/application-outdoor.webp",
+      "alt": "Illustrative application: trade show screens",
+      "caption": "Trade show screens"
+    }
+  ],
+  "formTitle": "Let's show your product in motion.",
+  "formDescription": "To order an animated video, tell us about your product and task.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "How much does an animated video cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the running time, 2D or 3D, the script, voiceover and the number of versions for platforms."
+    },
+    {
+      "question": "How long does it take to make a video?",
+      "answer": "We calculate the timeline together with the cost once the scope is clear. It depends on the video length, scene complexity, animation technique and how fast approvals go."
+    },
+    {
+      "question": "Can we order logo animation only?",
+      "answer": "Yes, you can order an animated logo separately for a video intro, website loading screen and social media. If there is no logo yet, we start with logo design."
+    },
+    {
+      "question": "Do you make 2D or 3D animation?",
+      "answer": "Both. 2D suits infographics and flat graphics, 3D suits showing a product in volume. The choice depends on the task, platform and project budget."
+    },
+    {
+      "question": "Do we need a ready script?",
+      "answer": "No, we write it ourselves from the brief and agree it with you scene by scene. Your own text works too: we adapt it to the running time and storyboard."
+    },
+    {
+      "question": "In which formats do you deliver the video?",
+      "answer": "We deliver the video in aspect ratios for your platforms: horizontal, vertical or square, with or without subtitles. We agree the list of versions at the start."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Graphic design",
+      "slug": "graphics"
+    },
+    {
+      "title": "Brand character",
+      "slug": "brand-character"
+    },
+    {
+      "title": "SMM",
+      "slug": "smm"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Моушн-дизайн",
   "title": "Моушн-дизайн и анимационные ролики для бизнеса",
@@ -698,6 +1016,66 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Анімаційні ролики для бізнесу і бренду"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "How motion design differs from animation",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Motion design is graphic design in motion: text, numbers, icons and the logo come to life. Such a video explains the product and shows data, and it does not need characters or a long plot."
+        },
+        {
+          "kind": "p",
+          "text": "Classic animation tells a story where a character has a personality and a path through the scenes. Animated videos for business often combine both approaches, with a character guiding the viewer through graphics."
+        }
+      ]
+    },
+    {
+      "title": "What the price of an animated video depends on",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The price of an animated video comes from its running time and technique. A 3D scene needs modeling and lighting, so it takes longer than flat 2D graphics."
+        },
+        {
+          "kind": "p",
+          "text": "The script, voiceover and number of versions for different platforms also change the amount. That is why we name it after the brief, once the video length and list of formats are clear."
+        }
+      ]
+    },
+    {
+      "title": "Logo and visual identity animation",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Companies most often order an animated logo for a video intro, a website loading screen and a social media avatar. If there is no mark yet, start with it, because logo design sets the shape we later put in motion."
+        },
+        {
+          "kind": "p",
+          "text": "We take colors, fonts and graphics for the scenes from what the visual identity already defines. If the company already has a brand character, it can host the ad story."
+        }
+      ]
+    },
+    {
+      "title": "Motion graphics and infographics",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Infographics are numbers and diagrams put together into a clear picture. In motion they show growing figures, work stages or how a service is built step by step, and the viewer does not lose the thread."
+        },
+        {
+          "kind": "p",
+          "text": "Kyiv companies order such animated videos for reports, investor presentations and B2B advertising. Motion design with infographics fits when a product is hard to show in a photo."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "Animated videos for business and brands"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -760,6 +1138,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const motionDesign: TextServiceContent = {
   heroImage: "/assets/photography/graphics-1.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

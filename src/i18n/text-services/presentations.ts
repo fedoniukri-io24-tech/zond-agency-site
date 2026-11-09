@@ -320,6 +320,324 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Presentation design",
+  "title": "Presentation design for companies and investors",
+  "titleAccent": "",
+  "lead": "We create company presentations, investor decks and sales proposals in your brand identity.",
+  "sub": "A partner sees the essentials within a minute of the meeting: what you do, why they should trust you and what you offer.",
+  "cta": "Discuss the project",
+  "heroAlt": "Presentation design for companies and investors",
+  "heroCaption": "One story. Every slide.",
+  "metricsTitle": "One story. Every slide.",
+  "stats": [
+    {
+      "value": "08",
+      "label": "parts of the work: from the task to the files"
+    },
+    {
+      "value": "06",
+      "label": "steps from the brief to handing over finished slides"
+    },
+    {
+      "value": "03",
+      "label": "types of tasks: company, investors, sales"
+    },
+    {
+      "value": "03",
+      "label": "file versions: for screen, PDF mailing and print"
+    }
+  ],
+  "audienceTitle": "When you need a presentation",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Looking for an investor",
+      "description": "An investor deck shows the market, the business model, the numbers and what the investor's money will be spent on."
+    },
+    {
+      "index": "02",
+      "title": "Selling to B2B clients",
+      "description": "A sales proposal explains your value and terms to the client instead of listing every service in a row."
+    },
+    {
+      "index": "03",
+      "title": "Trade show or conference",
+      "description": "Slides behind the speaker support the talk with large key points instead of repeating it in small print."
+    },
+    {
+      "index": "04",
+      "title": "Product launch",
+      "description": "A launch presentation for dealers and your own team shows what has changed and why it matters to them."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "YOUR BRAND ON SCREEN",
+    "titleLine": "The same style.",
+    "titleAccent": "Every slide.",
+    "body": "At ZOND, presentations are made by the same team that creates brand identities, so every slide looks like part of your brand."
+  },
+  "includesTitle": "What presentation design includes",
+  "includesSubtitle": "First we decide what the audience should understand and do, then we build the structure, key points, charts and the design of every slide.",
+  "includes": [
+    "Presentation structure for your task.",
+    "Key points for every slide.",
+    "Slide design in your brand identity.",
+    "Charts, diagrams and infographics.",
+    "Selection of photos, icons and illustrations.",
+    "Editable PowerPoint or Keynote file.",
+    "PDF version for sending to investors.",
+    "Master template for future materials.",
+    "Print version, if you need one."
+  ],
+  "deliverables": [
+    "Presentation structure for your task.",
+    "Key points for every slide.",
+    "Slide design in your brand identity.",
+    "Charts, diagrams and infographics.",
+    "Selection of photos, icons and illustrations.",
+    "Editable PowerPoint or Keynote file.",
+    "PDF version for sending to investors.",
+    "Master template for future materials.",
+    "Print version, if you need one."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the exact list of versions and files for the task and the presentation format.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Task review",
+      "description": "We find out who will watch the presentation, where it will be shown and what decision you expect from the audience afterwards.",
+      "image": "/assets/photography/positioning-0.webp",
+      "alt": "Stage illustration: Task review"
+    },
+    {
+      "index": "02",
+      "title": "Story structure",
+      "description": "We order the slides so the story moves from the client's problem to your solution and the next step.",
+      "image": "/assets/photography/communication-0.webp",
+      "alt": "Stage illustration: Story structure"
+    },
+    {
+      "index": "03",
+      "title": "Slide key points",
+      "description": "We cut long texts down to key points: one idea per slide that the viewer sees and remembers at first glance.",
+      "image": "/assets/photography/graphics-0.webp",
+      "alt": "Stage illustration: Slide key points"
+    },
+    {
+      "index": "04",
+      "title": "Visual concept",
+      "description": "We bring the brand's colors, fonts and graphics into the layout, and if there is no identity, we build a neat system for the task.",
+      "image": "/assets/photography/graphics-1.webp",
+      "alt": "Stage illustration: Visual concept"
+    },
+    {
+      "index": "05",
+      "title": "Charts and numbers",
+      "description": "We turn tables and reports into clear charts, diagrams and infographics where each number reads without explanation.",
+      "image": "/assets/photography/branding-3.webp",
+      "alt": "Stage illustration: Charts and numbers"
+    },
+    {
+      "index": "06",
+      "title": "Icons and photos",
+      "description": "We select photos, icons and illustrations in one style so the pages do not look pieced together from different sources.",
+      "image": "/assets/photography/smm-3.webp",
+      "alt": "Stage illustration: Icons and photos"
+    },
+    {
+      "index": "07",
+      "title": "Master template",
+      "description": "We build a PowerPoint or Keynote template your team can use to put together new slides quickly without a designer.",
+      "image": "/assets/photography/web-development-1.webp",
+      "alt": "Stage illustration: Master template"
+    },
+    {
+      "index": "08",
+      "title": "File handoff",
+      "description": "We hand over the editable file, a PDF for mailing and a print version if the materials will be handed out at meetings.",
+      "image": "/assets/photography/application-team.webp",
+      "alt": "Stage illustration: File handoff"
+    }
+  ],
+  "casesTitle": "Presentation and graphic design cases",
+  "casesSubtitle": "ZOND graphic design and company branding projects. Tasks and the actual scope of work are described on each project page.",
+  "processTitle": "How we create a presentation",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief",
+      "description": "We discuss the task, the audience, the occasion, deadlines and the materials you already have.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Structure",
+      "description": "We draft a slide plan and agree with you on the order and the main idea of each slide.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Key points",
+      "description": "We cut texts down to key points, check the numbers and decide what to show as a chart.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Style",
+      "description": "We design the key pages in the brand style and approve the overall look of the deck.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Slides",
+      "description": "We build the whole presentation with charts and make the agreed text edits.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Handoff",
+      "description": "We hand over the editable file, a PDF and a master template for your future materials.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "The same style.",
+  "whyItems": [
+    {
+      "title": "The same style. Every slide.",
+      "description": "At ZOND, presentations are made by the same team that creates brand identities, so every slide looks like part of your brand."
+    }
+  ],
+  "compareTitle": "Why ZOND instead of a freelancer or a template?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "Freelancer",
+    "Builder template"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Structure",
+      "zond": "Built for the task and audience",
+      "freelance": "Depends on the designer",
+      "generator": "Fixed page order"
+    },
+    {
+      "criterion": "Style",
+      "zond": "Your brand identity",
+      "freelance": "The designer's manner",
+      "generator": "Like thousands of others"
+    },
+    {
+      "criterion": "Numbers",
+      "zond": "Charts and infographics",
+      "freelance": "Not always",
+      "generator": "Tables by hand"
+    },
+    {
+      "criterion": "Result",
+      "zond": "File, PDF and template",
+      "freelance": "Usually one file",
+      "generator": "Needs refinement"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "Reviews of working with ZOND",
+  "reviewsNote": "Real client reviews of joint projects with ZOND.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "Where your presentation works",
+  "productNote": "We prepare one presentation in several versions: large key points for the screen, a detailed PDF for mailing and a printed version for meetings.",
+  "products": [
+    {
+      "src": "/assets/photography/application-team.webp",
+      "alt": "Illustrative application: screen at a meeting",
+      "caption": "Screen at a meeting"
+    },
+    {
+      "src": "/assets/photography/graphics-0.webp",
+      "alt": "Illustrative application: PDF for mailing",
+      "caption": "PDF for mailing"
+    },
+    {
+      "src": "/assets/photography/brandbook-3.webp",
+      "alt": "Illustrative application: printed version",
+      "caption": "Printed version"
+    }
+  ],
+  "formTitle": "Let's tell your company's story.",
+  "formDescription": "Tell us who you will show the presentation to and where, and we will suggest a solution.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "How much does presentation design cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the number of slides, how ready the texts and numbers are, infographics, animation and language versions of the file."
+    },
+    {
+      "question": "How long does it take to create a presentation?",
+      "answer": "We give the timeline together with the cost, once the scope is clear. It depends on the number of pages, how ready the materials are and how fast approvals go."
+    },
+    {
+      "question": "Do we need to provide finished texts for the slides?",
+      "answer": "We need facts and numbers about the company. We build the structure and key points from your reports and drafts, and you check them for content and accuracy."
+    },
+    {
+      "question": "What formats do you deliver the presentation in?",
+      "answer": "We hand over an editable PowerPoint or Keynote file, a PDF for mailing and, if needed, a print version. We agree the list of files at the start of the project."
+    },
+    {
+      "question": "Can you update our existing presentation?",
+      "answer": "Yes. We take your current file, remove what is unnecessary, rebuild the order and bring everything into one style without losing the data and numbers that matter to you."
+    },
+    {
+      "question": "Can we order a presentation without a brand identity?",
+      "answer": "Yes. If you have a logo, we take the colors and fonts from it. If the company needs a visual system for years ahead, it is better to develop a brand identity first."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Graphic design",
+      "slug": "graphics"
+    },
+    {
+      "title": "Branding",
+      "slug": "branding"
+    },
+    {
+      "title": "Web development",
+      "slug": "web-development"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Дизайн презентаций",
   "title": "Разработка презентаций для компаний и инвесторов",
@@ -710,6 +1028,78 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Створення бізнес-презентацій під задачу"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "Company presentation and sales proposal",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A corporate presentation tells everyone at once who you are, what you do and who you already work with. You need a company presentation for your website, a trade show stand and the first email to a new partner or client."
+        },
+        {
+          "kind": "p",
+          "text": "A sales proposal is prepared for one client: their task, your solution, timing and terms. Good sales proposal design keeps this logic within a few slides and does not lose the main point."
+        }
+      ]
+    },
+    {
+      "title": "What goes into an investor presentation",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "An investor presentation, or pitch deck, is a short story about the project for a fund or a private investor who is deciding whether to invest. To order an investor deck, gather data and numbers for these sections:"
+        },
+        {
+          "kind": "p",
+          "text": "the client's problem and your solution;"
+        },
+        {
+          "kind": "p",
+          "text": "market size and main competitors;"
+        },
+        {
+          "kind": "p",
+          "text": "business model and current results;"
+        },
+        {
+          "kind": "p",
+          "text": "the team, the financial plan and the amount you are raising."
+        }
+      ]
+    },
+    {
+      "title": "What drives the cost of presentation design",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The price depends on the scope and on how ready the materials are. A twenty-slide company presentation built from finished texts and numbers takes less time than ten slides where we create the structure and charts from scratch based on drafts."
+        },
+        {
+          "kind": "p",
+          "text": "Slide animation, language versions and the number of revision rounds also affect the cost. That is why we give the exact price after the brief, once we can see the scope and how many slides will have to be made from scratch."
+        }
+      ]
+    },
+    {
+      "title": "A presentation in your brand identity",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Presentation design looks consistent when the colors, fonts and graphics come from your visual identity. If there are no rules yet, a brand book collects them, and the presentation builds on it."
+        },
+        {
+          "kind": "p",
+          "text": "Alongside a business presentation you often need a catalog, a brochure or a trade show banner. These fall under graphic design and are made in the same style as the slides, so a partner sees one company in every material."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "Business presentations built for the task"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -784,6 +1174,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const presentations: TextServiceContent = {
   heroImage: "/assets/photography/graphics-1.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

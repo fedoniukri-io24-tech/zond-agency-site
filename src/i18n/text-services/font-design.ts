@@ -324,6 +324,328 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Font design",
+  "title": "Custom brand typeface design",
+  "titleAccent": "",
+  "lead": "We draw letters that only your brand has and that are equally recognizable in the logo and on a roadside sign.",
+  "sub": "You get Cyrillic and Latin in one style, the weights you need, and all files with usage rights set out in the contract.",
+  "cta": "Discuss the project",
+  "heroAlt": "Custom brand typeface design",
+  "heroCaption": "Your own letters. Your own voice.",
+  "metricsTitle": "Your own letters. Your own voice.",
+  "stats": [
+    {
+      "value": "01",
+      "label": "unique letter design that belongs only to your company"
+    },
+    {
+      "value": "02",
+      "label": "alphabets: Cyrillic and Latin built on one logic"
+    },
+    {
+      "value": "06",
+      "label": "steps from the brief to file handoff"
+    },
+    {
+      "value": "04",
+      "label": "example touchpoints: logo, website, packaging, signage"
+    }
+  ],
+  "audienceTitle": "When a brand needs its own typeface",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Same font as your neighbors",
+      "description": "Other companies in your niche already use the free typeface, and your ads lose their edge next to theirs."
+    },
+    {
+      "index": "02",
+      "title": "The right font has no Cyrillic",
+      "description": "The option that fits your style exists only in Latin, so Ukrainian text has to be set in something else."
+    },
+    {
+      "index": "03",
+      "title": "License costs grow with you",
+      "description": "Fees for someone else's typeface often rise with the number of employees and websites where the company uses it."
+    },
+    {
+      "index": "04",
+      "title": "Logo and packaging don't match",
+      "description": "The name in the logo and the lettering on the packaging should speak with one voice and be recognizable even without the symbol nearby."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "LETTERS WITH CHARACTER",
+    "titleLine": "Recognized before the words are read.",
+    "titleAccent": "",
+    "body": "A brand with its own letter design is recognized on a sign, on packaging or on a phone screen before a person has time to read the words."
+  },
+  "includesTitle": "What font design includes",
+  "includesSubtitle": "Creating letters starts with studying the brand: first we understand the task, then draw the glyphs and test them on real touchpoints.",
+  "includes": [
+    "Files for layouts, print and office software.",
+    "Web version for your website and mobile apps.",
+    "Cyrillic and Latin in one letter design.",
+    "All agreed weights of a single typeface.",
+    "Numerals, punctuation and the symbols you need.",
+    "Usage rights set out in the contract.",
+    "Letter samples on all your main touchpoints.",
+    "Typesetting rules for headings and body text.",
+    "A base for your logo and the whole identity."
+  ],
+  "deliverables": [
+    "Files for layouts, print and office software.",
+    "Web version for your website and mobile apps.",
+    "Cyrillic and Latin in one letter design.",
+    "All agreed weights of a single typeface.",
+    "Numerals, punctuation and the symbols you need.",
+    "Usage rights set out in the contract.",
+    "Letter samples on all your main touchpoints.",
+    "Typesetting rules for headings and body text.",
+    "A base for your logo and the whole identity."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the character set and file formats with you before work starts.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Brand and niche analysis",
+      "description": "We study the company, its competitors and all touchpoints to understand where, how and at what size people will read your text.",
+      "image": "/assets/photography/identity-0.webp",
+      "alt": "Stage illustration: Brand and niche analysis"
+    },
+    {
+      "index": "02",
+      "title": "Idea and letter character",
+      "description": "We find a letter style that fits the brand's character: strict, friendly, technical or crafted, with no random details.",
+      "image": "/assets/photography/naming-2.webp",
+      "alt": "Stage illustration: Idea and letter character"
+    },
+    {
+      "index": "03",
+      "title": "Key letter sketches",
+      "description": "We draw the first letters that reveal the whole future alphabet and test their proportions on the company name and slogan.",
+      "image": "/assets/photography/branding-2.webp",
+      "alt": "Stage illustration: Key letter sketches"
+    },
+    {
+      "index": "04",
+      "title": "Cyrillic and Latin",
+      "description": "We build both alphabets on one logic so that Ukrainian and English text on the packaging look like one set.",
+      "image": "/assets/photography/naming-1.webp",
+      "alt": "Stage illustration: Cyrillic and Latin"
+    },
+    {
+      "index": "05",
+      "title": "Numerals and special characters",
+      "description": "We add numerals, punctuation, currency signs and symbols, without which you cannot set a price tag, menu, letterhead or other document.",
+      "image": "/assets/photography/logo-2.webp",
+      "alt": "Stage illustration: Numerals and special characters"
+    },
+    {
+      "index": "06",
+      "title": "Set of weights",
+      "description": "We assemble the typeface, a family of weights in one design: regular for text, bold for large headings.",
+      "image": "/assets/photography/brandbook-1.webp",
+      "alt": "Stage illustration: Set of weights"
+    },
+    {
+      "index": "07",
+      "title": "Testing on touchpoints",
+      "description": "We put the letters on packaging, a sign, a screen and in small footnotes so text reads well at any size and in any color.",
+      "image": "/assets/photography/application-package.webp",
+      "alt": "Stage illustration: Testing on touchpoints"
+    },
+    {
+      "index": "08",
+      "title": "Files and contract",
+      "description": "We prepare files for designers, the print shop, the office and the website, and fix the terms of use in a written contract.",
+      "image": "/assets/photography/brandbook-2.webp",
+      "alt": "Stage illustration: Files and contract"
+    }
+  ],
+  "casesTitle": "Custom typefaces in ZOND projects",
+  "casesSubtitle": "ZOND identity projects where lettering became part of the company image. Tasks and scope of work are described on each project page.",
+  "processTitle": "How we create your typeface",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief and goals",
+      "description": "We define the project task, touchpoints, languages, required weights and character set.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Niche analysis",
+      "description": "We look at the brand and competitors' signage to find free space in your niche.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Letter direction",
+      "description": "We show directions for the character of the letters and choose one together with you.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Letter sketches",
+      "description": "We draw the key letters and test them on the company name, slogan and logo.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Development",
+      "description": "We complete the alphabets, numerals, symbols and weights, and refine letter spacing.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "File handoff",
+      "description": "We test the letters on real touchpoints and hand over files with typesetting rules.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "Recognized before the words are read.",
+  "whyItems": [
+    {
+      "title": "Recognized before the words are read.",
+      "description": "A brand with its own letter design is recognized on a sign, on packaging or on a phone screen before a person has time to read the words."
+    }
+  ],
+  "compareTitle": "Custom typeface vs purchased and free fonts",
+  "compareColumns": [
+    "Comparison criterion",
+    "Designed for you",
+    "Bought from a foundry",
+    "Free from the web"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Distinctiveness",
+      "zond": "Unique to your brand",
+      "freelance": "Available to any company",
+      "generator": "Often used by competitors"
+    },
+    {
+      "criterion": "Cyrillic",
+      "zond": "Drawn for the languages you need",
+      "freelance": "Not in every font",
+      "generator": "Often incomplete or weak"
+    },
+    {
+      "criterion": "License",
+      "zond": "Terms in your contract",
+      "freelance": "Per the seller's rules",
+      "generator": "Free, but terms vary"
+    },
+    {
+      "criterion": "Costs",
+      "zond": "One-time development fee",
+      "freelance": "Grow with your business",
+      "generator": "None, and no distinction"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "What ZOND clients say",
+  "reviewsNote": "Client reviews of working with ZOND on real projects.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "The typeface goes beyond the logo.",
+  "productNote": "The image series shows one fictional typeface on different touchpoints, from packaging to a phone screen. It demonstrates our service and is not a real client case.",
+  "products": [
+    {
+      "src": "/assets/photography/application-package.webp",
+      "alt": "Illustrative application: packaging and label",
+      "caption": "Packaging and label"
+    },
+    {
+      "src": "/assets/photography/application-space.webp",
+      "alt": "Illustrative application: signage and wayfinding",
+      "caption": "Signage and wayfinding"
+    },
+    {
+      "src": "/assets/photography/web-development-2.webp",
+      "alt": "Illustrative application: website and app",
+      "caption": "Website and app"
+    }
+  ],
+  "formTitle": "Let's draw letters people recognize.",
+  "formDescription": "Tell us about your brand and touchpoints, and we will suggest where best to start.",
+  "faqTitle": "Questions about font design",
+  "faq": [
+    {
+      "question": "How much does a custom brand typeface cost?",
+      "answer": "We calculate the price for your task after the brief, once the scope is clear. The cost depends on the number of weights and alphabets, the character set and how complex the letters are."
+    },
+    {
+      "question": "How long does it take to create a typeface?",
+      "answer": "The timeline depends on the number of weights and alphabets, the complexity of the design and how fast approvals go on your side. We fix the schedule in the estimate before kickoff."
+    },
+    {
+      "question": "Can I order a typeface just for the logo?",
+      "answer": "Yes. In that case we draw only the letters of the name, and the full alphabet with numerals and symbols can be added later, when you need to set text and headings."
+    },
+    {
+      "question": "Will the typeface include Cyrillic and Latin?",
+      "answer": "Yes, if your brand needs them. We build both alphabets on one logic and choose the character set for every language you use with your clients."
+    },
+    {
+      "question": "Who owns the rights to the typeface?",
+      "answer": "Usage rights are set out in the contract: where, by whom and in which projects the typeface can be used. We discuss all terms with you before work starts."
+    },
+    {
+      "question": "What formats do you deliver the typeface in?",
+      "answer": "Usually OTF or TTF, which are installed on a computer for layouts and print, plus WOFF2 for the website. We agree the exact set for your channels and tasks."
+    },
+    {
+      "question": "Why is a custom typeface better than a purchased one?",
+      "answer": "No competitor has it, it contains every character and language you need, and the terms of use do not depend on another foundry's license, rules or prices."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Brand identity",
+      "slug": "identity"
+    },
+    {
+      "title": "Logo",
+      "slug": "logo"
+    },
+    {
+      "title": "Brand book",
+      "slug": "brandbook"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Дизайн шрифтов",
   "title": "Разработка фирменного шрифта",
@@ -706,6 +1028,66 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Фірмовий шрифт компанії в системі бренду"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "What a brand typeface is",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A brand typeface is a typeface used by one brand: in the logo, on the website, on packaging, in ads and in documents. It works as the brand's graphic voice, so people recognize it even without the logo."
+        },
+        {
+          "kind": "p",
+          "text": "Any company can take a purchased or free font, so it does not set you apart from your neighbors on the shelf. A custom one is drawn to fit the brand's character and every language it needs."
+        }
+      ]
+    },
+    {
+      "title": "Serif, sans serif or handwritten letters",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Serifs are short cross strokes at the ends of letters. A serif font looks classic and solid, which is why banks, law firms and brands with a long history choose it."
+        },
+        {
+          "kind": "p",
+          "text": "A sans serif reads calmly and holds up well on screen. Handwritten letters add warmth and suit a coffee shop or a craft brand, but they are hard to read in long text."
+        }
+      ]
+    },
+    {
+      "title": "What drives the price of font design",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The price of a custom typeface depends on the scope of work, not on a single word. The shortest option is the letters of the name in the logo, while a full set needs alphabets and numerals."
+        },
+        {
+          "kind": "p",
+          "text": "Each weight, the symbols, fine-tuned spacing and a complex decorative design all add to the cost. That is why we give the exact price after the brief, once the list of touchpoints is clear."
+        }
+      ]
+    },
+    {
+      "title": "Typeface, logo and visual identity",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "If there is no logo yet, it makes sense to start with it: logo design sets the letter shapes for the whole alphabet. When a visual identity already exists, the new letters take their character, proportions and graphics from it."
+        },
+        {
+          "kind": "p",
+          "text": "Typesetting rules and font pairings go into the brand book, so contractors do not pick substitutes. You can order a typeface on its own or together with an identity if the company is updating its whole visual system."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "A company typeface in the brand system"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -768,6 +1150,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const fontDesign: TextServiceContent = {
   heroImage: "/assets/photography/brandbook-1.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

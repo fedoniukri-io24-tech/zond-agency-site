@@ -316,6 +316,320 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Brand audit",
+  "title": "Brand audit",
+  "titleAccent": "",
+  "lead": "We check how customers see the company, what it promises and where it loses people on the way from ad to purchase.",
+  "sub": "You get a report on the current state of the brand and a change plan with every task ranked by priority.",
+  "cta": "Discuss the project",
+  "heroAlt": "Brand audit",
+  "heroCaption": "One brand. Three points of view.",
+  "metricsTitle": "One brand. Three points of view.",
+  "stats": [
+    {
+      "value": "01",
+      "label": "final report with findings and a change plan"
+    },
+    {
+      "value": "03",
+      "label": "pillars of the audit: image, competitors, customers"
+    },
+    {
+      "value": "06",
+      "label": "steps from brief to a prioritized change plan"
+    },
+    {
+      "value": "08",
+      "label": "areas checked: from positioning to social media"
+    }
+  ],
+  "audienceTitle": "When it is time for a brand audit",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Sales have been flat for a long time",
+      "description": "Ads are running, but leads do not grow. The audit shows whether the image gets in the way or the cause is price and product."
+    },
+    {
+      "index": "02",
+      "title": "The company plans to change its image",
+      "description": "First separate what customers recognize and value from what is outdated and holds growth back."
+    },
+    {
+      "index": "03",
+      "title": "Entering another market or niche",
+      "description": "Positioning that worked at home should be tested on a different audience and next to different players."
+    },
+    {
+      "index": "04",
+      "title": "The company looks different everywhere",
+      "description": "Each contractor makes layouts their own way, and customers stop recognizing the company across channels."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "A FRESH OUTSIDE VIEW",
+    "titleLine": "Your brand through customers' eyes.",
+    "titleAccent": "",
+    "body": "The team knows the company from the inside and misses a lot. The audit shows how customers see it and where that differs from the intent."
+  },
+  "includesTitle": "What a brand audit consists of",
+  "includesSubtitle": "We check eight areas. We agree their set and depth based on the question your business and team face right now.",
+  "includes": [
+    "A detailed report on the current state of the brand.",
+    "Strengths and weaknesses of the company's image.",
+    "Assessment of positioning and how clear it is.",
+    "Comparison with key competitors in the niche.",
+    "Customer survey results and their quotes.",
+    "Review of the visual identity and logo files.",
+    "Analysis of marketing messages and social media.",
+    "A prioritized change plan for your team.",
+    "A presentation of findings and answers to questions."
+  ],
+  "deliverables": [
+    "A detailed report on the current state of the brand.",
+    "Strengths and weaknesses of the company's image.",
+    "Assessment of positioning and how clear it is.",
+    "Comparison with key competitors in the niche.",
+    "Customer survey results and their quotes.",
+    "Review of the visual identity and logo files.",
+    "Analysis of marketing messages and social media.",
+    "A prioritized change plan for your team.",
+    "A presentation of findings and answers to questions."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the audit scope and survey depth with you before work starts.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Positioning",
+      "description": "We check whether it is clear who the company is for, what it promises people and how it differs from others in the category.",
+      "image": "/assets/photography/positioning-3.webp",
+      "alt": "Stage illustration: Positioning"
+    },
+    {
+      "index": "02",
+      "title": "Target audience",
+      "description": "We compare who the company thinks its customer is with who actually buys, and how these people see it.",
+      "image": "/assets/photography/positioning-1.webp",
+      "alt": "Stage illustration: Target audience"
+    },
+    {
+      "index": "03",
+      "title": "Competitive field",
+      "description": "We study what competitors promise and how you look next to them: where you stand out and where your image blends in.",
+      "image": "/assets/photography/positioning-2.webp",
+      "alt": "Stage illustration: Competitive field"
+    },
+    {
+      "index": "04",
+      "title": "Visual identity",
+      "description": "We check whether the palette, fonts and graphics look the same on the website, packaging, ads and business documents.",
+      "image": "/assets/photography/identity-3.webp",
+      "alt": "Stage illustration: Visual identity"
+    },
+    {
+      "index": "05",
+      "title": "Logo and its files",
+      "description": "We assess whether the logo reads at small sizes and on a sign, and what state the source files of your mark are in.",
+      "image": "/assets/photography/logo-2.webp",
+      "alt": "Stage illustration: Logo and its files"
+    },
+    {
+      "index": "06",
+      "title": "Copy across channels",
+      "description": "We analyze messages in ads, on the website and on social media to see whether the brand speaks with one voice everywhere.",
+      "image": "/assets/photography/communication-3.webp",
+      "alt": "Stage illustration: Copy across channels"
+    },
+    {
+      "index": "07",
+      "title": "Online presence",
+      "description": "We look at the website and social media through a newcomer's eyes: what they see in the first seconds and whether the next step is clear.",
+      "image": "/assets/photography/web-development-1.webp",
+      "alt": "Stage illustration: Online presence"
+    },
+    {
+      "index": "08",
+      "title": "Findings and plan",
+      "description": "We turn what we found into a list of problems and a change plan, where each task is tied to its cause and an owner.",
+      "image": "/assets/photography/application-team.webp",
+      "alt": "Stage illustration: Findings and plan"
+    }
+  ],
+  "casesTitle": "ZOND brand refresh case studies",
+  "casesSubtitle": "ZOND projects in rebranding and refreshing company image. Each project page describes the task and scope of work.",
+  "processTitle": "How our audit works",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief and goals",
+      "description": "We discuss the business strategy, the product and what makes you doubt the image.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Collecting files",
+      "description": "We gather the logo, style, website, ads and copy, and talk to your team.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Survey",
+      "description": "We ask customers how they see the company, why they choose it and what bothers them.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Comparison",
+      "description": "We compare your image with competitors and with what the company wants to convey.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Conclusion",
+      "description": "We describe strengths and weaknesses and name the cause of every problem found.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Work plan",
+      "description": "We rank the changes by priority and present the results to your whole team.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "Your brand through customers' eyes.",
+  "whyItems": [
+    {
+      "title": "Your brand through customers' eyes.",
+      "description": "The team knows the company from the inside and misses a lot. The audit shows how customers see it and where that differs from the intent."
+    }
+  ],
+  "compareTitle": "ZOND, in-house or a template checklist?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "In-house",
+    "Template checklist"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Perspective",
+      "zond": "External and independent",
+      "freelance": "From inside the company",
+      "generator": "Same for every niche"
+    },
+    {
+      "criterion": "Customers",
+      "zond": "Survey of your buyers",
+      "freelance": "Opinions of friends and colleagues",
+      "generator": "Usually not considered"
+    },
+    {
+      "criterion": "Competitors",
+      "zond": "Review of niche competitors",
+      "freelance": "Selective and by eye",
+      "generator": "Ignores the market"
+    },
+    {
+      "criterion": "Result",
+      "zond": "Step-by-step change plan",
+      "freelance": "A list of own remarks",
+      "generator": "Ticks in a ready-made table"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "Reviews of working with ZOND",
+  "reviewsNote": "Real client reviews from completed ZOND projects.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "What the result looks like",
+  "productNote": "We hand over all findings as a document and a presentation. Below are example formats: a current state report, a competitor comparison and a prioritized change plan.",
+  "products": [
+    {
+      "src": "/assets/photography/brandbook-3.webp",
+      "alt": "Illustrative application: brand state report",
+      "caption": "Brand state report"
+    },
+    {
+      "src": "/assets/photography/identity-0.webp",
+      "alt": "Illustrative application: competitor map",
+      "caption": "Competitor map"
+    },
+    {
+      "src": "/assets/photography/communication-0.webp",
+      "alt": "Illustrative application: step-by-step change plan",
+      "caption": "Step-by-step change plan"
+    }
+  ],
+  "formTitle": "Let's find what holds your brand back.",
+  "formDescription": "Describe the company and what bothers you about its image, and we will suggest an audit format.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "How much does a brand audit cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the number of channels and media, whether a customer survey is needed and how many markets we check."
+    },
+    {
+      "question": "How long does an audit take?",
+      "answer": "We calculate the timeline for your task as well. Reviewing materials is faster, while customer surveys and team interviews add time to find people and talk to them."
+    },
+    {
+      "question": "What do we get after a brand audit?",
+      "answer": "A report on the current state of the brand, a competitor comparison, survey results and a prioritized change plan. We present the findings to your whole team."
+    },
+    {
+      "question": "Does a young brand need an audit?",
+      "answer": "If there are few sales and reviews so far, a full audit will not give much. It is better to check the positioning first and whether you look the same across channels."
+    },
+    {
+      "question": "How is a brand audit different from marketing research?",
+      "answer": "Research studies the market and demand around the product, while an audit looks at the brand itself: how people see it, what it promises and where it loses its customers."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Rebranding",
+      "slug": "rebranding"
+    },
+    {
+      "title": "Positioning",
+      "slug": "positioning"
+    },
+    {
+      "title": "Brand identity",
+      "slug": "identity"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Аудит бренда",
   "title": "Аудит бренда",
@@ -690,6 +1004,66 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Бренд-аудит для компанії з історією на ринку"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "What a brand audit shows",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A brand audit checks how the brand works today: how well people recognize it, how they see it and how it differs from competitors. We also check whether style and copy match across channels."
+        },
+        {
+          "kind": "p",
+          "text": "A customer survey shows loyalty, that is, willingness to buy again and recommend the company to friends. Online reviews show whether the promise matches what customers actually experience."
+        }
+      ]
+    },
+    {
+      "title": "Brand audit before a rebrand",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The ZOND agency runs a brand audit as the first step when a company is thinking about changing its image. It shows which elements customers recognize and value, and which are outdated and hurt sales."
+        },
+        {
+          "kind": "p",
+          "text": "If the problem is in meaning, brand positioning and a full rebrand come next. If only the look is outdated, it is enough to refresh the visual identity and keep the name and market promise."
+        }
+      ]
+    },
+    {
+      "title": "The brand through employees' eyes",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A customer learns about the company from ads, then from sales staff and support. If the team describes the product in different ways, the website's promise is lost on the very first call."
+        },
+        {
+          "kind": "p",
+          "text": "That is why the audit includes talking to employees: how they explain why the company is better than competitors and what customers ask most often. Any mismatches go into the change plan."
+        }
+      ]
+    },
+    {
+      "title": "What to do with audit results",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Every point of the plan becomes a task for a specific person. The designer gets a detailed list of style and logo edits, and the marketer sees which messages to remove from ads."
+        },
+        {
+          "kind": "p",
+          "text": "The company's marketing strategy and promotion strategy rely on the same findings. A repeat check after implementation shows whether the changes have reached your customers."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "Brand audit for a company with a market history"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -752,6 +1126,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const brandAudit: TextServiceContent = {
   heroImage: "/assets/photography/branding-0.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

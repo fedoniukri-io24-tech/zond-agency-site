@@ -324,6 +324,328 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Brand voice",
+  "title": "Brand voice and company tone of voice",
+  "titleAccent": "",
+  "lead": "We tune how your copy sounds: the words you use, how you address people, and when you joke.",
+  "sub": "You get a guide with a vocabulary and examples that makes it easier for a new writer to write in your voice.",
+  "cta": "Discuss the project",
+  "heroAlt": "Brand voice and company tone of voice",
+  "heroCaption": "One company. One voice.",
+  "metricsTitle": "One company. One voice.",
+  "stats": [
+    {
+      "value": "01",
+      "label": "voice for everyone who writes on behalf of the company"
+    },
+    {
+      "value": "04",
+      "label": "scales we use to set the tone of your copy"
+    },
+    {
+      "value": "06",
+      "label": "steps from reviewing your copy to the finished guide"
+    },
+    {
+      "value": "04",
+      "label": "example channels: website, social, email, chat"
+    }
+  ],
+  "audienceTitle": "When a brand needs its own voice",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Several people write your copy",
+      "description": "A marketer runs the website, an agency does social content, a manager writes emails, and they sound like three different companies."
+    },
+    {
+      "index": "02",
+      "title": "The brand enters a new channel",
+      "description": "A newsletter, a chatbot or a TikTok account needs tone rules before the very first message goes live."
+    },
+    {
+      "index": "03",
+      "title": "After a recent rebrand",
+      "description": "The new logo and identity are ready, but the copy still sounds the old way and argues with the updated brand image."
+    },
+    {
+      "index": "04",
+      "title": "Entering a new market or language",
+      "description": "We carry the voice into another language so that clients abroad recognize you too, not only your current ones."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "YOU CAN HEAR WHO IS TALKING",
+    "titleLine": "Recognized even without a logo.",
+    "titleAccent": "",
+    "body": "A company with its own voice is recognized by a single line in a newsletter or a reply in support chat, even when there is no logo in sight."
+  },
+  "includesTitle": "What a brand voice is made of",
+  "includesSubtitle": "We answer one question: how exactly your copy sounds. Which words, which tone, and how you address your reader.",
+  "includes": [
+    "Review of your current copy with sample edits.",
+    "Company character described in 3-4 key traits.",
+    "Your company's place on four tone scales.",
+    "Tone for situations: ads, reviews and complaints.",
+    "Company vocabulary and a shared stop-word list.",
+    "Rules for addressing clients and sentence length.",
+    "Rewritten copy for your key channels.",
+    "Sample replies to reviews and complaints.",
+    "Voice guide for your team and contractors."
+  ],
+  "deliverables": [
+    "Review of your current copy with sample edits.",
+    "Company character described in 3-4 key traits.",
+    "Your company's place on four tone scales.",
+    "Tone for situations: ads, reviews and complaints.",
+    "Company vocabulary and a shared stop-word list.",
+    "Rules for addressing clients and sentence length.",
+    "Rewritten copy for your key channels.",
+    "Sample replies to reviews and complaints.",
+    "Voice guide for your team and contractors."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the exact contents of the guide and the number of examples with you at kickoff.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Review of your copy",
+      "description": "We collect all copy from your website, social, newsletters and support replies, and mark where the company sounds different.",
+      "image": "/assets/photography/communication-1.webp",
+      "alt": "Stage illustration: Review of your copy"
+    },
+    {
+      "index": "02",
+      "title": "Your audience's language",
+      "description": "We write down the words customers use to describe the product in reviews and messages to you, so you can speak their language.",
+      "image": "/assets/photography/smm-1.webp",
+      "alt": "Stage illustration: Your audience's language"
+    },
+    {
+      "index": "03",
+      "title": "Brand character",
+      "description": "We describe the company as a person through 3-4 character traits, then derive rules for every future text from them.",
+      "image": "/assets/photography/communication-0.webp",
+      "alt": "Stage illustration: Brand character"
+    },
+    {
+      "index": "04",
+      "title": "Four tone scales",
+      "description": "We place you on 4 tone scales, from strictly formal to friendly, and set the limit of what is acceptable for you.",
+      "image": "/assets/photography/communication-3.webp",
+      "alt": "Stage illustration: Four tone scales"
+    },
+    {
+      "index": "05",
+      "title": "Vocabulary and address",
+      "description": "We decide how to name the product and the client, whether to be formal or casual, and how to write numbers, dates, currency and service names.",
+      "image": "/assets/photography/naming-0.webp",
+      "alt": "Stage illustration: Vocabulary and address"
+    },
+    {
+      "index": "06",
+      "title": "Stop words and clichés",
+      "description": "We list the jargon, clichés and your competitors' favorite words that make your copy sound borrowed and faceless.",
+      "image": "/assets/photography/communication-2.webp",
+      "alt": "Stage illustration: Stop words and clichés"
+    },
+    {
+      "index": "07",
+      "title": "Sample texts",
+      "description": "We rewrite your real copy in the new voice: the website home page, a post, an email and a reply to a customer complaint.",
+      "image": "/assets/photography/smm-2.webp",
+      "alt": "Stage illustration: Sample texts"
+    },
+    {
+      "index": "08",
+      "title": "Guide for writers",
+      "description": "We bring tone, vocabulary and examples together in one document that your staff and outside writers follow from then on.",
+      "image": "/assets/photography/brandbook-2.webp",
+      "alt": "Stage illustration: Guide for writers"
+    }
+  ],
+  "casesTitle": "Brands people recognize by their copy",
+  "casesSubtitle": "Related ZOND projects in communication, slogans and branding. Tasks and the actual scope of work are described on each project page.",
+  "processTitle": "How we create your voice",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief and goals",
+      "description": "We find out who writes your copy, in which channels, and what you are unhappy with now.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Phrase review",
+      "description": "We read your copy and your competitors', and collect customer phrases from reviews.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Brand traits",
+      "description": "We agree on 3-4 key traits that will make the company recognizable in all its copy.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Tone scales",
+      "description": "We place the company on the scales and show the same phrase in four different tones.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "New copy",
+      "description": "We rewrite your real texts to test the new voice rules in practice.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Brand guide",
+      "description": "We put together a guide with tone, vocabulary, stop words and examples for the whole team.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "Recognized even without a logo.",
+  "whyItems": [
+    {
+      "title": "Recognized even without a logo.",
+      "description": "A company with its own voice is recognized by a single line in a newsletter or a reply in support chat, even when there is no logo in sight."
+    }
+  ],
+  "compareTitle": "Why ZOND instead of a copywriter or a ready-made template?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "Copywriter",
+    "Ready-made template"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Basis",
+      "zond": "Review of all your copy",
+      "freelance": "The writer's personal taste",
+      "generator": "Generic tips from the web"
+    },
+    {
+      "criterion": "Tone",
+      "zond": "Scales set for your company",
+      "freelance": "Changes with every writer",
+      "generator": "Same for every niche"
+    },
+    {
+      "criterion": "Examples",
+      "zond": "Your real copy",
+      "freelance": "A few trial posts",
+      "generator": "Other companies' texts"
+    },
+    {
+      "criterion": "Result",
+      "zond": "A guide for the whole team",
+      "freelance": "Copy in the writer's style",
+      "generator": "Needs lengthy adaptation"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "What ZOND clients say",
+  "reviewsNote": "Real client reviews of working with the ZOND team.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "One voice across all company channels",
+  "productNote": "The examples show how a company talks on its website, on social and in an email: vocabulary and form of address stay the same, while sentence length and the share of jokes change with the channel.",
+  "products": [
+    {
+      "src": "/assets/photography/web-development-2.webp",
+      "alt": "Illustrative application: website and landing pages",
+      "caption": "Website and landing pages"
+    },
+    {
+      "src": "/assets/photography/application-social.webp",
+      "alt": "Illustrative application: social media posts",
+      "caption": "Social media posts"
+    },
+    {
+      "src": "/assets/photography/smm-1.webp",
+      "alt": "Illustrative application: newsletter email",
+      "caption": "Newsletter email"
+    }
+  ],
+  "formTitle": "Let's find how your brand should sound.",
+  "formDescription": "Send us a few of your texts, tell us about your clients, and we will suggest a plan.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "What is a brand voice in simple terms?",
+      "answer": "It is the manner that makes a company recognizable in writing even without a logo: the words it uses, how it addresses people, where it jokes and where it stays strict."
+    },
+    {
+      "question": "How is a company's tone of voice different from a slogan?",
+      "answer": "A slogan is one short line for ads and the logo. A company's tone of voice sets the rules for all copy, from a post to a reply in support chat."
+    },
+    {
+      "question": "How much does brand voice development cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the number of channels, the amount of copy to review and how many examples you need."
+    },
+    {
+      "question": "How long does the work take?",
+      "answer": "We give the timeline together with the cost, once the scope is clear. It depends on the number of channels, the amount of copy to review and how fast approvals go."
+    },
+    {
+      "question": "Can you change the voice of an existing brand?",
+      "answer": "Yes. We start by reviewing your current copy, keep what customers already recognize you by, and change the phrases that sound dated or foreign to you."
+    },
+    {
+      "question": "Will one voice work for both the website and social?",
+      "answer": "Yes. The voice is shared, but each channel has its own tone. On social, sentences are simpler and there are more jokes; on the website there are more facts, while vocabulary and address stay the same."
+    },
+    {
+      "question": "Who will write the copy after the project?",
+      "answer": "Your staff, copywriters or contractors. That is what the guide with examples is for: it helps a new writer pick up the agreed manner faster."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Slogan & communication",
+      "slug": "communication"
+    },
+    {
+      "title": "Positioning",
+      "slug": "positioning"
+    },
+    {
+      "title": "SMM",
+      "slug": "smm"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Голос бренда",
   "title": "Голос бренда и tone of voice компании",
@@ -706,6 +1028,66 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Як влаштований tone of voice бренду"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "What tone of voice is and how it differs from brand voice",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Brand voice is the brand's constant character in words, the same in ads, on the website and in a contract. Tone of voice is how that voice is adjusted to a specific situation."
+        },
+        {
+          "kind": "p",
+          "text": "In one voice a company thanks you for a purchase, apologizes for a late delivery and announces a discount, but the tone of the three messages differs. In the same way, a person talks differently to a friend and to a doctor and still stays themselves."
+        }
+      ]
+    },
+    {
+      "title": "What a brand's tone can be",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "In 2016 Kate Moran of Nielsen Norman Group described four tone scales: funny or serious, formal or casual, respectful or irreverent, enthusiastic or matter-of-fact."
+        },
+        {
+          "kind": "p",
+          "text": "A company rarely sits at the very end of a scale. A bank can afford a light joke in its social content, but in a message about a debit from your account it stays serious and precise."
+        }
+      ]
+    },
+    {
+      "title": "Brand voice, slogan and visual identity",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Voice decides how you sound. What exactly you say is set by the central idea and key messages, and that is a separate service: brand slogan and communication."
+        },
+        {
+          "kind": "p",
+          "text": "Both rest on brand positioning, which explains who you help and how. The voice should also match what the visual identity shows, so a strict typeface does not argue with playful copy."
+        }
+      ]
+    },
+    {
+      "title": "How to check a text against the brand voice",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "A finished text is checked against the guide with three questions. Does it contain stop words, does the form of address match, and does the tone fall within the scales set for this channel?"
+        },
+        {
+          "kind": "p",
+          "text": "A simple test: cover the logo and ask a colleague to read the post. If they recognized the company by its words, the voice works. If not, rewrite the text using the examples from the guide. It is worth repeating this check with every new writer."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "How a brand's tone of voice works"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -768,6 +1150,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const brandVoice: TextServiceContent = {
   heroImage: "/assets/photography/communication-3.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };

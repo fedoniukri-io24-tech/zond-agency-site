@@ -86,17 +86,17 @@ const en: BrandingSeoContent = {
   spoilerLabel: "Learn more",
   sections: [
     {
-      title: "What affects illustration price",
+      title: "What the cost of an illustration depends on",
       blocks: [
         {
           kind: "p",
           text:
-            "Price is based on scope and complexity. A single object on a white background and a scene with several characters are different workloads. Detail level and technique also matter — digital painting takes longer than line art.",
+            "The price is made up of the amount of work and the complexity of the drawing. A single object on a white background and a scene with several characters are tasks of very different effort. Detail affects the total too: the more small things in the frame, the longer the artist spends drawing them. Technique also carries weight, as digital painting takes more time than line art.",
         },
         {
           kind: "p",
           text:
-            "Quantity is the second part of the price. A series with one character is more efficient than separate artworks. Rush work costs more than planned delivery. We quote after the brief when format, quantity, and timeline are clear.",
+            "The second part of the price is quantity. A series with one character works out cheaper than separate drawings, because the style and the character are developed only once. Deadlines are counted separately: rush work costs more than scheduled work. We name the exact amount after the brief, once the format, quantity and deadline are clear.",
         },
       ],
     },
@@ -106,12 +106,12 @@ const en: BrandingSeoContent = {
         {
           kind: "p",
           text:
-            "They differ by concept and technique. Character illustration builds recognition. Product illustration replaces photography when a sample is not ready. Narrative scenes cover banners and covers, while diagrams explain complex products.",
+            "They differ by idea and by technique. Character illustration builds recognition: a drawn hero moves from the packaging into advertising and social media. Product illustration replaces a photo shoot when there is no sample of the product yet. Story illustration covers banners and book covers, and a diagram with figures explains a complex product.",
         },
         {
           kind: "p",
           text:
-            "Common techniques include vector, digital painting, and collage. Vector scales to billboards without loss; painting adds texture. Examples of both are in the portfolio above.",
+            "There are several techniques as well. Clients most often order vector, digital painting or collage. Vector stretches to billboard size without any loss, while painting gives texture. You can see examples of both techniques in the portfolio above.",
         },
       ],
     },
@@ -121,12 +121,12 @@ const en: BrandingSeoContent = {
         {
           kind: "p",
           text:
-            "Most often on packaging, where it replaces photos and makes the shelf recognizable. Websites use it on heroes, service sections, and error pages. For advertising, custom art beats stock.",
+            "Most often a drawing goes on packaging, where it replaces a photo and makes the product easy to spot on the shelf. The second common place is a website: the first screen, service sections and the error page. For advertising, a drawn frame pays off better than a stock one.",
         },
         {
           kind: "p",
           text:
-            "Illustration also works for social media. A consistent series makes the profile cohesive, and one character in several poses covers catalog and merch.",
+            "Illustrations are also worth ordering for social media. A series of images in one style makes a profile look consistent, and a single character is enough for both a catalog and merch if it is drawn in several poses.",
         },
       ],
     },
@@ -136,27 +136,27 @@ const en: BrandingSeoContent = {
         {
           kind: "p",
           text:
-            "Stock licenses are limited by print run and channel, and competitors can buy the same image. In our contract, usage scope and territory are written for your project, and the artwork is not resold.",
+            "That does not work with stock. There the license is limited by print run and channel, and competitors buy the same picture at the same time. In our contract the scope and territory of use are written for your project, and no one will sell the image again.",
         },
         {
           kind: "p",
           text:
-            "You receive a full file package: final vector art, raster versions for screen and print, a layered source file, and your color list — named so the right version is easy to find.",
+            "You get the full set of files: the final vector artwork, raster versions for screen and for print, a layered source file and a list of your colors. The files are named so you can find the version you need by its name.",
         },
       ],
     },
     {
-      title: "Services often combined with illustration",
+      title: "Services that go well with illustration",
       blocks: [
         {
           kind: "p",
           text:
-            "Illustration is rarely ordered alone. If it goes on a box or label, packaging design is needed nearby. When there are many artworks, usage rules go into a brand book so vendors stay consistent.",
+            "Illustration is rarely ordered on its own. If the drawing goes on a box or a label, you will also need packaging design. When there are many pieces, we collect the rules for using them in a brand book. Otherwise every new contractor will draw in their own way.",
         },
         {
           kind: "p",
           text:
-            "Creating artwork from scratch is faster when the brand already has a logo, colors, and fonts — then the illustrator knows the target result immediately.",
+            "Creating a drawing from scratch goes faster when the brand already has a logo, colors and fonts. Then the illustrator understands right away what the result should look like.",
         },
       ],
     },
@@ -172,72 +172,92 @@ const ru: BrandingSeoContent = {
         {
           kind: "p",
           text:
-            "Цена складывается из объёма работы и сложности рисунка. Один предмет на белом фоне и сцена с несколькими персонажами — разные по трудоёмкости задачи. На сумму влияют детализация и техника: цифровая живопись занимает больше времени, чем линейная графика.",
+            "Первым делом смотрим на сложность сюжета. Один предмет на чистом фоне рисуется быстрее, чем сцена с несколькими персонажами и проработанным фоном. Дальше считается количество работ. Серия обходится дешевле в пересчете на один рисунок, ведь стиль придумывается один раз и дальше повторяется.",
         },
         {
           kind: "p",
           text:
-            "Вторая часть цены — количество. Серия с одним героем выгоднее отдельных рисунков. Срочная работа дороже плановой. Точную сумму называем после брифа.",
-        },
-      ],
-    },
-    {
-      title: "Виды коммерческой иллюстрации",
-      blocks: [
-        {
-          kind: "p",
-          text:
-            "Их различают по замыслу и по технике. Персонажная работает на узнаваемость, предметная заменяет фотосъёмку, сюжетная закрывает баннеры и обложки, схема с цифрами объясняет сложный продукт.",
+            "Расчет меняет и техника. Чистый вектор считается по одной ставке, цифровая живопись и сложная фактура по другой. Остаются права и срок. Широкая лицензия на все каналы и сжатый график поднимают сумму, спокойный график, наоборот, ее снижает. Поэтому вопрос, сколько стоит иллюстрация, мы закрываем сметой после брифа. Одной цифры на сайте здесь не хватит.",
         },
         {
           kind: "p",
           text:
-            "Чаще всего заказывают вектор, цифровую живопись или коллаж. Вектор тянется на билборд без потерь, живопись даёт фактуру.",
+            "Разработка иллюстраций для упаковки считается отдельно от рисунков для экрана. Печать требует своих цветовых профилей, запаса под обрез и проверки на тираже.",
+        },
+        {
+          kind: "p",
+          text:
+            "В смете есть и отдельная строка на доработки после сдачи. Бренд растет, и к готовой серии просят дорисовать еще пару сюжетов. Такие работы мы считаем отдельно и ставим в смету так же, как основной заказ. Точный расчет вы получаете вместе со сроком.",
         },
       ],
     },
     {
-      title: "Где используют иллюстрацию",
+      title: "Виды иллюстрации и где их используют",
       blocks: [
         {
           kind: "p",
           text:
-            "Чаще всего рисунок ставят на упаковку, где он заменяет фото. Второе распространённое место — сайт: первый экран, разделы услуг и страница ошибки. Для рекламы нарисованный кадр выгоднее стокового.",
+            "Дороже всего обходится корпоративный герой, и он же окупается лучше остальных. Персонажа рисуют один раз, а работает он и на упаковке, и в рекламе, и в социальных сетях, и покупатель узнает бренд по нему. Предметная графика выручает, когда образца товара еще нет и снимать нечего. Сюжетная закрывает баннеры и обложки, где нужна целая сцена.",
         },
         {
           kind: "p",
           text:
-            "Иллюстрации стоит заказать и для соцсетей. Серия одинаковых по стилю изображений делает профиль целостным, а одного героя хватит и на каталог, и на мерч.",
+            "Схема с цифрами объясняет сложный продукт быстрее длинного абзаца, а комикс продает историю бренда там, где обычный текст пролистывают. Техника тоже меняет расчет. Вектор масштабируется до билборда без потерь и выходит дешевле в серии, цифровая живопись дает художественную фактуру и стоит дороже. Технику выбирают на старте, перерисовка всей серии обходится дорого. Примеры обеих техник есть в портфолио выше.",
+        },
+        {
+          kind: "p",
+          text:
+            "Место размещения диктует формат. На упаковке рисунок конкурирует с соседями по полке, и силуэт должен читаться издалека. Графика на сайте держит визуальный ритм страницы и объясняет услугу без фотографий, а для мерча и презентаций хватает одного героя, нарисованного в нескольких позах.",
         },
       ],
     },
     {
-      title: "Права на иллюстрацию и форматы передачи",
+      title: "Права на иллюстрацию и форматы передачи файлов",
       blocks: [
         {
           kind: "p",
           text:
-            "Со стоком так не получается: лицензия ограничена тиражом и каналом, а картинку параллельно покупают конкуренты. В нашем договоре объём и территория использования прописаны под ваш проект.",
+            "Сток так не умеет, ведь лицензия там ограничена, и ту же картинку параллельно покупают конкуренты. У нарисованной под вас работы такого соседства нет, а условия передачи прописаны в договоре до начала проекта.",
         },
         {
           kind: "p",
           text:
-            "Вы забираете полный комплект файлов: чистовую работу в векторе, растровые версии под экран и под печать, исходный макет со слоями и перечень ваших цветов.",
+            "В комплект входит чистовая работа в векторе, растровые версии под экран и под печать, исходный графический макет со слоями и перечень ваших цветов. Точный список форматов: AI, EPS, PDF, SVG, PNG. Имена файлов мы держим в одной системе, и через год новый дизайнер разберется в папке без нас.",
+        },
+        {
+          kind: "p",
+          text:
+            "То, что уходит в типографию, лежит отдельно, вместе с метками под обрез и профилем печати. Такой порядок экономит время, когда тираж допечатывают в другой типографии.",
+        },
+        {
+          kind: "p",
+          text:
+            "Если в компании меняется дизайнер или подрядчик, комплект передается дальше без нашего участия. Вместе с файлами уходит короткая записка о том, где какая версия лежит и в каком виде ее отдавать в печать.",
         },
       ],
     },
     {
-      title: "С какими услугами сочетают иллюстрацию",
+      title: "Заказать иллюстрацию в Киеве и по Украине",
       blocks: [
         {
           kind: "p",
           text:
-            "Иллюстрацию редко заказывают отдельно. Если рисунок пойдёт на коробку или этикетку, рядом понадобится дизайн упаковки. Когда работ становится много, правила использования собираем в брендбук.",
+            "Иллюстрации на заказ в Киеве мы рисуем с 2021 года и работаем на тех же условиях по всей Украине. Заказать иллюстрации можно через форму выше, консультация бесплатная. Чаще всего это иллюстрации для сайта, Киев тут ничем не отличается от других городов.",
         },
         {
           kind: "p",
           text:
-            "Разработка рисунка с нуля проходит быстрее, когда у бренда уже есть логотип, цвета и шрифты. Тогда иллюстратор сразу понимает, каким должен быть результат.",
+            "Нишу мы по географии не выбираем, и заказ иллюстраций приходит от производителей, издательств и сервисов из разных городов, а работа с ними идет одинаково. Иллюстрация, стоимость и сроки обсуждаются в переписке, приезжать в офис не нужно.",
+        },
+        {
+          kind: "p",
+          text:
+            "Если рисунок пойдет на коробку или этикетку, рядом понадобится еще и дизайн упаковки. Композиция, выбор бумаги и красок тоже влияют на то, как изображение будет смотреться на полке. Когда работ становится много, правила их использования лучше собрать в брендбук, иначе каждый новый подрядчик будет рисовать по-своему.",
+        },
+        {
+          kind: "p",
+          text:
+            "Работа с нуля идет быстрее, когда у бренда уже есть логотип, цвета и шрифты. Тогда художник не тратит время на поиск стиля.",
         },
       ],
     },

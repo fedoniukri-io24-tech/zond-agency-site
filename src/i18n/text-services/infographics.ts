@@ -316,6 +316,320 @@ const uk: ServicePageContent = {
   ]
 };
 
+const en: ServicePageContent = {
+  "eyebrow": "Services / Technical infographics",
+  "title": "Infographic design and development",
+  "titleAccent": "",
+  "lead": "We draw equipment and process diagrams, instructions and data charts for catalogs, websites and presentations.",
+  "sub": "A complex product becomes clearer even to someone who has never seen its drawings or data sheet.",
+  "cta": "Discuss the project",
+  "heroAlt": "Infographic design and development",
+  "heroCaption": "One diagram instead of a page.",
+  "metricsTitle": "One diagram instead of a page.",
+  "stats": [
+    {
+      "value": "08",
+      "label": "parts of the work, from data to all files"
+    },
+    {
+      "value": "06",
+      "label": "steps from brief to handoff of finished layouts"
+    },
+    {
+      "value": "03",
+      "label": "media in examples: print, screen and booth"
+    },
+    {
+      "value": "02",
+      "label": "versions of each layout: for print and for screen"
+    }
+  ],
+  "audienceTitle": "When you need infographics",
+  "audienceItems": [
+    {
+      "index": "01",
+      "title": "Complex equipment and assemblies",
+      "description": "A cutaway diagram shows how a machine or a plant system works when it is hard to explain with words and photos."
+    },
+    {
+      "index": "02",
+      "title": "Tenders and product presentations",
+      "description": "A procurement manager compares dozens of offers, and a visual comparison of specs makes yours stand out."
+    },
+    {
+      "index": "03",
+      "title": "Instructions and dealer training",
+      "description": "Step-by-step installation with pictures cuts down on mistakes and service calls from installers and buyers."
+    },
+    {
+      "index": "04",
+      "title": "Annual report and company figures",
+      "description": "Annual results, sales structure and delivery geography on one page instead of a dozen tables."
+    }
+  ],
+  "featureStrip": {
+    "eyebrow": "YOUR BRAND'S DATA",
+    "titleLine": "The same style.",
+    "titleAccent": "Even in a diagram.",
+    "body": "At ZOND, these graphics are drawn by the same team that creates brand identity, so every diagram and chart speaks the language of your brand."
+  },
+  "includesTitle": "What's included in infographic development",
+  "includesSubtitle": "Technical infographics start with your data and drawings, and the visual appears only once the logic is clear.",
+  "includes": [
+    "Structure for presenting data on one page.",
+    "A device or process diagram in your brand style.",
+    "Charts and graphs based on your figures.",
+    "An icon set for other materials.",
+    "A print layout for a catalog or leaflet.",
+    "Versions for the website, slides and social media.",
+    "A large format for a trade show booth.",
+    "Vector files and PNG for screens.",
+    "Layered source files for updating figures."
+  ],
+  "deliverables": [
+    "Structure for presenting data on one page.",
+    "A device or process diagram in your brand style.",
+    "Charts and graphs based on your figures.",
+    "An icon set for other materials.",
+    "A print layout for a catalog or leaflet.",
+    "Versions for the website, slides and social media.",
+    "A large format for a trade show booth.",
+    "Vector files and PNG for screens.",
+    "Layered source files for updating figures."
+  ],
+  "deliverablesEyebrow": "09 / RESULT",
+  "deliverablesTitle": "What you get",
+  "deliverablesNote": "We agree the exact list of versions and files based on the media and project tasks.",
+  "includeCards": [
+    {
+      "index": "01",
+      "title": "Source review",
+      "description": "We read the product data sheet, tables and reports, and pick three to five facts the reader should remember and take away.",
+      "image": "/assets/photography/positioning-3.webp",
+      "alt": "Stage illustration: Source review"
+    },
+    {
+      "index": "02",
+      "title": "Logic and scenario",
+      "description": "We decide what to show as a diagram, a chart or a list of steps, and in what order the eye moves through the whole picture.",
+      "image": "/assets/photography/logo-2.webp",
+      "alt": "Stage illustration: Logic and scenario"
+    },
+    {
+      "index": "03",
+      "title": "Device diagram",
+      "description": "We show the product in cutaway or with callouts, so the position of assemblies and connection points is clear without a drawing.",
+      "image": "/assets/photography/graphics-3.webp",
+      "alt": "Stage illustration: Device diagram"
+    },
+    {
+      "index": "04",
+      "title": "Icon set",
+      "description": "We draw icons for your features and processes in one style, so they can also be used in other materials.",
+      "image": "/assets/photography/brandbook-1.webp",
+      "alt": "Stage illustration: Icon set"
+    },
+    {
+      "index": "05",
+      "title": "Assembly illustrations",
+      "description": "Where a photo misses the point, we redraw the part, the installation or the use scene in one graphic style.",
+      "image": "/assets/photography/smm-3.webp",
+      "alt": "Stage illustration: Assembly illustrations"
+    },
+    {
+      "index": "06",
+      "title": "Charts and graphs",
+      "description": "We turn rows of figures into charts where sales growth and model comparisons are visible before you read the line labels.",
+      "image": "/assets/photography/brand-character-1.webp",
+      "alt": "Stage illustration: Charts and graphs"
+    },
+    {
+      "index": "07",
+      "title": "Versions for each medium",
+      "description": "We rebuild one diagram for a catalog spread, a slide, a website banner and a vertical screen on a trade show booth.",
+      "image": "/assets/photography/application-outdoor.webp",
+      "alt": "Stage illustration: Versions for each medium"
+    },
+    {
+      "index": "08",
+      "title": "File handoff",
+      "description": "We hand over vector files, a print PDF and PNG for screens, plus a layered source file so you can change the figures without us.",
+      "image": "/assets/photography/web-development-3.webp",
+      "alt": "Stage illustration: File handoff"
+    }
+  ],
+  "casesTitle": "ZOND infographics and graphics cases",
+  "casesSubtitle": "Related ZOND projects in branding, graphics and print. Task details and the actual scope of work are on each project page.",
+  "processTitle": "How we create graphics",
+  "process": [
+    {
+      "index": "01",
+      "title": "Brief and goal",
+      "description": "We clarify the task, the reader, the media and what they should grasp at first glance.",
+      "duration": ""
+    },
+    {
+      "index": "02",
+      "title": "Data collection",
+      "description": "We gather drawings, tables and texts, and check figures and units with your engineer.",
+      "duration": ""
+    },
+    {
+      "index": "03",
+      "title": "Structure",
+      "description": "We set the order of blocks and the path of the eye, and agree it with you before drawing.",
+      "duration": ""
+    },
+    {
+      "index": "04",
+      "title": "Sketch",
+      "description": "We show a draft diagram, so content edits happen before the final graphics.",
+      "duration": ""
+    },
+    {
+      "index": "05",
+      "title": "Design",
+      "description": "We draw the final graphics in your brand colors and typefaces and make edits to the layout.",
+      "duration": ""
+    },
+    {
+      "index": "06",
+      "title": "Handoff",
+      "description": "We deliver versions for all media and layered source files for updating figures later.",
+      "duration": ""
+    }
+  ],
+  "teamTitle": "Who leads the project",
+  "whyTitle": "The same style.",
+  "whyItems": [
+    {
+      "title": "The same style. Even in a diagram.",
+      "description": "At ZOND, these graphics are drawn by the same team that creates brand identity, so every diagram and chart speaks the language of your brand."
+    }
+  ],
+  "compareTitle": "Why ZOND instead of a freelancer or an online builder?",
+  "compareColumns": [
+    "Criterion",
+    "ZOND",
+    "Freelance",
+    "Online builder"
+  ],
+  "compareRows": [
+    {
+      "criterion": "Data",
+      "zond": "Checked with an engineer",
+      "freelance": "Used as sent",
+      "generator": "You enter data yourself"
+    },
+    {
+      "criterion": "Style",
+      "zond": "Your brand identity",
+      "freelance": "Designer's personal manner",
+      "generator": "Looks like thousands of others"
+    },
+    {
+      "criterion": "Diagrams",
+      "zond": "Drawn for your product",
+      "freelance": "Depends on skill",
+      "generator": "Stock icons and templates"
+    },
+    {
+      "criterion": "Result",
+      "zond": "Vector and source files",
+      "freelance": "Depends on experience",
+      "generator": "Just a flat image"
+    }
+  ],
+  "reviewsEyebrow": "05 / FEEDBACK",
+  "reviewsTitle": "Reviews of working with ZOND",
+  "reviewsNote": "Real client reviews of joint projects with the studio.",
+  "reviews": [
+    {
+      "label": "SAMPLE REVIEW 01",
+      "quote": "\"With the character it became easier to explain our product in short formats and keep a consistent tone.\"",
+      "name": "Product team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 02",
+      "quote": "\"The hero added warmth to communication and gave the team new ideas for regular content.\"",
+      "name": "Brand team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 03",
+      "quote": "\"The set of poses and emotions helped use the character across campaigns without losing recognition.\"",
+      "name": "Company team",
+      "role": "Text for approval"
+    },
+    {
+      "label": "SAMPLE REVIEW 04",
+      "quote": "\"Thanks to the rules, the character looks the same on packaging, the website, and print materials.\"",
+      "name": "Service team",
+      "role": "Text for approval"
+    }
+  ],
+  "productTitle": "Where your technical graphics work",
+  "productNote": "We adapt one diagram to each medium: a catalog spread and leaflet for print, a slide and website for screen, a large format for the back wall of your trade show booth.",
+  "products": [
+    {
+      "src": "/assets/photography/brandbook-0.webp",
+      "alt": "Illustrative application: catalog and print",
+      "caption": "Catalog and print"
+    },
+    {
+      "src": "/assets/photography/web-development-2.webp",
+      "alt": "Illustrative application: website and presentation",
+      "caption": "Website and presentation"
+    },
+    {
+      "src": "/assets/photography/application-outdoor.webp",
+      "alt": "Illustrative application: trade show booth",
+      "caption": "Trade show booth"
+    }
+  ],
+  "formTitle": "Let's show your product in one diagram.",
+  "formDescription": "Tell us about the product and task, and we will suggest how to turn the data into a picture.",
+  "faqTitle": "Frequently asked questions",
+  "faq": [
+    {
+      "question": "How much does infographic development cost?",
+      "answer": "We calculate the cost for your task after the brief. It depends on the amount of data, how complex the diagrams are, custom illustrations instead of stock and the number of media."
+    },
+    {
+      "question": "How long does it take to create infographics?",
+      "answer": "We set the timeline together with the cost once the scope is clear. It depends on whether the data is ready, the number of diagrams and how fast approvals with engineers go."
+    },
+    {
+      "question": "What do I need to prepare to order infographics?",
+      "answer": "The work starts with data: tables, drawings, product photos or instruction text. If some of the data exists only in an engineer's head, we will sort it out at the brief."
+    },
+    {
+      "question": "How are technical infographics different from regular ones?",
+      "answer": "Promotional infographics sell one idea, while technical ones explain a structure or process, so we check every figure and detail with your engineer."
+    },
+    {
+      "question": "In what formats do you deliver infographics?",
+      "answer": "We deliver vector files and PDF for print, PNG and SVG for the website and slides, plus a layered source layout so your designer can update the figures later."
+    }
+  ],
+  "relatedTitle": "Related services",
+  "related": [
+    {
+      "title": "Graphic design",
+      "slug": "graphics"
+    },
+    {
+      "title": "Illustration",
+      "slug": "illustration"
+    },
+    {
+      "title": "Brand book",
+      "slug": "brandbook"
+    }
+  ]
+};
+
 const ru: ServicePageContent = {
   "eyebrow": "Услуги / Техническая инфографика",
   "title": "Разработка и дизайн инфографики",
@@ -693,6 +1007,69 @@ const ukSeo: BrandingSeoContent = {
   "editorialTitle": "Інфографіка на замовлення в Києві"
 };
 
+const enSeo: BrandingSeoContent = {
+  "spoilerLabel": "Learn more",
+  "sections": [
+    {
+      "title": "What technical infographics are",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "Technical infographics are diagrams that explain how a product is built, how it is installed or how an engineering system works. Accuracy matters here: dimensions, assemblies and the order of steps match the real equipment on site."
+        },
+        {
+          "kind": "p",
+          "text": "These diagrams go into catalogs, product data sheets, tender documents, the manufacturer's website and dealer training. They are part of what ZOND graphic design covers."
+        }
+      ]
+    },
+    {
+      "title": "What affects the cost of infographic development",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The price of technical infographics depends on the amount of data and the number of diagrams. One chart from a ready table takes less time than a machine cutaway with twenty callouts and separate labels for each assembly."
+        },
+        {
+          "kind": "p",
+          "text": "The total also changes with details an illustrator draws from scratch instead of stock icons, and with the number of media. So we name it after the brief, when the full scope and set of materials are clear."
+        }
+      ]
+    },
+    {
+      "title": "Types of infographics for business",
+      "blocks": [
+        {
+          "kind": "p",
+          "text": "The reader's main question tells you which infographic to order: a diagram, an instruction or a comparison. Infographics in design continue your brand identity. Most often these are:"
+        },
+        {
+          "kind": "p",
+          "text": "a cutaway device diagram with callouts;"
+        },
+        {
+          "kind": "p",
+          "text": "a process or equipment installation step by step;"
+        },
+        {
+          "kind": "p",
+          "text": "a comparison of models by specs;"
+        },
+        {
+          "kind": "p",
+          "text": "charts and graphs of annual data;"
+        },
+        {
+          "kind": "p",
+          "text": "a map of deliveries, warehouses or company branches."
+        }
+      ]
+    }
+  ],
+  "editorialEyebrow": "08 / LEARN MORE",
+  "editorialTitle": "Custom infographics in Kyiv"
+};
+
 const ruSeo: BrandingSeoContent = {
   "spoilerLabel": "Подробнее",
   "sections": [
@@ -758,6 +1135,6 @@ const ruSeo: BrandingSeoContent = {
 
 export const infographics: TextServiceContent = {
   heroImage: "/assets/photography/graphics-3.webp",
-  page: { uk, ru },
-  seo: { uk: ukSeo, ru: ruSeo },
+  page: { uk, en, ru },
+  seo: { uk: ukSeo, en: enSeo, ru: ruSeo },
 };
