@@ -1155,6 +1155,7 @@ a.project-card {
   height: 100%;
   object-fit: cover;
   display: block;
+  pointer-events: none;
 }
 
 .project-card:hover .project-img img,
