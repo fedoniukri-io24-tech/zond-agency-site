@@ -58,6 +58,11 @@ export const CASE_SERVICE_TAGS: Record<string, Record<Locale, string>> = {
     "Лого · Брендбук · Айдентика",
     "Logo · Brand book · Identity",
   ),
+  flups: ltag(
+    "Брендинг · Паковання · Мерч",
+    "Брендинг · Упаковка · Мерч",
+    "Branding · Packaging · Merch",
+  ),
   goshchanochka: ltag(
     "Брендинг · Лого · Упаковка",
     "Брендинг · Лого · Упаковка",

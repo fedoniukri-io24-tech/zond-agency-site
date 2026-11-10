@@ -455,6 +455,7 @@ export function getKyivTourismBlocks(locale: Locale): CaseVisualBlock[] {
 export const kyivTourismShared = {
   slug: "kyiv-tourism-department",
   cover: m("cover.jpg"),
+  listCover: m("cover.mp4"),
   media: kyivTourismMedia,
   tagline: "Місто, у якому\nє місце тобі.",
   serviceTag: "Соціальна кампанія",

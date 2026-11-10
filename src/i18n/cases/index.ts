@@ -22,6 +22,8 @@ const PUBLISHED_CASE_SLUGS: readonly string[] = [
   "carbit",
   "nove-misto",
   "packaging",
+  "flups",
+  "goshchanochka",
   "kyiv-tourism-department",
   "digital-residence",
   "kavlora",

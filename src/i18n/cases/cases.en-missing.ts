@@ -58,34 +58,7 @@ export const casesEnMissing: CaseItem[] = [
     ],
     "body": "### Client\n\nInstitute of National Resilience and Security of Ukraine (INSB).\n\n### Goals\n\nCreate a restrained, professional, and contemporary brand that conveys expertise and public trust while reflecting security, resilience, and strategic thinking.\n\n### Developed\n\nBranding\n\nLogo\n\nDesign\n\nStrategy\n\nIdentity\n\n[IMG: media/insb/hero.webp]\n\n[IMG: media/insb/01.webp]\n\n[IMG: media/insb/02.webp]\n\n[IMG: media/insb/03.webp]\n\n[IMG: media/insb/04.webp]\n\n[IMG: media/insb/05.webp]\n\n[IMG: media/insb/06.webp]\n\n[IMG: media/insb/07.webp]\n\n[IMG: media/insb/08.webp]\n\n[IMG: media/insb/09.webp]\n\n[IMG: media/insb/11.webp]\n\n[IMG: media/insb/12.webp]\n\n[IMG: media/insb/10.webp]\n\n[IMG: media/insb/13.webp]\n\n[IMG: media/insb/14.webp]\n\n[IMG: media/insb/15.webp]\n\n[IMG: media/insb/16.webp]\n\n[IMG: media/insb/17.webp]"
   },
-  {
-    "slug": "goshchanochka",
-    "title": "Hoshchanochka",
-    "description": "We developed branding, strategy, identity, and a logo for Hoshchanochka — a dairy producer in Ukraine.",
-    "cover": "/assets/cases/goshchanochka/cover.gif",
-    "media": [
-      "media/goshchanochka/cover.gif",
-      "media/goshchanochka/hero.webp",
-      "media/goshchanochka/01.webp",
-      "media/goshchanochka/02.webp",
-      "media/goshchanochka/03.webp",
-      "media/goshchanochka/04.webp",
-      "media/goshchanochka/05.webp",
-      "media/goshchanochka/06.webp",
-      "media/goshchanochka/07.webp",
-      "media/goshchanochka/08.webp",
-      "media/goshchanochka/17.png",
-      "media/goshchanochka/09.webp",
-      "media/goshchanochka/14.webp",
-      "media/goshchanochka/15.webp",
-      "media/goshchanochka/16.webp",
-      "media/goshchanochka/12.webp",
-      "media/goshchanochka/13.webp",
-      "media/goshchanochka/10.webp"
-    ],
-    "body": "### Client\n\nHoshchanochka — a dairy plant and producer of milk products in Ukraine.\n\n### Goals\n\nShape a recognisable brand with packaging and communication that reflect quality, tradition, and trust on retail shelves.\n\n### Developed\n\nBranding\n\nLogo\n\nDesign\n\nStrategy\n\nIdentity\n\n[IMG: media/goshchanochka/hero.webp]\n\n[IMG: media/goshchanochka/01.webp]\n\n[IMG: media/goshchanochka/02.webp]\n\n[IMG: media/goshchanochka/03.webp]\n\n[IMG: media/goshchanochka/04.webp]\n\n[IMG: media/goshchanochka/05.webp]\n\n[IMG: media/goshchanochka/06.webp]\n\n[IMG: media/goshchanochka/07.webp]\n\n[IMG: media/goshchanochka/08.webp]\n\n[IMG: media/goshchanochka/17.png]\n\n[IMG: media/goshchanochka/09.webp]\n\n[IMG: media/goshchanochka/14.webp]\n\n[IMG: media/goshchanochka/15.webp]\n\n[IMG: media/goshchanochka/16.webp]\n\n[IMG: media/goshchanochka/12.webp]\n\n[IMG: media/goshchanochka/13.webp]\n\n[IMG: media/goshchanochka/10.webp]"
-  },
-  {
+    {
     "slug": "sk-energy",
     "title": "SK Energy",
     "description": "We developed branding and a logo for SK Energy — an energy company, including market research and a strong visual identity.",

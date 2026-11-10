@@ -3,6 +3,16 @@ import type { Locale } from "@/i18n/config";
 type HeroCaptions = Record<string, Partial<Record<Locale, string>>>;
 
 const HERO_CAPTIONS: HeroCaptions = {
+  flups: {
+    uk: "FLUPS — для маленьких босів",
+    ru: "FLUPS — для маленьких боссов",
+    en: "FLUPS — for little bosses",
+  },
+  goshchanochka: {
+    uk: "Гощаночка — молочні продукти",
+    ru: "Гощаночка — молочные продукты",
+    en: "Goshchanochka — dairy products",
+  },
   aximod: {
     uk: "AXIMOD — гальмівна система",
     ru: "AXIMOD — тормозная система",

@@ -4,6 +4,8 @@ import { carbitCopy, carbitShared, getCarbitBlocks } from "./carbit";
 import { digitalResidenceCopy, digitalResidenceShared, getDigitalResidenceBlocks } from "./digital-residence";
 import { aximodCopy, aximodShared, getAximodBlocks } from "./aximod";
 import { getHomeHubBlocks, homeHubCopy, homeHubShared } from "./home-hub";
+import { flupsCopy, flupsShared, getFlupsBlocks } from "./flups";
+import { getGoshchanochkaBlocks, goshchanochkaCopy, goshchanochkaShared } from "./goshchanochka";
 import { altepCopy, altepShared, getAltepBlocks } from "./altep";
 import { getPackagingBlocks, packagingCopy, packagingShared } from "../packaging-collection";
 import { getKavloraBlocks, kavloraCopy, kavloraShared } from "./kavlora";
@@ -62,6 +64,7 @@ const cases: CaseItem[] = [
     title: noveMistoCopy.en.title,
     description: noveMistoCopy.en.description,
     cover: noveMistoShared.cover,
+    listCover: noveMistoShared.listCover,
     media: noveMistoShared.media,
     tagline: noveMistoCopy.en.tagline,
     serviceTag: noveMistoCopy.en.serviceTag,
@@ -73,6 +76,7 @@ const cases: CaseItem[] = [
     title: kyivTourismCopy.en.title,
     description: kyivTourismCopy.en.description,
     cover: kyivTourismShared.cover,
+    listCover: kyivTourismShared.listCover,
     media: kyivTourismShared.media,
     tagline: kyivTourismCopy.en.tagline,
     serviceTag: kyivTourismCopy.en.serviceTag,
@@ -172,6 +176,33 @@ const cases: CaseItem[] = [
     serviceTag: packagingCopy.en.serviceTag,
     body: packagingShared.body,
     blocks: getPackagingBlocks("en"),
+  },
+
+  {
+    slug: flupsShared.slug,
+    title: flupsCopy.en.title,
+    description: flupsCopy.en.description,
+    cover: flupsShared.cover,
+    listCover: flupsShared.listCover,
+    media: flupsShared.media,
+    tagline: flupsCopy.en.tagline,
+    serviceTag: flupsCopy.en.serviceTag,
+    theme: flupsShared.theme,
+    body: flupsShared.body,
+    blocks: getFlupsBlocks("en"),
+  },
+  {
+    slug: goshchanochkaShared.slug,
+    title: goshchanochkaCopy.en.title,
+    description: goshchanochkaCopy.en.description,
+    cover: goshchanochkaShared.cover,
+    listCover: goshchanochkaShared.listCover,
+    media: goshchanochkaShared.media,
+    tagline: goshchanochkaCopy.en.tagline,
+    serviceTag: goshchanochkaCopy.en.serviceTag,
+    theme: goshchanochkaShared.theme,
+    body: goshchanochkaShared.body,
+    blocks: getGoshchanochkaBlocks("en"),
   },
   {
     slug: technoGroupShared.slug,
@@ -470,34 +501,7 @@ const cases: CaseItem[] = [
     ],
     "body": "[IMG: media/karantin-identity/hero.jpeg]\n\n### Client\n\n### Goals\n\nIt is unknown when we will get off these crazy merry-go-round. However, there is no doubt that lockdown has become a hallmark of our generation and deserve to have a complete identity.\n\n### Developed\n\nIdea\n\nIdentity\n\nCopywriting\n\nCompany merch\n\nSelection of materials for production\n\nTo project\n\n[IMG: media/karantin-identity/01.jpeg]\n\n[IMG: media/karantin-identity/02.jpeg]\n\n[IMG: media/karantin-identity/03.jpeg]\n\n[IMG: media/karantin-identity/04.jpeg]\n\n[IMG: media/karantin-identity/03.jpeg]\n\n[IMG: media/karantin-identity/04.jpeg]\n\n[IMG: media/karantin-identity/05.jpeg]\n\n[IMG: media/karantin-identity/06.jpeg]\n\n[IMG: media/karantin-identity/07.jpeg]\n\n[IMG: media/karantin-identity/08.jpeg]\n\n[IMG: media/karantin-identity/05.jpeg]\n\n[IMG: media/karantin-identity/06.jpeg]\n\n[IMG: media/karantin-identity/07.jpeg]\n\n[IMG: media/karantin-identity/08.jpeg]"
   },
-  {
-    "slug": "flups",
-    "title": "FLUPS",
-    "description": "We developed branding, naming, and packaging for FLUPS — a manufacturer of pet food and accessories. Also a marketing strategy.",
-    "cover": "/assets/cases/flups/cover.gif",
-    "media": [
-      "media/flups/cover.gif",
-      "media/flups/hero.jpeg",
-      "media/flups/01.jpeg",
-      "media/flups/02.jpeg",
-      "media/flups/03.jpeg",
-      "media/flups/04.jpeg",
-      "media/flups/05.jpeg",
-      "media/flups/06.jpeg",
-      "media/flups/07.jpeg",
-      "media/flups/10.jpeg",
-      "media/flups/08.jpeg",
-      "media/flups/12.jpeg",
-      "media/flups/11.jpeg",
-      "media/flups/13.jpeg",
-      "media/flups/14.jpeg",
-      "media/flups/15.jpeg",
-      "media/flups/16.jpeg",
-      "media/flups/17.jpeg"
-    ],
-    "body": "[IMG: media/flups/hero.jpeg]\n\n### Client\n\nFLUPS is a company that specializes in the production of the best food products for pets. Their products include dry and wet food, treats and accessories for animals.\n\n### Goals\n\nFLUPS turned to our branding agency for the purpose of developing a brand and marketing strategy. Decision: Our team worked on several key aspects to meet the challenges of FLUPS: Naming development: FLUPS comes from the words Fluffy + pups also encrypted meaning Four laps or For laps.\n\n### Developed\n\nStrategy\n\nBranding\n\nPrinted products\n\nBranded merch\n\nTo project\n\n[IMG: media/flups/01.jpeg]\n\n[IMG: media/flups/02.jpeg]\n\n[IMG: media/flups/03.jpeg]\n\n[IMG: media/flups/04.jpeg]\n\n[IMG: media/flups/03.jpeg]\n\n[IMG: media/flups/04.jpeg]\n\n[IMG: media/flups/05.jpeg]\n\n[IMG: media/flups/06.jpeg]\n\n[IMG: media/flups/07.jpeg]\n\n[IMG: media/flups/10.jpeg]\n\n[IMG: media/flups/08.jpeg]\n\n[IMG: media/flups/05.jpeg]\n\n[IMG: media/flups/06.jpeg]\n\n[IMG: media/flups/07.jpeg]\n\n[IMG: media/flups/08.jpeg]\n\n[IMG: media/flups/12.jpeg]\n\n[IMG: media/flups/11.jpeg]\n\n[IMG: media/flups/13.jpeg]\n\n[IMG: media/flups/14.jpeg]\n\n[IMG: media/flups/15.jpeg]\n\n[IMG: media/flups/16.jpeg]\n\n[IMG: media/flups/17.jpeg]"
-  },
-  {
+    {
     "slug": "dron",
     "title": "Drone",
     "description": "We designed the drone body with engineering load calculations, part selection, and materials sourcing for a test prototype.",

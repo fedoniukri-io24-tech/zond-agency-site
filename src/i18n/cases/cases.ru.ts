@@ -4,6 +4,8 @@ import { carbitCopy, carbitShared, getCarbitBlocks } from "./carbit";
 import { digitalResidenceCopy, digitalResidenceShared, getDigitalResidenceBlocks } from "./digital-residence";
 import { aximodCopy, aximodShared, getAximodBlocks } from "./aximod";
 import { getHomeHubBlocks, homeHubCopy, homeHubShared } from "./home-hub";
+import { flupsCopy, flupsShared, getFlupsBlocks } from "./flups";
+import { getGoshchanochkaBlocks, goshchanochkaCopy, goshchanochkaShared } from "./goshchanochka";
 import { altepCopy, altepShared, getAltepBlocks } from "./altep";
 import { getPackagingBlocks, packagingCopy, packagingShared } from "../packaging-collection";
 import { getKavloraBlocks, kavloraCopy, kavloraShared } from "./kavlora";
@@ -62,6 +64,7 @@ const cases: CaseItem[] = [
     title: noveMistoCopy.ru.title,
     description: noveMistoCopy.ru.description,
     cover: noveMistoShared.cover,
+    listCover: noveMistoShared.listCover,
     media: noveMistoShared.media,
     tagline: noveMistoCopy.ru.tagline,
     serviceTag: noveMistoCopy.ru.serviceTag,
@@ -73,6 +76,7 @@ const cases: CaseItem[] = [
     title: kyivTourismCopy.ru.title,
     description: kyivTourismCopy.ru.description,
     cover: kyivTourismShared.cover,
+    listCover: kyivTourismShared.listCover,
     media: kyivTourismShared.media,
     tagline: kyivTourismCopy.ru.tagline,
     serviceTag: kyivTourismCopy.ru.serviceTag,
@@ -160,6 +164,33 @@ const cases: CaseItem[] = [
     serviceTag: packagingCopy.ru.serviceTag,
     body: packagingShared.body,
     blocks: getPackagingBlocks("ru"),
+  },
+
+  {
+    slug: flupsShared.slug,
+    title: flupsCopy.ru.title,
+    description: flupsCopy.ru.description,
+    cover: flupsShared.cover,
+    listCover: flupsShared.listCover,
+    media: flupsShared.media,
+    tagline: flupsCopy.ru.tagline,
+    serviceTag: flupsCopy.ru.serviceTag,
+    theme: flupsShared.theme,
+    body: flupsShared.body,
+    blocks: getFlupsBlocks("ru"),
+  },
+  {
+    slug: goshchanochkaShared.slug,
+    title: goshchanochkaCopy.ru.title,
+    description: goshchanochkaCopy.ru.description,
+    cover: goshchanochkaShared.cover,
+    listCover: goshchanochkaShared.listCover,
+    media: goshchanochkaShared.media,
+    tagline: goshchanochkaCopy.ru.tagline,
+    serviceTag: goshchanochkaCopy.ru.serviceTag,
+    theme: goshchanochkaShared.theme,
+    body: goshchanochkaShared.body,
+    blocks: getGoshchanochkaBlocks("ru"),
   },
   {
     slug: technoGroupShared.slug,
@@ -265,35 +296,7 @@ const cases: CaseItem[] = [
     ],
     "body": "### Задачи\n\nРазработать айдентику и отразить в ней элементы связанные с основным направлением компании. Мы предложили идею с трейдерскими свечами, но все они зеленого цвета, символизирующие успешность сделки для обеих сторон.\n\n### Разработали\n\nБрендинг\n\nАйдентика\n\nСувенирная продукция\n\nПолиграфические материалы\n\n[IMG: media/wiex/hero.jpeg]\n\n[IMG: media/wiex/01.jpeg]\n\n[IMG: media/wiex/02.jpeg]\n\n[IMG: media/wiex/03.jpeg]\n\n## Разработка айдентики: визуальный язык криптовалютного обмена\n\nАйдентика бренда – это ключ к созданию доверия и узнаваемости. Для WIEX, сервиса быстрого обмена криптовалют, важно передать стабильность, технологичность и выгодность сделок. Мы предложили идею графических элементов, основанных на трейдерских свечах, являющихся основным символом в мире финансов. Однако вместо классических красных и зеленых свечей в визуальной системе WIEX используются только зеленые – как символ прибыльных сделок для обеих сторон. Динамические линии, напоминающие графики роста, плавные градиенты и технологическая гамма с акцентом на оттенки зеленого и темного синего создают ощущение надежности и современности. Такое визуальное решение отражает быстроту сервиса, финансовую стабильность и прогрессивный подход компании.\n\n[IMG: media/wiex/04.jpeg]\n\n[IMG: media/wiex/05.jpeg]\n\n[IMG: media/wiex/06.jpeg]\n\n[IMG: media/wiex/07.jpeg]\n\n[IMG: media/wiex/09.jpeg]\n\n## Брендинг: построение доверия и конкурентных преимуществ\n\nБрендинг в сфере криптовалют играет решающую роль в привлечении клиентов. Для WIEX мы разработали комплексную брендовую стратегию, включающую логотип, айдентику, tone of voice и принципы коммуникации. Логотип сочетает в себе минимализм и динамические линии, символизирующие обмен и движение капитала. Цветовая палитра, основанная на оттенках стабильности (темный синий) и доверия (зеленый), создает правильный эмоциональный фон для взаимодействия пользователей с сервисом.\n\n[IMG: media/wiex/08.jpeg]\n\n[IMG: media/wiex/12.jpeg]\n\n[IMG: media/wiex/13.jpeg]\n\n[IMG: media/wiex/14.jpeg]\n\n[IMG: media/wiex/10.jpeg]\n\n[IMG: media/wiex/11.jpeg]"
   },
-  {
-    "slug": "flups",
-    "title": "FLUPS",
-    "description": "Разработали брендинг, нейминг и упаковку для FLUPS — производителя кормов и аксессуаров для домашних животных. Также стратегия.",
-    "cover": "/assets/cases/flups/cover.gif",
-    "media": [
-      "media/flups/cover.gif",
-      "media/flups/hero.jpeg",
-      "media/flups/01.jpeg",
-      "media/flups/02.jpeg",
-      "media/flups/03.jpeg",
-      "media/flups/04.jpeg",
-      "media/flups/05.jpeg",
-      "media/flups/06.jpeg",
-      "media/flups/07.jpeg",
-      "media/flups/08.jpeg",
-      "media/flups/10.jpeg",
-      "media/flups/13.jpeg",
-      "media/flups/14.jpeg",
-      "media/flups/09.jpeg",
-      "media/flups/15.jpeg",
-      "media/flups/16.jpeg",
-      "media/flups/17.jpeg",
-      "media/flups/11.jpeg",
-      "media/flups/12.jpeg"
-    ],
-    "body": "[IMG: media/flups/hero.jpeg]\n\n### Клиент\n\nFLUPS - это компания, которая специализируется на производстве и лучших пищевых продуктов для домашних любимцев. Их товары включают в себя сухие и влажные корма, лакомства и аксессуары для животных.\n\n### Задачи\n\nFLUPS обратились в наше брендинг-агентство с целью разработки бренда и маркетинг стратегии. Решение: Наша команда работала над несколькими ключевыми аспектами, чтобы ответить на вызовы FLUPS: Разработка нейминга: FLUPS происходит от слов Fluffy + pups также зашифрованный смысл Four laps или For laps\n\n### Разработали\n\nСтратегия\n\nБрендинг\n\nПолиграфические материалы\n\nФирменный мерч\n\nК проекту\n\n[IMG: media/flups/01.jpeg]\n\n[IMG: media/flups/02.jpeg]\n\n[IMG: media/flups/03.jpeg]\n\n[IMG: media/flups/04.jpeg]\n\n## Нейминг: создание уникального имени для бренда\n\nНейминг – это не просто выбор красивого слова, а стратегический шаг в формировании бренда, определяющий его узнаваемость и эмоциональное восприятие. Для FLUPS мы разработали название, объединяющее игру слов и скрытые смыслы. Она происходит от комбинации Fluffy + pups, ассоциирующейся с пушистыми любимцами, а также может читаться как Four laps или For laps, намекающая на четырехлапых друзей. Уникальность этого нейминга заключается в его звучании: оно легко, приятно и ассоциируется с радостью и энергичностью. Такой подход к разработке названия помогает компании быстрее завоевывать доверие клиентов и формировать крепкую эмоциональную связь с владельцами домашних животных.\n\n[IMG: media/flups/05.jpeg]\n\n[IMG: media/flups/06.jpeg]\n\n[IMG: media/flups/07.jpeg]\n\n[IMG: media/flups/08.jpeg]\n\n[IMG: media/flups/10.jpeg]\n\n## Маркетинг-стратегия: комплексный подход к развитию бренда\n\nУспешный бренд – это не только качественный продукт, но правильно выстроенная стратегия продвижения. Для FLUPS мы разработали маркетинговую стратегию, которая включает в себя четкое позиционирование, каналы коммуникации и методы привлечения аудитории. Основной упор сделан на цифровом маркетинге, ведь владельцы домашних животных часто ищут информацию онлайн. Мы разработали контент-стратегию для социальных сетей, сочетающую полезный контент об уходе за животными, привлечение сообщества через интерактивы и рассказы о бренде. Также важным элементом явилось партнерство с ветеринарными клиниками, зоомагазинами и блоггерами-любителями животных, что помогло создать эффект \"сарафанного радио\" и повысить доверие к бренду. Благодаря продуманному маркетинговому подходу, FLUPS уверенно занял свою нишу, формируя лояльную аудиторию и увеличивая узнаваемость на рынке товаров для животных.\n\n[IMG: media/flups/13.jpeg]\n\n[IMG: media/flups/14.jpeg]\n\n[IMG: media/flups/09.jpeg]\n\n[IMG: media/flups/15.jpeg]\n\n[IMG: media/flups/16.jpeg]\n\n[IMG: media/flups/17.jpeg]\n\n[IMG: media/flups/11.jpeg]\n\n[IMG: media/flups/12.jpeg]"
-  },
-  {
+    {
     "slug": "pridniprovsky-zavod",
     "title": "Приднепровский завод гофротары",
     "description": "Разработали брендинг и айдентику для Приднепровского завода гофротары. Также дизайн сайта, оформление предприятия и транспорта.",
@@ -417,34 +420,7 @@ const cases: CaseItem[] = [
     ],
     "body": "[IMG: media/teamiq/hero.webp]\n\n### Клиент\n\nTeamIQ — компания, специализирующаяся на дизайне и реализации выставочных стендов, комплексном сопровождении участия в выставках, а также производстве и монтаже экспозиций. Компания объединяет команду с более чем 100-летним совокупным опытом в отрасли и запускает новый бренд с чёткими международными амбициями.\n\n### Задачи\n\nОсновной задачей было создание целостного бренда, отражающего экспертность, масштаб и системный подход TeamIQ. Нам было важно разработать не просто логотип, а визуальную идентичность, которая эффективно работает в динамичной среде международных выставок, легко адаптируется к различным форматам и подчёркивает интеллектуальную составляющую бренда.\n\n### Разработали\n\nЛоготип и знак бренда\n\nВизуальная идентичность\n\nПолный брендбук\n\nК проекту\n\n[IMG: media/teamiq/01.webp]\n\n[IMG: media/teamiq/02.webp]\n\n[IMG: media/teamiq/03.webp]\n\n[IMG: media/teamiq/04.webp]\n\n## Разработка логотипа: визуальный язык интеллекта и структуры\n\nЛоготип TeamIQ построен вокруг идеи мышления, системности и движения. Графический знак символизирует собранность команды, логику процессов и способность работать с пространством на опережение. Чёткая геометрия и контрастная цветовая палитра формируют узнаваемый образ бренда, который одинаково уверенно выглядит как в цифровых носителях, так и в масштабе выставочного стенда. Разработка логотипа для компании из выставочной индустрии потребовала баланса между технической точностью и эмоцией — результатом стал знак, транслирующий профессионализм, точность и контроль на каждом этапе реализации.\n\n[IMG: media/teamiq/05.webp]\n\n[IMG: media/teamiq/06.webp]\n\n[IMG: media/teamiq/07.webp]\n\n[IMG: media/teamiq/08.webp]\n\n[IMG: media/teamiq/09.jpeg]\n\n## Создание брендбука: масштабируемая идентичность\n\nБрендбук TeamIQ стал инструментом, обеспечивающим целостность коммуникации бренда на всех уровнях — от презентаций и полиграфии до брендированных стендов и транспорта. Мы сформировали систему, включающую логотип, цветовую палитру, типографику и принципы использования графических элементов. Визуальная идентичность TeamIQ основана на сочетании сдержанного минимализма, индустриальной эстетики и акцентной графики, подчёркивающей интеллектуальную составляющую бренда. Такой подход позволяет компании оставаться узнаваемой, гибкой и конкурентоспособной на международном рынке.\n\n[IMG: media/teamiq/12.webp]\n\n[IMG: media/teamiq/13.webp]\n\n[IMG: media/teamiq/17.jpeg]\n\n[IMG: media/teamiq/14.webp]\n\n[IMG: media/teamiq/15.webp]\n\n[IMG: media/teamiq/16.webp]\n\n[IMG: media/teamiq/10.webp]\n\n[IMG: media/teamiq/11.webp]"
   },
-  {
-    "slug": "goshchanochka",
-    "title": "Гощаночка",
-    "description": "Разработали брендинг, стратегию, фирменный стиль и логотип для «Гощаночка» — молокозавода и производителя молочной продукции в Украине.",
-    "cover": "/assets/cases/goshchanochka/cover.gif",
-    "media": [
-      "media/goshchanochka/cover.gif",
-      "media/goshchanochka/hero.webp",
-      "media/goshchanochka/01.webp",
-      "media/goshchanochka/02.webp",
-      "media/goshchanochka/03.webp",
-      "media/goshchanochka/04.webp",
-      "media/goshchanochka/05.webp",
-      "media/goshchanochka/06.webp",
-      "media/goshchanochka/07.webp",
-      "media/goshchanochka/08.webp",
-      "media/goshchanochka/17.png",
-      "media/goshchanochka/09.webp",
-      "media/goshchanochka/14.webp",
-      "media/goshchanochka/15.webp",
-      "media/goshchanochka/16.webp",
-      "media/goshchanochka/12.webp",
-      "media/goshchanochka/13.webp",
-      "media/goshchanochka/10.webp"
-    ],
-    "body": "ruua\n\nruua\n\n[IMG: media/goshchanochka/hero.webp]\n\n### Разработали\n\nГоловна\n\nБрендинг\n\nЛоготип\n\nДизайн\n\nСтратегия\n\nФирменный стиль\n\n[IMG: media/goshchanochka/01.webp]\n\n[IMG: media/goshchanochka/02.webp]\n\n[IMG: media/goshchanochka/03.webp]\n\n[IMG: media/goshchanochka/04.webp]\n\n## Брендбук: единственный стиль для молокозаводов и производственных компаний\n\nБрендбук – это стратегический документ, определяющий визуальный стиль и правила использования айдентики компании. Для молокозаводов, таких как Гощаночка, брендбук играет ключевую роль в формировании узнаваемого образа, транслирующего качество, традиции и доверие потребителей. Разработка брендбука для молокозавода включает создание логотипа, корпоративной цветовой палитры, типографики и графических элементов, отражающих естественность и экологичность продукции. Также в брендбуке прописываются правила размещения логотипа на упаковке, рекламных материалах, транспорте и корпоративной одежде. Последовательное использование визуальной айдентики усиливает узнаваемость бренда и доверяет среди потребителей, что особенно важно в сфере молочной продукции.\n\n[IMG: media/goshchanochka/05.webp]\n\n[IMG: media/goshchanochka/06.webp]\n\n[IMG: media/goshchanochka/07.webp]\n\n[IMG: media/goshchanochka/08.webp]\n\n[IMG: media/goshchanochka/17.png]\n\n## Корпоративный герой: как персонификация бренда укрепляет доверие потребителей\n\nКорпоративный герой – это один из самых эффективных способов сделать бренд более близким к аудитории. Для молокозаводов создание персонажа, олицетворяющего качество и натуральность продукции, помогает выстроить эмоциональную связь с потребителями и выделиться на рынке. Корпоративный герой для Гощаночки может быть стилизованным образом фермерки, заботящейся о натуральности молока, или сказочным персонажем, ассоциирующимся с домашним теплом и уютом. Использование такого героя в маркетинговых материалах, упаковке, социальных сетях и рекламе придает бренду уникальность и способствует повышению лояльности потребителей. Удачно разработанный корпоративный персонаж становится визитной карточкой компании, облегчает коммуникацию с аудиторией и помогает создать долговременную эмоциональную связь с клиентами.\n\n[IMG: media/goshchanochka/09.webp]\n\n[IMG: media/goshchanochka/14.webp]\n\n[IMG: media/goshchanochka/15.webp]\n\n[IMG: media/goshchanochka/16.webp]\n\n[IMG: media/goshchanochka/12.webp]\n\n[IMG: media/goshchanochka/13.webp]\n\n[IMG: media/goshchanochka/10.webp]"
-  },
-  {
+    {
     "slug": "sk-energy",
     "title": "SK ENERGY",
     "description": "Разработали брендинг и логотип для SK ENERGY — энергетической компании. Исследовали рынок и создали сильную визуальную идентичность.",

@@ -65,7 +65,11 @@ const CASE_META: Record<string, CaseMetaEntry> = {
     clientUrl: "https://novoubud.com/",
     categories: ["branding", "web"],
   },
+  flups: {
+    categories: ["branding", "packaging"],
+  },
   goshchanochka: {
+    clientUrl: "https://goschanochka.pp.ua/",
     categories: ["branding", "packaging"],
   },
   yakomoga: {
