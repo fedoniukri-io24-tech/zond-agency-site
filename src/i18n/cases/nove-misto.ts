@@ -431,7 +431,6 @@ export function getNoveMistoBlocks(locale: Locale): CaseVisualBlock[] {
 export const noveMistoShared = {
   slug: "nove-misto",
   cover: m("cover.gif"),
-  listCover: m("cover.mp4"),
   media: noveMistoMedia,
   tagline: "Архітектура бренду.\nХарактер простору.",
   serviceTag: "Брендинг + брендбук",

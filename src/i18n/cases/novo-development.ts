@@ -427,8 +427,8 @@ export function getNovoDevelopmentBlocks(locale: Locale): CaseVisualBlock[] {
 
 export const novoDevelopmentShared = {
   slug: "novo-development",
-  cover: m("hero.webp"),
-  listCover: m("hero.webp"),
+  cover: m("cover-poster.jpg"),
+  listCover: m("cover.mp4"),
   media: novoMedia,
   body: `[IMG: media/novo-development/hero.webp]`,
 };

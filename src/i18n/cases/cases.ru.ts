@@ -64,7 +64,6 @@ const cases: CaseItem[] = [
     title: noveMistoCopy.ru.title,
     description: noveMistoCopy.ru.description,
     cover: noveMistoShared.cover,
-    listCover: noveMistoShared.listCover,
     media: noveMistoShared.media,
     tagline: noveMistoCopy.ru.tagline,
     serviceTag: noveMistoCopy.ru.serviceTag,
