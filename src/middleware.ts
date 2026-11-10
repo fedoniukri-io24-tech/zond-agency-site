@@ -83,8 +83,13 @@ function withLocale(request: NextRequest, locale: Locale, rewritePath?: string) 
   );
 }
 
-function isAximodPath(pathname: string): boolean {
-  return pathname === "/aximod" || pathname.startsWith("/aximod/");
+function isPrivateMicrositePath(pathname: string): boolean {
+  return (
+    pathname === "/aximod" ||
+    pathname.startsWith("/aximod/") ||
+    pathname === "/violux" ||
+    pathname.startsWith("/violux/")
+  );
 }
 
 export function middleware(request: NextRequest) {
@@ -96,8 +101,8 @@ export function middleware(request: NextRequest) {
     return redirectToCanonical(request, pathname, search);
   }
 
-  // Static private microsite — no locale rewrite, no search indexing.
-  if (isAximodPath(pathname)) {
+  // Static private microsites — no locale rewrite, no search indexing.
+  if (isPrivateMicrositePath(pathname)) {
     const response = NextResponse.next();
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
     return response;

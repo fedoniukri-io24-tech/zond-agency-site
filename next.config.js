@@ -22,6 +22,8 @@ const nextConfig = {
     return [
       { source: "/aximod", destination: "/aximod/index.html" },
       { source: "/aximod/", destination: "/aximod/index.html" },
+      { source: "/violux", destination: "/violux/index.html" },
+      { source: "/violux/", destination: "/violux/index.html" },
     ];
   },
   async headers() {
@@ -70,6 +72,14 @@ const nextConfig = {
       },
       {
         source: "/aximod/:path*",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+      {
+        source: "/violux",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
+      {
+        source: "/violux/:path*",
         headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
       },
     ];
