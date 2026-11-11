@@ -480,6 +480,7 @@ export function getAltepBlocks(locale: Locale): CaseVisualBlock[] {
 export const altepShared = {
   slug: "altep",
   cover: m("01.webp"),
+  listCover: m("cover.mp4"),
   media: altepMedia,
   body: `[IMG: media/altep/01.webp]`,
 };

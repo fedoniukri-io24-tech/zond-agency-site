@@ -147,6 +147,7 @@ const cases: CaseItem[] = [
     title: altepCopy.ru.title,
     description: altepCopy.ru.description,
     cover: altepShared.cover,
+    listCover: altepShared.listCover,
     media: altepShared.media,
     tagline: altepCopy.ru.tagline,
     serviceTag: altepCopy.ru.serviceTag,
